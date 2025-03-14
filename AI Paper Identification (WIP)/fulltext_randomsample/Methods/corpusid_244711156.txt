@@ -1,0 +1,51 @@
+MATERIALS AND METHODS
+
+Complete details of all reagents and procedures used in this study are provided in SI Appendix, SI Materials and Methods.
+
+
+Specimen collection and annotation
+
+All clinical samples were obtained from patients and healthy volunteers after providing written informed consent. The study was conducted after the approval of the Southeast University Affiliated Zhongda Hospital Ethics Committee.
+
+Two independent cohorts were subjected to the construction of TMAs. A total of 360 CRC patients comprised the Xuzhou cohort that was recruited in The Affiliated Hospital of Xuzhou Medical University, while the Nanjing cohort, consisting of 680 CRC patients, was enrolled from the Jiangsu Tumor Hospital from 2007 to 2011. All patients were newly diagnosed with CRC and histologically confirmed with no preoperative chemo/radiotherapy (Supplementary Table 1). The pathological stage of CRC was assessed using the 7th edition of the American Joint Committee on Cancer Staging Manual. All patients were contacted by follow-up telephone calls until the time of death; to date, the maximum follow-up duration was 112.7 months. Furthermore, a total of 106 pairs of fresh CRC tumors and matched adjacent tissues (5 cm away from the tumoral margins) used for flow cytometry analysis were collected from patients with CRC who underwent surgery at the Jiangsu Tumor Hospital and Jiangsu Province Hospital between 2017 and 2018. The detailed clinical characteristics of patients are listed in Supplementary Table 2.
+
+
+Generation of HER2-CAR lentivirus
+
+Second-generation CARs retarget and reprogram the T cells to augment their anti-tumor efficacy [14]. HER2-specific CAR lentivirus was constructed by iCarTab (Suzhou, China) based on the variable region sequences of heavy and light chains of HER2 sub-cloned into the lentivirus expression vector pCAR-puro. After the vector was confirmed by restriction endonucleases digestion and sequencing, the plasmids were extracted and eventually prepared for lentiviral transfection. Subsequently, phosphate-buffered saline (PBS; Gibco) supplemented with 10 μg Lenti-CAR, 11 μg Lenti-Mix, and 26 μL PEI (100 μM; PolyScience, Philadelphia, PA, USA) was added to 6-well cell culture plates (2 mL/well; Corning Incorporated, Corning, NY, USA) and incubated for 10 min at room temperature (RT). Then, the DNA/PEI compound was added to the 15-cm Petri dish (Corning Incorporated) and cultured at 37°C in 5% CO 2 for 6 h, followed by inoculating 5 × 10 6 293T cells/dish in DMEM complete medium overnight. The medium was refreshed and the culture continued for an additional 42 h. Subsequently, the supernatant was collected by centrifugation at 50,000 × g for 2 h, and the pellet resuspended in 500 µL PBS to detect the titer of the lentivirus or stored at −80°C. As described previously [15,16], viral titers were measured by quantitative PCR (qPCR; Roche, Basel, Switzerland); the quantification cycle value was defined as the number of cycles when the fluorescent signal reached a specified threshold.
+
+
+Recombination of oncolytic adenovirus
+
+The oncolytic adenovirus was created by iCarTab (Suzhou, China) in order to enhance the activity of CAR T cells in CRC. As reported previously [17], the full-length ORF of the target genes Rantes and IL-15 was subcloned into the shuttle plasmid pShuttle-RANTES-IRES-IL-15 (iCarTab) according to the sequences published in GenBank (https:// www.ncbi.nlm.nih.gov/genbank/, accession number: NM_002985.2). Furthermore, the adenovirus plasmid pAD-Backbone and the shuttle plasmid vector pShuttle-RANTES-IRES-IL-15 were co-transfected into well-cultured 293A cells using Lipofectamine 2000 (Cat: 11668019, Invitrogen, Carlsbad, CA, USA) to complete the virus recombination. After 96 h incubation at 37°C in 5% CO 2 , virus plaques were observed and purified three times. Subsequently, 293A cells were alternately frozen and thawed to collect the restructured oncolytic adenovirus, followed by qPCR amplification of AD-RANTES-IL-15 to identify the recombinant oncolytic adenovirus.
+
+
+Separation and activation of primary T cells
+
+Peripheral blood mononuclear cells (PBMCs) were isolated from blood samples obtained from healthy donors, aged 20-40 years, recruited from the Southeast University, signed written consent was obtained before the donation of peripheral blood. The blood samples were diluted with PBS plus 2% (v/v) FBS and added to the upper layer of Lymphoprep (Nycomed, Oslo, Norway) before centrifugation at 1006.2 × g for 30 min. The mononuclear cell layer at the interface between serum and the separation reagent was collected into 15-mL centrifuge tubes (Corning Incorporated, Corning, NY, USA) and washed with the medium. Furthermore, the cells were counted and maintained in RPMI 1640 medium (Corning Incorporated) in 1.5-mL centrifuge tubes (Corning Incorporated). Dynabeads TM Human T-Expander CD3/CD28 (Cat: 11141D, Gibco, Gaithersburg, MD, USA) was added at a 3:1 bead:T cell ratio at 37°C in 5% CO 2 for 1 h. After incubation, the tubes were inserted into the magnetic separation rack at RT for 10 min. The absorbed T cells were resuspended in complete medium supplemented with 10% (v/v) FBS, 100 U/mL penicillin, 100 μg/ mL streptomycin, 300 U/mL IL-2 (PeproTech, Rocky Hill, NJ, USA), 10 ng/ mL IL-7 (PeproTech), and 5 ng/mL IL-15 (PeproTech).
+
+
+Lentivirus infection
+
+After the activated T cells were continuously cultured for 48 h, the T cell density was adjusted to 1 × 10 6 /mL and resuspended in complete RPMI 1640 medium in 6-well plates (1 mL/well). Next, the HER2-specific CAR lentivirus (virus titer: 1 × 10 8 pfu/mL) was mixed with 6 µg/mL polybrene (Cat: 40804ES76, Yeasen, Shanghai, China), added to the medium and cultured for 6 h at 37°C in 5% CO 2 ; T cells without lentivirus infection were used as the control group (NT-T). The volume of virus that needs to be added was calculated as follows: virus (mL) = (MOI × cell number)/virus titer, according to the multiplicity of infection (MOI) = 15. Finally, the total volume of medium in each well was increased to 2 mL. Moreover, the culture medium containing the virus was replaced with fresh complete medium after 24 h post-infection and cultured for several days to reach the required number of CAR-positive T cells.
+
+
+Construction of expression plasmid and lentivirus stable transduction
+
+A lentiviral expression shuttle vector (pLenti6/V5-GW/lacZ; Invitrogen, Carlsbad, CA, USA) that harbored a firefly luciferase cDNA was constructed as described previously [18]. Then, lentiviruses were generated by cotransfection with packaging plasmids pSPAX2 and pMD2G into DLD-1 cells and incubated overnight. After 12 h incubation, the medium was replaced with DMEM complete medium containing 10 μg/mL blasticidin S (Invivo-Gen, San Diego, CA, USA), and replaced every 2 days for 1 week until all the control cells were excluded. The vector-containing cells were maintained in 1 μg/mL blasticidin S for~2 weeks, and then, frozen until further use.
+
+
+Patient-derived xenograft models
+
+First of all, the fresh CRC tissues were divided into two groups (HER2.High versus HER2.Low) according to the surface expression of HER2 by flow cytometry analysis. Next, the procedures for the development, transplantation, and characterization of tumor grafts generated directly from surgical specimens were similar to those reported previously [19]. The tumor sizes were recorded twice weekly and calculated as follows: V = 0.5 × length × width 2 . When tumors reached a volume of 250 mm 3 , they were excised, cut into multiple fragments (5 × 5 × 5 mm 3 each), and transplanted into new NOD-Prkdc em26cd52 Il2rg em26Cd22 /Nju (NCG) mice to produce the next generation. Moreover, tumors that were not used immediately were frozen in liquid nitrogen. After three passages, singlecell isolation of the PDX tumor cells from xenograft CRC tumor models were obtained as described previously [20].
+
+
+Animal treatment
+
+Five-week-old female NCG were purchased from the Model Animal Research Center of Nanjing University (Nanjing, China). All animal experiments were performed according to the guidelines of the Committee on Animal Use and Care of Southeast University. Mice were housed under barrier conditions with 12 h light/dark cycles and ad libitum access to food and water. The mice were randomly divided into each group.
+
+In xenograft models (n = 12), each mouse was subcutaneously injected with 5 × 10 6 DLD-1 cells with the luciferase reporter gene under the armpit (day 1). All mice were injected with the recombinant adenovirus into the tumor by multi-site tumor puncture injection (day 10). Then, 1 × 10 7 NT-T or HER2 CAR-T cells were injected into a tail vein without exogenous cytokine injection (day 13). Furthermore, the recombinant adenovirus and T cells were injected again on days 18 and 21, respectively. Within this process, all mice were monitored for tumor growth daily and measured twice a week, while the tumor changes were determined on days 7, 17, and 27 by IVIS Spectrum in Vivo Imaging System (IVIS; PerkinElmer/Caliper, Hopkinton, MA, USA). At the end of the experiment, the mice were euthanized and luminescence intensity in tissues (xenograft, lung, liver) was measured by a Chemiluminescence detector (Sirius, Berthold Detection Systems, Germany). The detailed experimental procedures were described previously [21].
+
+Furthermore, in the CRC PDX models (n = 24), after three passages, single-cell isolation of the PDX tumor cells (5 × 10 6 /0.2 mL/mouse) was injected subcutaneously into the armpit of NCG mice (day 1). The following procedure was consistent with that of the former xenograft models.
+
+Moreover, in the PDX metastasis models (n = 12), single-cell suspension of the PDX tumor cells (1 × 10 6 /0.1 mL/mouse) was injected into NCG mice via a tail vein (day 1). Next, 1 × 10 7 NT-T or HER2 CAR-T cells were injected on days 7 and 12, respectively. Tumor development in the liver and lungs was monitored by magnetic resonance imaging (MRI) and computed tomography (CT). In addition, at the end of the experiment (4 weeks), all experimental mice were euthanized and hematoxylin and eosin (H&E) staining was used to further validate the distant metastases of the liver and lungs.

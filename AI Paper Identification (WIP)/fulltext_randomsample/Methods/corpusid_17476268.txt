@@ -1,0 +1,48 @@
+Materials and methods
+
+
+Patients and tissue samples
+
+All fresh clinical tissue samples were collected with the written informed consent of 60 patients who underwent gastric resection at the Department of Gastrointestinal Surgery in the People's Hospital of Zhejiang Province (People's Republic of China) from 2012 to 2014. None of the patients received chemotherapy prior to surgery. The tumor pathological type was diagnosed by three independent pathologists, and the matched normal gastric epithelial tissues, which were collected from more than 5 cm away from the tumors, were also verified at the same time. The project was approved by the ethics committee of Zhejiang Provincial People's Hospital.
+
+
+cell culture
+
+The human GC cell lines (BGC-823, SGC-7901, MKN-45, AGS, and GES-1) were purchased from the Cell Bank of cell transfection AGS and SGC-7901 cells (1×10 5 per well) were seeded in six-well plates. After 24 hours, the cells were transfected with an miR-145-5p mimic, an miR-145-5p mimic negative control, an miR-145-5p inhibitor, or an miR-145-5p inhibitor negative control (Ribo Bio, Guangzhou, People's Republic of China), using Lipofectamine 2000 transfection reagent (Thermo Fisher Scientific, Waltham, MA, USA) and following the manufacturer's protocol. After transfection, the cells were collected for future examination and the effects of miR-145-5p transfection were determined by quantitative real-time polymerase chain reaction (qRT-PCR) at 24 hours posttransfection.
+
+
+rna isolation, reverse transcription, and qrT-Pcr
+
+Total RNA was isolated from the tissue samples and GC cells using TRIzol reagent (Thermo Fisher Scientific). RNA concentration and purity were determined using Nanodrop 2000 (Thermo Fisher Scientific). Reverse transcription was performed using the One-step PrimeScript miRNA cDNA synthesis kit (D350A; TaKaRa Biotechnology [Dalian] Co., Ltd., Dalian, People's Republic of China). qRT-PCR was carried out on the MX3000P system (Stratagene, La Jolla, CA, USA) using gene-specific primers with the SYBR Premix ExTaq kit (DRR081A; TaKaRa Biotechnology [Dalian] Co., Ltd.) to detect the expression levels of miR-145-5p, ZEB2, E-cadherin, and N-cadherin. All reactions were performed in triplicate. U6 (RNU6B) or glyceraldehyde 3-phosphate dehydrogenase was used as an internal standard for normalization of miR-145-5p, ZEB2, E-cadherin, and N-cadherin expression levels.
+
+The primers of candidate genes were designed using Primer 5.0 software (PREMIER Biosoft International, Palo Alto, CA, USA), and are listed in Table 1. Melting curve analysis was carried out at the end of the PCR cycles to confirm the most suitable amplification condition. The qPCR conditions were as follows: initial denaturation (4 minutes at 95°C) and then 40 cycles of denaturation at 95°C for 10 seconds, annealing at the appropriate temperature for 30 seconds (specific temperatures are shown in Table 1 
+
+
+in vitro cell migration and invasion assays
+
+The migration assay was performed with Transwell plates (3422; Corning Incorporated, Corning, NY, USA) containing a membrane with 8 μm pores. Cell invasion assays were performed using invasion chambers (354480; BD, Franklin Lakes, NJ, USA) precoated with Matrigel. Cells (2×10 5 for invasion assays and 5×10 4 cells for migration assays) were resuspended in serum-free medium and seeded into the upper chamber. Culture medium containing 20% fetal bovine serum was added to the lower chamber as the chemoattractant. The cells were incubated in a humidified incubator at 37°C for 24 hours (migration assays) or 36 hours (invasion assays). Noninvading cells in the upper chambers were removed with cotton swabs. The cells attached to the lower surface were fixed and stained. The number of cells which attached to the lower surface was counted in five random fields under a microscope (×200).
+
+
+Western blotting
+
+Western blot analysis was performed according to the protocol provided by the manufacturer (Bio-Rad Laboratories Inc., Hercules, CA, USA). Briefly, protein was extracted from cells using radio immunoprecipitation assay (RIPA) lysis buffer (Beyotime, Shanghai, People's Republic of China). Each sample was separated on a sodium dodecyl sulfate-polyacrylamide gel electrophoresis (6%-10% gel) and then transferred onto polyvinylidene difluoride membranes. The polyvinylidene difluoride membranes were blocked with 5% nonfat milk for 2 hours and then incubated with primary rabbit antihuman antibodies for detection of N-cadherin (EPR1791-4 at 1/5,000 dilution; Abcam, San Francisco, CA, USA), E-cadherin (EP700Y at 1/10,000 dilution; Abcam), and ZEB2 (SC-271984 at 1/500 dilution; Santa Cruz Biotechnology Inc., Dallas, TX, USA) overnight at 4°C. The membranes were incubated with a horseradish peroxidase-labeled goat antirabbit IgG antibody for 1 hour. After washing (×4) with Tris-Buffered Saline and Tween 20 Buffer (TBST), the bands were developed using an enhanced chemiluminescence system (GE Healthcare UK Ltd, Little Chalfont, UK). Relative protein expression was normalized to β-actin.
+
+
+statistical analyses
+
+All statistical analyses were performed using Statistical Package for the Social Sciences version 13.0 (SPSS Inc., Chicago, IL, USA). Data are presented as mean ± standard deviation. The means of normally distributed data were compared by either paired sample t-tests or two independent samples t-tests as appropriate. If the results were not normally distributed, Wilcoxon test was used as appropriate. Analysis of variance followed by a posttest was used to assess the different expression levels of miR-145-5p in gastric cell lines. Chi-square or Fisher's exact test was used to assess the statistical significance of the association between miR-145-5p and clinicopathologic parameters. A P-value of ,0.05 was considered to indicate statistical significance.  correlation between mir-145-5p expression level and clinicopathologic factors
+
+There was a significant difference in miR-145-5p expression levels between GC tissues and matched normal tissues (3.63±0.67 vs 6.62±0.73) (Figure 1). The miR-145-5p expression levels in GC tissues and normal tissues were evaluated with receiver operating characteristic curve analysis (y-axis, sensitivity; x-axis, [1specificity]), and a cut-off value (1.785) was set as the maximum (sensitivity + specificity). Then the expression value that provided the best accuracy was identified and the tumor specimens were classified based on this cut-off into low-expression and high-expression groups. The results showed that low miR-145-5p expression level was significantly related to tumor depth, lymph node metastasis, lymphatic invasion, and tumor-node-metastasis (TNM) stage (Table 2).
+
+
+mir-145-5p suppresses gc cell migration and invasion in vitro
+
+The AGS cell line, expressing relatively low levels of miR-145-5p, was transfected with an miR-145-5p mimic or a negative control. qRT-PCR analysis confirmed that transfection with the miR-145-5p mimic resulted in significant overexpression of miR-145-5p ( Figure 3A). As expected, miR-145-5p overexpression significantly suppressed AGS cell migration and invasion ability (P,0.05) ( Figure 3B). The SGC-7901 cell line, expressing relatively high levels of miR-145-5p, was also transfected with an miR-145-5p inhibitor or a negative control. qRT-PCR analysis confirmed that transfection with the miR-145-5p inhibitor resulted in significantly reduced expression of miR-145-5p ( Figure 3A). The invasion and migration capacity of SGC-7901 cells was significantly increased following transfection with the miR-145-5p inhibitor compared with the inhibitor negative control (P,0.05) ( Figure 3C). These results confirmed that miR-145-5p suppresses the invasion and migration ability of GC cells.
+
+mir-145-5p inhibits n-cadherin, ZeB2, and eMT to suppress the invasion and metastatic capacity of gc cells
+
+To investigate the possible mechanisms by which miR-145-5p suppresses GC cell invasiveness and EMT, we identified  mir-145-5p in gastric cancer a list of candidate target genes of miR-145-5p, such as IRS-1, FSCN-1, Ets-1, ZEB2, and c-Myc, by searching the miRBase Targets, TargetScan Release 5.0, and PicTar databases, as well as previous reports. The expression of these genes was screened by qRT-PCR in GC cells transfected with an miR-145-5p mimic or inhibitor. In GC cells transfected with miR-145-5p mimic or inhibitor, the changes in ZEB2 expression levels were inversely correlated with miR-145-5p and E-cadherin levels. However, the expression levels of other candidate genes were not correlated with miR-145-5p expression in GC lines ( Figure S1). These data indicated that ZEB2 may be a candidate target gene of miR-145-5p involved in the regulation of E-cadherin expression.
+
+Furthermore, qRT-PCR and Western blot analyses showed obvious downregulation of N-cadherin in AGS cells transfected with the miR-145-5p mimic (Figures 4 and  5), while N-cadherin was upregulated in SGC-7901 cells transfected with the miR-145-5p inhibitor compared with the corresponding negative control (Figures 4 and 5).
+
+In this study, qRT-PCR and Western blot analyses confirmed that ZEB2 expression was significantly decreased, while E-cadherin expression was significantly increased in AGS cells transfected with the miR-145-5p mimic, compared to those transfected with the corresponding negative control (NC) (Figures 4 and 5). Opposite patterns of ZEB2 and E-cadherin were detected in SGC-7901 cells transfected with the miR-145-5p inhibitor (Figures 4 and 5). These data indicated that miR-145-5p is an important regulator of the candidate target gene ZEB2, leading to regulation of E-cadherin expression.

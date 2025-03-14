@@ -1,0 +1,41 @@
+Materials and Methods
+
+
+Preparation of P. lobata Extract. PE was provided by
+
+Sejun F & B Co., Ltd. (Gangwon, Korea). It was in the form of a spray-dried powder, which was prepared as follows. To separate the starch, dried P. lobate was soaked in 50% ethanol for 1 h and then centrifuged. e residue of P. lobate was extracted in five volumes of 50% ethanol for 1 h at 60°C. e extract was filtered and concentrated under reduced pressure. e PE was powdered in the spray drying system by mixing 30% dextrin. e content of puerarin, which is a major isoflavone in PE, was 42.38 mg/g.
+
+
+Animals and Treatment.
+
+Nine-week-old female Sprague Dawley rats, which were ovariectomized or sham-operated at 8 weeks of age, were purchased from Chemon Inc. (Gyeonggido, Korea) and maintained under controlled laboratory conditions (23°C ± 1°C, humidity 55% ± 5%, 12 h light/dark cycle) for 2 weeks before the experiments. e rats were randomly divided into the following treatment groups (n � 8 per group): (1) sham group, (2) OVX group, (3) OVX + PE 25 mg/kg group, (4) OVX + PE 100 mg/kg group, (5) OVX + PE 400 mg/kg group, and (6) OVX + PE 1600 mg/kg group. All animal experiment protocols in this study were reviewed and approved by the Institutional Animal Care and Use Committee of the Hongcheon Institute of Medicinal Herb (No. 19-07). PE was suspended in phosphate buffered saline (PBS) for oral administration at the desired dose in a volume of 5 mL/kg once daily for 8 weeks. e food intake and body weight of rats were measured twice a week. After 16 h of fasting on the last day of the experiment, blood was collected from the portal vein. e uterus and white adipose tissue were collected and weighed.
+
+
+Biochemical Parameters.
+
+e plasma samples were prepared by centrifuging the collected blood in heparinized tubes (4,000 rpm for 15 min at 4°C) and then stored at −80°C for assay. Aspartate aminotransferase (AST), alanine aminotransferase (ALT), Ca, P, total cholesterol (TC), highdensity lipoprotein cholesterol (HDL-C), low-density lipoprotein cholesterol (LDL-C), and triglyceride (TG) levels were measured using an automated clinical chemistry analyser (Konelab 20XT; ermo Fisher Scientific, Waltham, MA, USA). Free fatty acid (FFA; BioAssay Systems, Hayward, CA, USA), insulin, estradiol (E2), and serotonin levels were determined using enzyme-linked immunosorbent assay (ELISA) kits (Cusabio, Wuhan, China) according to the manufacturer's instructions.
+
+
+Liver Lipid Peroxidation Assay.
+
+e liver sample (120 mg) was homogenized in 1 mL of PBS and then centrifuged at 10,000 rpm for 15 min at 4°C. e supernatant obtained was used a source for the assay. Malondialdehyde (MDA) level was determined using the thiobarbituric acid reactive substance (TBARS) assay according to the manufacturer's (Dogenbio, Seoul, Korea) instructions.
+
+
+Bone Turnover Markers in Plasma Samples.
+
+e bone formation marker Osteocalcin (OC) was determined using a rat osteocalcin ELISA kit (Cusabio). e bone resorption markers, such as C-terminal telopeptide fragment of type I collagen (CTX-1; Cusabio), deoxypyridinoline (DPD; Cusabio), and pyridinoline (PYD; MyBioSource, San Diego, USA), were determined using commercial ELISA kits.
+
+
+Immunoblot Analysis.
+
+e total protein in the uterus was extracted using RIPA lysis buffer containing phosphatase and protease inhibitor cocktails. Equal amounts of protein (15 μg) were separated on 10% sodium dodecyl sulfate polyacrylamide gels and then transferred on to polyvinylidene fluoride membranes. e membranes were blocked with 5% skim milk for 1 h and then probed with specific primary antibodies at a final dilution of 1 : 1000. e immunoreactive protein bands were detected using an enhanced chemiluminescence western blot detection kit (Clarity Max TM Western ECL Substrate; Bio-Rad Laboratories, Hercules, CA, USA) and visualized using the Chemidoc Touch image system (ChemiDoc TM XRS + system; Bio-Rad Laboratories).
+
+
+Histological Analysis.
+
+e uterus samples were fixed in 10% formalin and embedded in paraffin. e tissue sections were mounted on glass slides and stained with haematoxylin and eosin. e static parameters of the uterus, endometrial, myometrial, and epithelial lengths were calculated using ImageJ software (NIH, USA).
+
+
+Statistical
+
+Analysis. All data are expressed as mean-± standard error of the mean (SEM). ey were analysed using the analysis of variance followed by Dunnett's multiple comparison test. Differences were considered statistically significant at p < 0.05. All statistical analyses were performed using GraphPad Prism 7.05.

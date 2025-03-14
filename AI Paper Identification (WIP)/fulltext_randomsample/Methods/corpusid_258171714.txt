@@ -1,0 +1,43 @@
+Materials and methods
+
+
+Participants
+
+A total of 37 elderly stroke patients participated in this study, including 20 men and 17 women, with an average age of 63 years (54-70 years). At the same time, seven healthy participants matched by gender, height, and age were selected as the control group. The participants' clinical and demographic features are presented in Table 1. The inclusion criterion envelope for participants is as follows: (1) stroke was diagnosed separately by two neurologists who had been practicing for more than 10 years.
+
+(2) The time of the first disease was within 1 year, and all were in the early stage of the disease course. (3) Their quadriceps muscle strength grades were all V (each stroke patient was diagnosed independently by two physicians with more than 10 years of clinical experience. If both physicians considered the patient to be Grade V, the patient was included in the study). The manual assessment was used to measure the quadriceps muscle strength of patients, where Grades 0, I, II, III, IV, and V were used to classify the strength. Grade V indicates that muscle is normal and movement is free. (4) The participants have the ability to understand instructions. (5) The participants are interested in participating in the study. Exclusion criteria are as follows: (1) all patients with unconsciousness and a history of surgery; (2) patients with lesions (cerebellar, brain stem, parietal) that affect balance and posture;
+
+(3) those tested on the H&Y scale at a rating of 4-5; (4) patients with significant cognitive impairment, pacemakers, coronary stents, and cochlear implants; (5) patients who have been treated with drugs that affect their balance; (6) patients diagnosed with orthopaedic conditions such as arthritis, fractures, and lower back pain; and (7) patients with vision problems such as glaucoma, cataracts and diplopia.
+
+Informed consent: Informed consent has been obtained from all individuals included in this study.
+
+Ethical approval: The research related to human use has been complied with all the relevant national regulations, institutional policies and in accordance the tenets of the Helsinki Declaration, and has been approved by the authors' institutional review board or equivalent committee. Research was was approved and supervised by the ethics committee of the Luwan branch of Shanghai Ruijin Hospital (approval No.: lwech219017).
+
+
+Grading of the patellar tendon reflex
+
+Although it has been reported that the velocity and latency are important indicators for the patellar tendon reflex [26], the magnitude is still used to evaluate the reflex arc in most clinical practices. The current study followed the traditional method and also used the amplitude. The National Institute of Neurological Disorders and Stroke has developed a five-grade grading standard. When the tester's level is (−), it means that the reflection disappears; (+) means that the reflection is lower than normal; (++) means that the reflection is within the normal range; (+++) means that the reflection is slightly higher than the normal range; (++++) means that the reflection is significantly higher than the normal level. We rated the subjects' knee tendon reflexes according to the above standard, with the detailed method described in the study of Mamizuka et al. [27]. Patellar tendon reflex tests were performed independently for each participant by two physicians with more than 10 years of clinical experience. As shown in Figure 1, the patient was asked to sit upright in a reclining chair fitted with a hammer that was used to hit the knee tendon with a certain amount of force. The tapping force was measured using a push-pull force meter (ZTA-500N; Imada Inc., Japan) to control the consistent force of each tapping; the experimenter can control the force so that it is the same for each patient. The results can be read on the computer. The 37 stroke patients' scores of the patellar tendon reflex were divided into five grades: ++++ spasm (2), +++ active (3), ++ normal (18), + decreased (8), anddisappeared (6). Seven participants of the control group were all in the ++ grade. The number in parentheses indicated the number of patients in the corresponding grade. Patients with the same score on left and right limbs were included as the experimental sample of this study. Assessment of the patellar tendon reflex was conducted by two independent doctors with 
+
+
+Measurements of the COP
+
+In this study, a precision force platform (Model BP400600; Advanced Mechanical Technology Inc., MA, USA) was used to measure the real-time coordinates of the participants' COP. Before the experiment, the requirements and precautions were explained to the patients in detail. As shown in Figure 2, the patients were asked to stand still on the platform with their feet shoulder-width apart and their hands naturally drooping along the side of the body, while looking at a small target in front. During the eyesopen (EO) test, the subject's gaze was fixed on a 5 cm diameter black dot pasted on the wall 1.75 m height above the ground and meters from the subject. The test environment was kept quiet. The patients were also asked to wear a blind-fold under the eye-closed (EC) condition. The participants were asked to maintain their standing posture for 30 s before the recording of the COP coordinates started and continued for a further 40 s. The same process was repeated for each condition (EO and EC) with at least 5 min for participants to relax between each test. Data for the first and the last 5 s were removed to avoid any disturbances at the beginning and end. The sampling frequency of the pressure transducer was 500 Hz. In data processing and calculation, the x-axis is the subject's mediolateral (ML) direction, which is parallel to the frontal plane. To maintain the reliability of the collected data, each patient's test was repeated three times, and the average value was taken during the parameter calculation.
+
+2.4 Data pre-processing 2.4.1 Step 1. Analysis of the COP parameters
+
+The experimental data were analysed using MATLAB® (R2017a; The MathWorks Inc., Natick, MA, USA). In this study, postural stability was assessed by the COP length of the sway trajectory (represented as LST) and the mean range of the sway trajectory in the x-axis (ML) and y-axis (AP), expressed as R x and R y , respectively.
+
+
+Step 2. Analysis with the DFA method
+
+The DFA of the velocity signal of the COP trajectory was based on the method described by Zhou et al. [19]. The values of α 1 (short-term scale index), α 2 (long-term scale index), and the crossover point (CP) were calculated and counted.
+
+
+Step 3. Analysis with PSD
+
+PSD presents the strength variation of the signal as a function of frequency. The computation of PSD is done directly by the well-known fast Fourier transform (FFT) method [28]. FFT is programmed and calculated by MATLAB ® . According to the literature [18,29], the frequency of the RA signal is concentrated at about 0-0.5 Hz, while that of the TR signal is concentrated at about 0.5-1.5 Hz. The influence of the TR signal on the human body balance is mainly caused by the ankle joint and hip joint. The swing frequency of the ankle joint is concentrated between 0.5 and 1 Hz, and that of the hip joint is concentrated between 1 and 1.5 Hz. So, here the PSD of the COP sway signal was calculated, and the average PSD values of frequency ranges 0-0.5, 0.5-1.0, and 1.0-1.5 Hz were counted.
+
+
+Step 4. Statistical analysis
+
+IBM SPSS statistics 25.0 was used for statistical analysis. Spearman correlation analysis was used to calculate the correlation. The significance level of all statistical analyses was set as P < 0.05. 

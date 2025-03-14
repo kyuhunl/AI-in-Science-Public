@@ -1,0 +1,42 @@
+Methods
+
+
+Participants and procedures
+
+The cross-sectional study was conducted in Shenyang, a city in northeast China, from March 2017 to Fig. 1 The hypothesized moderated mediation model September 2017.We selected five urban districts in Shenyang and randomly collected 15 communities in each district.All Shidu parents who met the following inclusion criteria in these communities were recruited as participants: 1) lived in the community for over half a year; 2) lost the only child and had no biological or adopted another child at the time of the survey; 3) could communicate in Chinese clearly.The exclusion criteria was having severe mental illness (e.g.mental retardation, Alzheimer's disease).We used the following formula to calculate the sample size
+: n = Z 2 1−a/2 p(1−p) d 2
+. The prevalence of PGD in bereaved parents ranged from 10% to 30% around the world [20][21][22][23][24], we chose 20% as the expected prevalence.The sampling error allowed in this study was d = 0.05, and 95% CIs was adopted, so Z 1−a/2 = 1.96.We calculated the minimum sample size
+: n = [1.96 2 × 20% × (1-20%)]/(0.05) 2 ≈ 246.
+Due to the particularity of the loss, we assumed the response rate of the subjects was 70%, which required the sample size: n = 246/70% ≈ 352.Community family planning commissioners, who had access to all Shidu families in the community, registered participants who met the inclusion criteria.The commissioners explained the purpose of this survey and invited Shidu parents who were willing to join in the survey to the community office to fill out self-report questionnaires.Participants provided written informed content before the investigation, and interviewers explained the purpose and significance of the investigation.Community family planning commissioners could assist in providing clarification if participants had any questions.When subjects had trouble in completing questionnaires by themselves, face-to-face interviews were used to obtain the answers.Before data collection, in order to make sure a standardized process, all community family planning commissioners were trained for two days.After the investigation, subjects were paid 100RMB as compensation.In total, a sample of 595 subjects was surveyed.Of these, 79 refused to join in.Among the 516 subjects, 11 were not included in the analysis because more than 30% of the data were missing.As a result, 505 parents remained for analysis, and effective response rate was 84.87%.GPower was used to conduct power analysis of the sample size, when α = 0.05, effect size = 0.3, the power of the sample size was 0.99.There were no significant demographic differences between the 505 included participants and the nonparticipants.The missing data were lost completely at random.
+
+The study was approved by the Ethics Committee of China Medical University, and all the research procedures were conducted in accordance with ethical standards.
+
+
+Demographic characteristics and bereavement-related information
+
+Demographic characteristics consisted of parents' gender, age, marital status, education level, employment, chronic disease, annual household income, debt, religious belief, marital satisfaction.Bereavement-related information included gender and age of the deceased child, time since the child's death, cause of death and whether the participant had a grandchild.If participants had been diagnosed with any of chronic diseases (e. g. hypertension, diabetes, cardiovascular disease, chronic hepatitis, ulcer, gout and arthritis), chronic disease was recorded as 'yes' .Debt, religious belief and whether the participant had a grandchild were recorded as 'yes' or 'no' .Cause of death was divided as 'accident' , 'acute disease' , 'chronic disease' and 'mental disease' .
+
+
+Assessment of prolonged grief disorder
+
+PGD symptoms were measured by the Prolonged Grief Questionnair-13 (PG-13), a screening instrument to diagnose PGD according to the criteria defined by Prigerson [10].It consists of 13 items addressing separation distress (1-2); cognitive, emotional and behavioral symptoms (3)(4)(5)(6)(7)(8)(9)(10)(11); duration criteria (12); and impairment criteria (13).Item 1 to 11 are rated on a 5-point Likert scale (1 = never, 5 = several times a day/overwhelmingly), and items 12 and 13 are yes/no questions.The diagnostic criteria for PGD include the following: 1) the individual has lost a significant other; 2) separation distress: at least one item with a rating of 4 or higher; 3) cognitive, emotional and behavioral symptoms: at least five items with a rating of 4 or higher; 4) duration criteria: item 12 must receive 'yes' response that means separation distress should last for more than 6 months after the death; 5) impairment criteria: item 13 must be answered as 'yes' that means being defective in social, occupational and other crucial aspects [10].The Chinese version of PG-13 has been proved to have satisfactory psychometric properties [9].In the investigation, the internal consistency coefficient for the scale was 0.91.
+
+
+Assessment of perceived stress
+
+Perceived stress was assessed by the Perceived Stress Scale-10 (PSS-10), which evaluated the degree of stress that a participant experienced over the past month [43].It consists of four positive items (4, 5, 7 and 8) and six negative items (1, 2, 3, 6, 9 and 10).Each item is rated on a 5-point Likert scale, ranging from 0 (never) to 4 (all of the time).The total scores range from 0 to 40, and higher scores indicate more stress.This scale has shown adequate validity and reliability in Chinese population [44].Cronbach's alpha was 0.86 in this study.
+
+
+Assessment of anxiety
+
+Anxiety symptoms were assessed by the 20-item Self-Rating Anxiety Scale (SAS) [45].Items are scored on a 4-point Likert scale ranging from 1 (rarely or none of the time) to 4 (most or all of the time), according to the frequency of anxiety symptoms during the past week.Five items (5, 9, 13, 17 and 20) are reverse scored.The total scores of this scale range from 20 to 80, and scores of 50 or more is considered as the presence of anxiety symptoms.The higher the total scores, the more severe anxiety symptoms.The Chinese version has shown good validity and reliability [46].Cronbach's alpha was 0.91 in the current study.
+
+
+Assessment of social support
+
+We used the Duke-UNC Functional Social Support Questionnaire (FSSQ) to evaluate social support, which is an 8-item questionnaire [47].Each item is rated on a 5-point Likert scale, ranging from 1 (much less than I would like) to 5 (as much as I would like).The scale provides total scores between 8 and 40 points, and the higher the total scores, the greater social support.The scale has shown sufficient validity and reliability in Chinese population [48].The internal consistency of FSSQ in the study was 0.87.
+
+
+Statistical analysis
+
+All the analyses were performed with IBM SPSS Statistics Version 23.0.Descriptive data were presented as frequency, percentages, mean scores and standard deviations.Independent t-test or one-way ANOVA was performed to compare the PGD scores across demographic characteristics and bereavement-related information.Pearson's correlation coefficient was used to explore the associations between perceived stress, anxiety, social support and PGD.Multiple imputation was used to replace the missing data.Then we employed the SPSS PROCESS macro to test the mediation model and the moderated mediation model [49].First of all, Model 4 was used to determine the mediation role of anxiety in the relation between perceived stress and PGD.Next, Model 59 was adopted to explore whether social support moderated the direct and the indirect effects of perceived stress on PGD.Finally, the significance of the moderation effect was examined by a simple-slope test which used the PRO-CESS macro.We kept chronic disease, annual household income, debt, religious belief, marital satisfaction and cause of death as potential confounders in the whole analysis, and categorical variables were converted into dummy variables.All the predictors were standardized to avoid multi-collinearity effects.In the study, on the basis of 5000 bootstrap resamples of these data, 95% bias-corrected confidence intervals (CIs) of the effect were computed.If 95% CIs don't contain 0 that indicate significant effects.A two-sided p < 0.05 was regarded as statistically significant.

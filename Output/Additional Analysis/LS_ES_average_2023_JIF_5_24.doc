@@ -1,0 +1,117 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx3024\clbrdrt\brdrs\cellx4752\clbrdrt\brdrs\cellx9072\clbrdrt\brdrs\cellx10656\clbrdrt\brdrs\cellx11952\clbrdrt\brdrs\cellx13824
+\ql \cell\qc (1)\cell\qc (2)\cell\qc (3)\cell\qc (4)\cell\qc (5)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4752\cellx9072\cellx10656\cellx11952\cellx13824
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4752\clbrdrb\brdrs\cellx9072\clbrdrb\brdrs\cellx10656\clbrdrb\brdrs\cellx11952\clbrdrb\brdrs\cellx13824
+\ql VARIABLES\cell\qc No Controls\cell\qc Months from First Publication\cell\qc Months Exp\cell\qc Pubs Exp\cell\qc All Controls\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4752\cellx9072\cellx10656\cellx11952\cellx13824
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql time24_0\cell\qc 5.923\cell\qc -0.291\cell\qc 5.923\cell\qc 5.923\cell\qc -0.291\cell\row
+\ql \cell\qc (7.955)\cell\qc (0.608)\cell\qc (7.955)\cell\qc (7.955)\cell\qc (0.608)\cell\row
+\ql time24_1\cell\qc 6.064\cell\qc \cell\qc 6.064\cell\qc 6.064\cell\qc \cell\row
+\ql \cell\qc (7.799)\cell\qc \cell\qc (7.799)\cell\qc (7.799)\cell\qc \cell\row
+\ql time24_2\cell\qc 5.710\cell\qc -0.204\cell\qc 5.710\cell\qc 5.710\cell\qc -0.204\cell\row
+\ql \cell\qc (7.596)\cell\qc (0.590)\cell\qc (7.596)\cell\qc (7.596)\cell\qc (0.590)\cell\row
+\ql time24_3\cell\qc 5.437\cell\qc -0.327\cell\qc 5.437\cell\qc 5.437\cell\qc -0.327\cell\row
+\ql \cell\qc (7.446)\cell\qc (0.547)\cell\qc (7.446)\cell\qc (7.446)\cell\qc (0.547)\cell\row
+\ql time24_4\cell\qc 4.215\cell\qc -1.398***\cell\qc 4.215\cell\qc 4.215\cell\qc -1.398***\cell\row
+\ql \cell\qc (7.158)\cell\qc (0.514)\cell\qc (7.158)\cell\qc (7.158)\cell\qc (0.514)\cell\row
+\ql time24_5\cell\qc 4.449\cell\qc -1.013*\cell\qc 4.449\cell\qc 4.449\cell\qc -1.013*\cell\row
+\ql \cell\qc (7.016)\cell\qc (0.559)\cell\qc (7.016)\cell\qc (7.016)\cell\qc (0.559)\cell\row
+\ql time24_6\cell\qc 4.805\cell\qc -0.507\cell\qc 4.805\cell\qc 4.805\cell\qc -0.507\cell\row
+\ql \cell\qc (6.874)\cell\qc (0.586)\cell\qc (6.874)\cell\qc (6.874)\cell\qc (0.586)\cell\row
+\ql time24_7\cell\qc 4.146\cell\qc -1.016*\cell\qc 4.146\cell\qc 4.146\cell\qc -1.016*\cell\row
+\ql \cell\qc (6.626)\cell\qc (0.565)\cell\qc (6.626)\cell\qc (6.626)\cell\qc (0.565)\cell\row
+\ql time24_8\cell\qc 4.577\cell\qc -0.434\cell\qc 4.577\cell\qc 4.577\cell\qc -0.434\cell\row
+\ql \cell\qc (6.394)\cell\qc (0.575)\cell\qc (6.394)\cell\qc (6.394)\cell\qc (0.575)\cell\row
+\ql time24_9\cell\qc 4.351\cell\qc -0.510\cell\qc 4.351\cell\qc 4.351\cell\qc -0.510\cell\row
+\ql \cell\qc (6.219)\cell\qc (0.556)\cell\qc (6.219)\cell\qc (6.219)\cell\qc (0.556)\cell\row
+\ql time24_10\cell\qc 4.567\cell\qc -0.144\cell\qc 4.567\cell\qc 4.567\cell\qc -0.144\cell\row
+\ql \cell\qc (6.107)\cell\qc (0.611)\cell\qc (6.107)\cell\qc (6.107)\cell\qc (0.611)\cell\row
+\ql time24_11\cell\qc 3.831\cell\qc -0.730\cell\qc 3.831\cell\qc 3.831\cell\qc -0.730\cell\row
+\ql \cell\qc (5.849)\cell\qc (0.543)\cell\qc (5.849)\cell\qc (5.849)\cell\qc (0.543)\cell\row
+\ql time24_12\cell\qc 3.857\cell\qc -0.553\cell\qc 3.857\cell\qc 3.857\cell\qc -0.553\cell\row
+\ql \cell\qc (5.666)\cell\qc (0.576)\cell\qc (5.666)\cell\qc (5.666)\cell\qc (0.576)\cell\row
+\ql time24_13\cell\qc 3.984\cell\qc -0.276\cell\qc 3.984\cell\qc 3.984\cell\qc -0.276\cell\row
+\ql \cell\qc (5.468)\cell\qc (0.593)\cell\qc (5.468)\cell\qc (5.468)\cell\qc (0.593)\cell\row
+\ql time24_14\cell\qc 2.617\cell\qc -1.493***\cell\qc 2.617\cell\qc 2.617\cell\qc -1.493***\cell\row
+\ql \cell\qc (5.268)\cell\qc (0.519)\cell\qc (5.268)\cell\qc (5.268)\cell\qc (0.519)\cell\row
+\ql time24_15\cell\qc 3.270\cell\qc -0.689\cell\qc 3.270\cell\qc 3.270\cell\qc -0.689\cell\row
+\ql \cell\qc (5.086)\cell\qc (0.604)\cell\qc (5.086)\cell\qc (5.086)\cell\qc (0.604)\cell\row
+\ql time24_16\cell\qc 3.340\cell\qc -0.469\cell\qc 3.340\cell\qc 3.340\cell\qc -0.469\cell\row
+\ql \cell\qc (4.895)\cell\qc (0.627)\cell\qc (4.895)\cell\qc (4.895)\cell\qc (0.627)\cell\row
+\ql time24_17\cell\qc 3.231\cell\qc -0.428\cell\qc 3.231\cell\qc 3.231\cell\qc -0.428\cell\row
+\ql \cell\qc (4.740)\cell\qc (0.646)\cell\qc (4.740)\cell\qc (4.740)\cell\qc (0.646)\cell\row
+\ql time24_18\cell\qc 2.307\cell\qc -1.201**\cell\qc 2.307\cell\qc 2.307\cell\qc -1.201**\cell\row
+\ql \cell\qc (4.443)\cell\qc (0.570)\cell\qc (4.443)\cell\qc (4.443)\cell\qc (0.570)\cell\row
+\ql time24_19\cell\qc 2.552\cell\qc -0.805\cell\qc 2.552\cell\qc 2.552\cell\qc -0.805\cell\row
+\ql \cell\qc (4.288)\cell\qc (0.629)\cell\qc (4.288)\cell\qc (4.288)\cell\qc (0.629)\cell\row
+\ql time24_20\cell\qc 2.063\cell\qc -1.144*\cell\qc 2.063\cell\qc 2.063\cell\qc -1.144*\cell\row
+\ql \cell\qc (4.077)\cell\qc (0.595)\cell\qc (4.077)\cell\qc (4.077)\cell\qc (0.595)\cell\row
+\ql time24_21\cell\qc 1.957\cell\qc -1.100*\cell\qc 1.957\cell\qc 1.957\cell\qc -1.100*\cell\row
+\ql \cell\qc (3.884)\cell\qc (0.567)\cell\qc (3.884)\cell\qc (3.884)\cell\qc (0.567)\cell\row
+\ql time24_22\cell\qc 1.733\cell\qc -1.174**\cell\qc 1.733\cell\qc 1.733\cell\qc -1.174**\cell\row
+\ql \cell\qc (3.653)\cell\qc (0.593)\cell\qc (3.653)\cell\qc (3.653)\cell\qc (0.593)\cell\row
+\ql time24_23\cell\qc 1.303\cell\qc -1.454***\cell\qc 1.303\cell\qc 1.303\cell\qc -1.454***\cell\row
+\ql \cell\qc (3.469)\cell\qc (0.550)\cell\qc (3.469)\cell\qc (3.469)\cell\qc (0.550)\cell\row
+\ql time24_25\cell\qc 1.506\cell\qc -0.949*\cell\qc 1.506\cell\qc 1.506\cell\qc -0.949*\cell\row
+\ql \cell\qc (3.038)\cell\qc (0.554)\cell\qc (3.038)\cell\qc (3.038)\cell\qc (0.554)\cell\row
+\ql time24_26\cell\qc 1.251\cell\qc -1.054*\cell\qc 1.251\cell\qc 1.251\cell\qc -1.054*\cell\row
+\ql \cell\qc (2.874)\cell\qc (0.538)\cell\qc (2.874)\cell\qc (2.874)\cell\qc (0.538)\cell\row
+\ql time24_27\cell\qc 0.960\cell\qc -1.195**\cell\qc 0.960\cell\qc 0.960\cell\qc -1.195**\cell\row
+\ql \cell\qc (2.639)\cell\qc (0.599)\cell\qc (2.639)\cell\qc (2.639)\cell\qc (0.599)\cell\row
+\ql time24_28\cell\qc 0.733\cell\qc -1.272**\cell\qc 0.733\cell\qc 0.733\cell\qc -1.272**\cell\row
+\ql \cell\qc (2.444)\cell\qc (0.578)\cell\qc (2.444)\cell\qc (2.444)\cell\qc (0.578)\cell\row
+\ql time24_29\cell\qc 1.026\cell\qc -0.828\cell\qc 1.026\cell\qc 1.026\cell\qc -0.828\cell\row
+\ql \cell\qc (2.341)\cell\qc (0.616)\cell\qc (2.341)\cell\qc (2.341)\cell\qc (0.616)\cell\row
+\ql time24_30\cell\qc 1.255\cell\qc -0.449\cell\qc 1.255\cell\qc 1.255\cell\qc -0.449\cell\row
+\ql \cell\qc (2.093)\cell\qc (0.595)\cell\qc (2.093)\cell\qc (2.093)\cell\qc (0.595)\cell\row
+\ql time24_31\cell\qc 0.202\cell\qc -1.351**\cell\qc 0.202\cell\qc 0.202\cell\qc -1.351**\cell\row
+\ql \cell\qc (1.950)\cell\qc (0.581)\cell\qc (1.950)\cell\qc (1.950)\cell\qc (0.581)\cell\row
+\ql time24_32\cell\qc 0.313\cell\qc -1.090*\cell\qc 0.313\cell\qc 0.313\cell\qc -1.090*\cell\row
+\ql \cell\qc (1.719)\cell\qc (0.557)\cell\qc (1.719)\cell\qc (1.719)\cell\qc (0.557)\cell\row
+\ql time24_33\cell\qc 0.510\cell\qc -0.742\cell\qc 0.510\cell\qc 0.510\cell\qc -0.742\cell\row
+\ql \cell\qc (1.533)\cell\qc (0.589)\cell\qc (1.533)\cell\qc (1.533)\cell\qc (0.589)\cell\row
+\ql time24_34\cell\qc 0.815\cell\qc -0.287\cell\qc 0.815\cell\qc 0.815\cell\qc -0.287\cell\row
+\ql \cell\qc (1.323)\cell\qc (0.580)\cell\qc (1.323)\cell\qc (1.323)\cell\qc (0.580)\cell\row
+\ql time24_35\cell\qc 0.184\cell\qc -0.768\cell\qc 0.184\cell\qc 0.184\cell\qc -0.768\cell\row
+\ql \cell\qc (1.159)\cell\qc (0.536)\cell\qc (1.159)\cell\qc (1.159)\cell\qc (0.536)\cell\row
+\ql time24_36\cell\qc 0.290\cell\qc -0.512\cell\qc 0.290\cell\qc 0.290\cell\qc -0.512\cell\row
+\ql \cell\qc (0.995)\cell\qc (0.585)\cell\qc (0.995)\cell\qc (0.995)\cell\qc (0.585)\cell\row
+\ql time24_37\cell\qc 0.526\cell\qc -0.126\cell\qc 0.526\cell\qc 0.526\cell\qc -0.126\cell\row
+\ql \cell\qc (0.869)\cell\qc (0.657)\cell\qc (0.869)\cell\qc (0.869)\cell\qc (0.657)\cell\row
+\ql time24_38\cell\qc 0.103\cell\qc -0.398\cell\qc 0.103\cell\qc 0.103\cell\qc -0.398\cell\row
+\ql \cell\qc (0.682)\cell\qc (0.578)\cell\qc (0.682)\cell\qc (0.682)\cell\qc (0.578)\cell\row
+\ql time24_39\cell\qc -0.305\cell\qc -0.656\cell\qc -0.305\cell\qc -0.305\cell\qc -0.656\cell\row
+\ql \cell\qc (0.608)\cell\qc (0.566)\cell\qc (0.608)\cell\qc (0.608)\cell\qc (0.566)\cell\row
+\ql time24_41\cell\qc -0.483\cell\qc -0.533\cell\qc -0.483\cell\qc -0.483\cell\qc -0.533\cell\row
+\ql \cell\qc (0.592)\cell\qc (0.575)\cell\qc (0.592)\cell\qc (0.592)\cell\qc (0.575)\cell\row
+\ql time24_42\cell\qc -0.388\cell\qc -0.288\cell\qc -0.388\cell\qc -0.388\cell\qc -0.288\cell\row
+\ql \cell\qc (0.675)\cell\qc (0.518)\cell\qc (0.675)\cell\qc (0.675)\cell\qc (0.518)\cell\row
+\ql time24_43\cell\qc -0.818\cell\qc -0.567\cell\qc -0.818\cell\qc -0.818\cell\qc -0.567\cell\row
+\ql \cell\qc (0.762)\cell\qc (0.511)\cell\qc (0.762)\cell\qc (0.762)\cell\qc (0.511)\cell\row
+\ql time24_44\cell\qc -0.627\cell\qc -0.226\cell\qc -0.627\cell\qc -0.627\cell\qc -0.226\cell\row
+\ql \cell\qc (0.940)\cell\qc (0.499)\cell\qc (0.940)\cell\qc (0.940)\cell\qc (0.499)\cell\row
+\ql time24_45\cell\qc -1.014\cell\qc -0.463\cell\qc -1.014\cell\qc -1.014\cell\qc -0.463\cell\row
+\ql \cell\qc (1.106)\cell\qc (0.542)\cell\qc (1.106)\cell\qc (1.106)\cell\qc (0.542)\cell\row
+\ql time24_46\cell\qc -0.702\cell\qc \cell\qc -0.702\cell\qc -0.702\cell\qc \cell\row
+\ql \cell\qc (1.335)\cell\qc \cell\qc (1.335)\cell\qc (1.335)\cell\qc \cell\row
+\ql time24_47\cell\qc -0.978\cell\qc -0.126\cell\qc -0.978\cell\qc -0.978\cell\qc -0.126\cell\row
+\ql \cell\qc (1.415)\cell\qc (0.547)\cell\qc (1.415)\cell\qc (1.415)\cell\qc (0.547)\cell\row
+\ql time24_48\cell\qc -0.976\cell\qc 0.0265\cell\qc -0.976\cell\qc -0.976\cell\qc 0.0265\cell\row
+\ql \cell\qc (1.630)\cell\qc (0.547)\cell\qc (1.630)\cell\qc (1.630)\cell\qc (0.547)\cell\row
+\ql time24_40\cell\qc \cell\qc -0.200\cell\qc \cell\qc \cell\qc -0.200\cell\row
+\ql \cell\qc \cell\qc (0.577)\cell\qc \cell\qc \cell\qc (0.577)\cell\row
+\ql months_from_start\cell\qc \cell\qc -0.150\cell\qc \cell\qc \cell\qc -0.150\cell\row
+\ql \cell\qc \cell\qc (0.200)\cell\qc \cell\qc \cell\qc (0.200)\cell\row
+\ql Constant\cell\qc 9.916***\cell\qc 59.43\cell\qc 9.916***\cell\qc 9.916***\cell\qc 59.43\cell\row
+\ql \cell\qc (2.567)\cell\qc (67.85)\cell\qc (2.567)\cell\qc (2.567)\cell\qc (67.85)\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql Observations\cell\qc 19,725\cell\qc 19,725\cell\qc 19,725\cell\qc 19,725\cell\qc 19,725\cell\row
+\ql R-squared\cell\qc 0.018\cell\qc 0.018\cell\qc 0.018\cell\qc 0.018\cell\qc 0.018\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4752\clbrdrb\brdrs\cellx9072\clbrdrb\brdrs\cellx10656\clbrdrb\brdrs\cellx11952\clbrdrb\brdrs\cellx13824
+\ql Number of id_numeric\cell\qc 996\cell\qc 996\cell\qc 996\cell\qc 996\cell\qc 996\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

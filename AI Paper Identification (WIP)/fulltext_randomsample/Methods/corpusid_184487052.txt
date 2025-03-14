@@ -1,0 +1,58 @@
+MATERIALS AND METHODS
+
+
+General Experimental Procedures
+
+Optical rotations were recorded on a Rudolph Autopol III automatic polarimeter (Rudolph Research Analytical, Hackettstown, New Jersey). Ultraviolet (UV) spectra were recorded on a TU-1810 UV/vis spectrophotometer (Beijing Persee General Instrument Co., Ltd., Beijing, China). Circular dichroism (CD) spectra were recorded on a JASCO J-815 CD spectrometer (JASCO Corp., Tokyo, Japan). Infrared (IR) spectra were measured on a Thermo Nicolet Nexus 470 FT-IR spectrometer (Thermo Electron Scientific Instrument Crop., Madison, Wisconsin). High-resolution electrospray ionization mass spectrometry (HRESIMS) spectra were recorded on a LC 1260/Q-TOF-MS 6520 instrument (Agilent Technologies, Santa Clara, CA). 1 H, 13 C, and 2D NMR ( 1 H-1 H COSY, HSQC/HMQC, HMBC, and NOESY) spectra were measured on Bruker Avance 600 or 400 NMR spectrometers (Bruker BioSpin, Zürich, Switzerland). 1 H and 13 C NMR chemical shifts were expressed in δ (ppm) referring to the inner standard tetramethylsilane (TMS), and coupling constants in Hertz. HPLC-DAD analysis of the EtOAc extracts was performed on a Shimadzu LC-20A instrument equipping with a SPD-M20A photodiode array detector (Shimadzu Corp., Tokyo, Japan) using an analytical C 18 column (250 ×4.6 mm i.d., 5 µm; Phenomenex Inc., Torrance, California). Semipreparative HPLC separation was carried out on a Lumtech instrument (Lumiere Tech. Ltd., Beijing, China) equipped with a K-501 pump (flow rate: 3 mL/min) and a K-2501 UV detector (detection was set at 370 nm) using a Luna-C18 column (250 × 10 mm i.d., 5 µm, Phenomenex Inc., Torrance, California) eluting with a mixture of MeOH and water (containing 0.02% TFA).
+
+
+Fungal Material
+
+The fungal strain U. virens UV8b (Zhang et al., 2014) was kindly provided by Prof. Wenxian Sun (College of Plant Protection, China Agricultural University, China).
+
+
+Fermentation, Extraction, and Isolation
+
+The strain U. virens UV8b was grown on potato dextrose agar (PDA, potato 200 g/L, dextrose 20 g/L, and agar 20 g/L) at 25 • C for 10 days. Then, several agar plugs (0.5 × 0.5 cm) containing mycelia were added into a 250 mL Erlenmeyer flask in which 100 mL of potato dextrose broth (PDB, potato 200 g/L, and dextrose 20 g/L) was filled. The liquid culture was incubated in a rotatory shaker for 10 days at 150 rpm and 28 • C to produce the seed culture, which was used to inoculate the rice medium (100 g of rice, 110 mL of water, in each 1,000 mL flask). The fermentation was carried out using a total of 22.0 kg of rice at 28 • C under static condition in the dark for 60 days. After harvest, the culture was extracted with EtOAc for four times. The EtOAc extract was combined and condensed under vacuum using a rotatory evaporator to yield a brownish residue (220 g). The extract was divided into 40 portions, and each portion was subjected to gel permeation chromatography over Sephadex .0 × 80 cm) eluting with CH 2 Cl 2 /MeOH (1:1) to obtain three fractions, the second of which was the sorbicillinoidcontaining fraction (SF).
+
+The SF (60 g) was subjected to vacuum liquid chromatograph over silica gel (200∼300 mesh, i.d. 8 × 16 cm), eluting with a gradient of CH 2 Cl 2 /MeOH (100:0∼0:100), to yield six fractions (Frs. A∼F).
+
+Fr. B was further fractionated by medium pressure liquid chromatography over silica gel (i.d. 4.0 × 50 cm) to obtain ten subfractions (Frs. B1∼B10). Compound 17 (6.3 mg) was purified from Fr. B9 by semi-preparative HPLC eluting with 85% MeOH/H 2 O.
+
+Fr. C was subjected to column chromatography (i.d. 3.0 × 60 cm) over Sephadex LH-20 (CH 2 Cl 2 /MeOH, 1:1) to yield seven subfractions (Frs. C1∼C7), among which Fr. C5 was purified by semi-preparative HPLC (85% MeOH/H 2 O) to give oxosorbicillinol (11, 6.0 mg). Fr. C6 was further chromatographed (i.d. 4.0×40 cm) over RP-18 eluting with a mixture of MeOH/H 2 O (from 60:40 to 100:0, increased stepwisely) to afford six subfractions (Frs. C6-1∼C6-6), among which Fr. C6-1 was purified by semipreparative HPLC (70% MeOH/H 2 O) to yield 5 (2.6 mg) and 6 (1.0 mg).  3420,2926,2852,1714,1681,1646,1623,1538,1517,1453,1383,1343,1228,1137,1019,903,845,675,578 cm −1 ; 1 H NMR (CD 3 OD, 400 MHz), 13 C NMR (CD 3 OD, 100 MHz) see  3390,2932,1713,1681,1646,1623,1566,1517,1472,1384,1229,1209,1137,1019,903,847,759,678,578 cm −1 ; 1 H NMR (CD 3 OD, 400 MHz), 13 C NMR (CD 3 OD, 100 MHz) see  3726,3421,2922,2852,1734,1717,1695,1653,1617,1576,1455,1442,1384,1306,1199,1131,1019,913,840,667, 579 cm −1 ; 1 H NMR (CD 3 COCD 3 , 600 MHz), 13 C NMR (CD 3 COCD 3 , 150 MHz) see  3727,3385,2936,1654,1616,1439,1383,1305,1256,1192,1128,1050,1006,913,862,843, 580 cm −1 ; 1 H NMR (CD 3 COCD 3 , 600 MHz), 13 C NMR (CD 3 COCD 3 , 150 MHz) see  3726,3625,3599,3421,2921,2851,1774,1735,1652,1616,1576,1454,1384,1201,1025,912,876, 580 cm −1 ; 1 H NMR (CDCl 3 , 600 MHz), 13 C NMR (CDCl 3 , 150 MHz) see  3720,3648,3614,3445,2918,2850,1750,1717,1682,1649,1566,1541,1517,1488,1454,1432,1384,1159,1018,900,842,677, 578 cm −1 ; 1 H NMR (CDCl 3 , 600 MHz), 13 C NMR (CDCl 3 , 150 MHz) see Table 3; HRESIMS m/z 311.0892 [M+Na] + (calcd for C 16 H 16 NaO 5 , 311.0890).
+
+Ustilopyrone A (7). Yellow amorphous powder; UV(MeOH) λ max (log ε) 227 (3.97), 296 (3.74) nm; IR ν max 3647,3614,3363,2933,1712,1646,1623,1472,1363,1239,1136,1017,909,848,756,678,578, 530 cm −1 ; 1 H NMR (CD 3 OD, 400 MHz), 13 C NMR (CD 3 OD, 100 MHz) see  3732,3421,2919,2850,1719,1652,1617,1576,1542,1455,1435,1384,1270,1154,1020,835,732, 579 cm −1 ; 1 H NMR (CD 3 OD, 400 MHz), 13 C NMR (CD 3 OD, 100 MHz) see Table 4; HRESIMS m/z 235.0617 [M-H] − (calcd for C 12 H 11 O 5 , 235.0612).
+
+5-Demethylustilopyrone A (9). Yellow amorphous powder; UV(MeOH) λ max (log ε) 249 (4.02), 335 (3.76) nm; IR ν max 3252, 2935,1712,1646,1623,1472,1384,1363,1234,1135,1017,756, 580 cm −1 ; 1 H NMR (CD 3 OD, 400 MHz), 13 C NMR (CD 3 OD, 100 MHz) see   
+
+
+ECD Calculation
+
+The Molecular Merck force field (MMFF) conformational search, geometry optimization and frequency calculations at the B3LYP 6-31G(d) level in vacuo, and TDDFT ECD calculations of the dominant conformers (>1%) at the PBE0/TZVP level with the polarizable continuum model (PCM) for MeOH, were  Frontiers in Chemistry | www.frontiersin.org performed as described previously . ECD spectrum of each conformer was plotted by the program SpecDis (Bruhn et al., 2013) using the dipole-length computed rotational strengths with Gauss curves and exponential halfwidth (σ ) of 0.3 and 0.2 eV, for 1 and 5, respectively. The equilibrium population of each conformer at 298.15 K was calculated from its relative Gibbs free energies using Boltzmann statistics. The Boltzmann-averaged ECD spectra for (2S, 3R, 4R, 9R, 1 ′ R, 2 ′ S)-1, and (1R, 2S, 4R, 1 ′ R, 2 ′ R)-5 were generated according to the Boltzmann distributions of the lowest energy conformers for each structure. The calculated ECD spectra were then compared with the experimental one to determine the absolute configuration. The calculated ECD spectra for 1 and 5 were scaled by 0.25 (y-axes) for a better comparison with the experimental data.
+
+
+C NMR Calculation
+
+For the calculations of 13 C NMR chemical shifts, B3LYP/6-31G(d,p) method was used to optimize the selected conformers. For all optimized structures, vibrational spectra were calculated to ensure that no imaginary frequencies for energy minimum were obtained. NMR calculations were performed at the level of mPW1PW91/6-31G(d,p) with the gauge-independent atomic orbital (GIAO) method (Forsyth and Sebag, 1997). The solvent effect was considered by using the PCM model (CHCl 3 for 6).
+
+The calculated 13 C NMR chemical shifts for (S)-6a and (S)-6b were analyzed by subtracting the isotopic shifts for TMS calculated with the same method. The 13 C NMR chemical shifts in each compound were considered as the average value of the same atom in different conformers according to their Boltzmann distributions, using the relative Gibbs free energies as weighting factors. The differences δ values were determined by subtracting the experimental chemical shifts (δexp) from the calculated chemical shifts (δcal). The results were evaluated in terms of the average absolute deviation, and maximum absolute deviation.
+
+
+Optical Rotation Calculation
+
+The b3lyp/6-31g(d,p)-optimized conformers of (S)-6a were used to calculate optical rotations (OR). The OR calculations were carried out by means of time-dependent DFT methods at the B3LYP/6-31+G (d,p) level (Mazzeo et al., 2010), with the PCM model for methanol, by Gaussian 09. Boltzmann statistics analysis was employed to calculate the overall OR.
+
+
+Phytotoxicity Assay
+
+The major compounds (12∼14, and 16) were tested for their phytotoxic activities against lettuce (Lactuca sativa L. var. ramose Hort.) and rice (Oryza sativa L. variety Zhonghua11) as described previously (Lu et al., 2015). Glyphosate was used as the positive control. After treatment, the length of the radicle or plumule of each seed was measured. The inhibition ratio (%) was calculated by comparison with the blank control.
+
+
+Cytotoxicity Assay
+
+Cytotoxicities of the isolated compounds were tested against human carcinoma cells using the microculture tetrazolium (MTT) assay as described previously (Sun et al., 2017 
+
+
+Antifungal Assay
+
+The antifungal activities of compounds 2, 7, 10∼14, 16, and 17 were evaluated against the spore germination of the rice blast pathogen Magnaporthe oryzae as described previously (Shan et al., 2014). Carbendazim was used as the positive control.

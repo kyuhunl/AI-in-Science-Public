@@ -1,0 +1,25 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx5472\clbrdrt\brdrs\cellx7920
+\ql \cell\qc (1)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx5472\cellx7920
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx5472\clbrdrb\brdrs\cellx7920
+\ql VARIABLES\cell\qc average_2023_JIF\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx5472\cellx7920
+\ql \cell\qc \cell\row
+\ql post\cell\qc 0.182*\cell\row
+\ql \cell\qc (0.0936)\cell\row
+\ql months_from_start\cell\qc -0.0770***\cell\row
+\ql \cell\qc (0.0111)\cell\row
+\ql 1.post#c.pubs_before_treatment_demean\cell\qc -0.000531\cell\row
+\ql \cell\qc (0.000688)\cell\row
+\ql Constant\cell\qc 30.17***\cell\row
+\ql \cell\qc (2.866)\cell\row
+\ql \cell\qc \cell\row
+\ql Observations\cell\qc 118,857\cell\row
+\ql Number of id_numeric\cell\qc 15,530\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx5472\clbrdrb\brdrs\cellx7920
+\ql R-squared\cell\qc 0.010\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

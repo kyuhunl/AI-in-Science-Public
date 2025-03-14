@@ -1,0 +1,65 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx3024\clbrdrt\brdrs\cellx4320
+\ql \cell\qc (1)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4320
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4320
+\ql VARIABLES\cell\qc count\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4320
+\ql \cell\qc \cell\row
+\ql time12_0\cell\qc -0.0682\cell\row
+\ql \cell\qc (2.878)\cell\row
+\ql time12_1\cell\qc -0.0605\cell\row
+\ql \cell\qc (2.833)\cell\row
+\ql time12_2\cell\qc -0.0821\cell\row
+\ql \cell\qc (2.369)\cell\row
+\ql time12_3\cell\qc -0.0798\cell\row
+\ql \cell\qc (2.460)\cell\row
+\ql time12_4\cell\qc -0.0694\cell\row
+\ql \cell\qc (1.936)\cell\row
+\ql time12_5\cell\qc -0.0514\cell\row
+\ql \cell\qc (1.809)\cell\row
+\ql time12_6\cell\qc -0.0419\cell\row
+\ql \cell\qc (1.937)\cell\row
+\ql time12_7\cell\qc -0.0298\cell\row
+\ql \cell\qc (1.588)\cell\row
+\ql time12_8\cell\qc -0.0447\cell\row
+\ql \cell\qc (1.292)\cell\row
+\ql time12_9\cell\qc -0.0536\cell\row
+\ql \cell\qc (1.145)\cell\row
+\ql time12_10\cell\qc -0.0290\cell\row
+\ql \cell\qc (1.016)\cell\row
+\ql time12_11\cell\qc -0.0352\cell\row
+\ql \cell\qc (0.807)\cell\row
+\ql time12_13\cell\qc 0.0124\cell\row
+\ql \cell\qc (0.460)\cell\row
+\ql time12_14\cell\qc 0.00813\cell\row
+\ql \cell\qc (0.199)\cell\row
+\ql time12_16\cell\qc 0.000234\cell\row
+\ql \cell\qc (0.170)\cell\row
+\ql time12_17\cell\qc 0.0218\cell\row
+\ql \cell\qc (0.414)\cell\row
+\ql time12_18\cell\qc 0.0207\cell\row
+\ql \cell\qc (0.611)\cell\row
+\ql time12_19\cell\qc 0.0204\cell\row
+\ql \cell\qc (0.771)\cell\row
+\ql time12_20\cell\qc 0.0444\cell\row
+\ql \cell\qc (0.925)\cell\row
+\ql time12_21\cell\qc 0.0242\cell\row
+\ql \cell\qc (1.272)\cell\row
+\ql time12_22\cell\qc 0.0240\cell\row
+\ql \cell\qc (1.564)\cell\row
+\ql time12_23\cell\qc 0.0126\cell\row
+\ql \cell\qc (1.357)\cell\row
+\ql time12_24\cell\qc 0.104\cell\row
+\ql \cell\qc (1.587)\cell\row
+\ql Constant\cell\qc 0.315\cell\row
+\ql \cell\qc (5.693)\cell\row
+\ql \cell\qc \cell\row
+\ql Observations\cell\qc 193,728\cell\row
+\ql Number of id_numeric\cell\qc 8,072\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4320
+\ql R-squared\cell\qc 0.016\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

@@ -1,0 +1,17 @@
+	(1)	(2)	(3)
+VARIABLES	count	count	count
+			
+post	0.00541	0.00541	0.00541
+	(0.00550)	(0.00550)	(0.00550)
+months_from_start	0.0174***	0.0174***	0.0174***
+	(0.00176)	(0.00176)	(0.00176)
+1.post#c.productivity_before_treatment_de	-0.159***	-0.159***	-0.159***
+	(0.0109)	(0.0109)	(0.0109)
+Constant	-3.466***	-3.466***	-3.466***
+	(0.442)	(0.442)	(0.442)
+			
+Observations	386,136	386,136	386,136
+R-squared	0.023	0.023	0.023
+Number of id_numeric	16,089	16,089	16,089
+Robust standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			

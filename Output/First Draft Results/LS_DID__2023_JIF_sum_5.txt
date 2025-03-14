@@ -1,0 +1,17 @@
+	(1)	(2)
+VARIABLES	No Controls	With Controls
+		
+post	0.249	0.167
+	(0.279)	(0.278)
+months_from_start		-0.0792
+		(0.144)
+cum_count		0.0681***
+		(0.0110)
+Constant	9.824	28.73
+	(8.375)	(47.28)
+		
+Observations	47,634	47,634
+R-squared	0.006	0.010
+Number of id_numeric	996	996
+Robust standard errors in parentheses		
+*** p<0.01, ** p<0.05, * p<0.1		

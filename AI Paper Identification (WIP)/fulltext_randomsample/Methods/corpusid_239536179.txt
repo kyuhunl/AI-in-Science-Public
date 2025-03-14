@@ -1,0 +1,43 @@
+Materials and Methods
+
+
+Sources of Virus, Vectors, and Plant Materials
+
+RBSDV or RSV-infected rice plants were obtained from fields in Jiangsu Province, China, and the virus was confirmed by RT-PCR assay [4]. The nonviruliferous small brown planthopper (SBPH) strains were collected from fields in Jiangsu Province, China, and reared on rice seedlings (Oryza sativa L. cv. Wuyujing No. 3) in glass incubators in an insectrearing room at 25 • C. The rice cultivar Nipponbare (O. sativa L. subsp. japonica, cv. NIP) was used as a background to generate eIF4G CRISPR/Cas9 mutant (eif4g) lines. All rice plants were grown in the greenhouse at 28-30 • C with a 12 h light/12 h dark photoperiod.
+
+
+Viruses Inoculation Assay
+
+Nonviruliferous instar nymphs of SBPHs were fed on RBSDV(or RSV)-infected rice plants for 7 days to acquire the virus. Then, the nymphs were transferred to healthy rice seedlings and allowed to feed for 10 days. The percentage of viruliferous SBPHs was determined by dot enzyme-linked immunosorbent assay (Dot-ELISA) using the monoclonal antiRBSDV or antiRSV antibody [25]. Transgenic and wild-type rice plants at the 2 two-leaf-stage were inoculated with 2 viruliferous SBPHs per plant and were kept in a glass incubator containing 30 plants. SBPHs were moved after a 2-day inoculation access period. The inoculated seedlings were transplanted into an experimental field at the Jiangsu Academy of Agricultural Sciences for symptom development, and nonviruliferous insects were used for mock inoculation.
+
+
+Evaluation of RBSDV or RSV Resistance
+
+The RBSDV or RSV inoculated rice seedlings were transplanted into an experimental plot at the Jiangsu Academy of Agricultural Sciences, Nanjing, China. The seedlings were grown under a standard agricultural practice without the using of pesticides during growth. Four weeks after transplanting (28 dpi), the RBSDV or RSV incidence was recorded for the wild-type and its mutant lines, respectively. Three replicates were used for each treatment, and each replicate contained at least 30 rice seedlings, and the disease incidence of each rice line (%) was determined use the following formula: number of RBSDV (or RSV)-infected plants/total number of plants counted × 100. In addition, 10 rice seedlings were pooled at 28 dpi for qRT-PCR and Western blot analysis.
+
+
+DNA Constructs and Transgenic Plants
+
+The N-terminus of wild-type eIF4G (eIF4G-N) or mutant eIF4G (eIF4G-N mu ) and fulllength RBSDV P8 sequences were amplified by PCR from RBSDV-infected rice plants, and the PCR products were cloned individually into pDONR-zero vectors using BP Clonase Enzyme Mix (Invitrogen, Carlsbad, CA, USA). The eIF4G-N or eIF4G-N mu and P8 sequences were then transferred to the appropriate destination vectors using LR Clonase (Invitrogen) for yeast two-hybrid and luciferase complementary imaging assays.
+
+For gene editing, rice eIF4G-specific sgRNA was designed by the CRISPR PLANT website (http://www.genome.arizona.edu/crispr/CRISPRsearch.html, accessed on 6 October 2018). These sgRNA oligos were synthesized (Genscript, Nanjing, China) and cloned into the pHUE401 vector by Golden Gate cloning, as previously described [26]. CRISPR/Cas9 vectors were introduced into Agrobacterium tumefaciens strain GV3101 by electroporation and transformed into Nipponbare by Agrobacterium-mediated transformation. The primers used in this study are listed in Supplementary Table S1.
+
+
+Western Blot Assay
+
+Western blotting was performed according to the protocol described previously [27]. Briefly, rice total proteins were extracted in 2× SDS-loading buffer (100 mM Tris-HCl (pH 6.8), 4% SDS, 0.2% bromophenol blue, 20% glycerol, 2% beta-mercaptoethanol), separated by 10% SDS-PAGE and transferred onto PVDF membranes. The membranes were blocked and inoculated with an antiRBSDV P6 or antiRSV SP (provided by Jianxiang Wu, Zhejiang University, Hangzhou, China) or antiactin (Enogene, Nanjing, China) or antiRubisco (Sangon Biotech, Shanghai, China) antibody for 2 h at room temperature. An HRP-conjugated antirabbit antibody was used as the secondary antibody (Abmart, Shanghai, China). Signals were developed in ECL buffer (Vazyme Biotech, Nanjing, China) and recorded with a Tanon 5200 Luminescent Imaging Workstation (Tanon, Shanghai, China).
+
+
+Quantitative Reverse-Transcription PCR (qRT-PCR)
+
+Total RNA was extracted from 100 mg rice plants with RNAiso Plus reagent (Takara, Dalian, China) according to the manufacturer's instructions. cDNA was synthesized with the iScript™ cDNA Synthesis Kit (Bio-Rad, Hercules, CA, USA) using random hexamers as primers. qPCR was performed using SsoFast EvaGreen Supermix (Bio-Rad, Hercules, CA, USA) on a Bio-Rad iQ5 qRT-PCR system with gene-specific primers (Supplementary Table S1). The results were normalized to reference gene expression (UBQ10) using the 2 −∆∆Ct method reported previously [28].
+
+
+Yeast Two-Hybrid Assay
+
+The Matchmaker Gold Y2H system (Clontech, Mountain View, CA, USA) was used to identify interactions between eIF4G-N (or eIF4G-N mu ) and RBSDV P8. The CDSs of eIF4G-N (1-1053) (or eIF4G-N mu ) and RBSDV P8 were cloned into pGBK-DC and pGAD-DC gateway destination vectors (provided by Xiuren Zhang, Texas A&M University, College Station, USA), respectively, by the LR reaction (Invitrogen, Carlsbad, CA, USA). The plasmids pGBK-eIF4G-N (or pGBK-eIF4G-N mu ) and pGAD-P8 were cotransformed into the Y2H Gold (Clontech) yeast strain and selected on medium lacking leucine, tryptophan, histidine and adenine. The plasmids pGBK-53 and pGAD-T7 were cotransformed into the Y2H Gold yeast strain as a positive control.
+
+
+Luciferase Complementary Imaging Assay (LCI Assay)
+
+The CDSs of eIF4G-N (1-1053) (or eIF4G-N mu ) and RBSDV P8 were cloned into pCAMBIA-DC-NLuc and pCAMBIA-CLuc-DC (provided by Xiuren Zhang, Texas A&M University, College Station, USA), respectively, by the LR reaction. Then, the constructs were transformed into A. tumefaciens strain GV3101. Agrobacteria harboring the pCAMBIA-eIF4G-N-Nluc and pCAMBIA-CLuc-P8 plasmids co-infiltrated into 4-week-old N. benthamiana leaves. After 2 days, the infiltrated leaves were sprayed with 10 mM luciferin (Promega, Madison, WI, USA) and photographed using the Tanon 5200 Luminescent Imaging Workstation (Tanon, Shanghai, China).

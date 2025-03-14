@@ -1,0 +1,13 @@
+	(1)
+VARIABLES	count
+	
+post	0.0346***
+	(0.0105)
+Constant	0.155**
+	(0.0623)
+	
+Observations	95,952
+Number of id_numeric	1,999
+R-squared	0.017
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

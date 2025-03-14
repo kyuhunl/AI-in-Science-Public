@@ -1,0 +1,54 @@
+Materials and Methods
+
+
+Microorganisms and vectors
+
+Yarrowia lipolytica Po1g (MatA, leu2-270, ura3-302:URA3, xpr2-332, axp-2) and secretion vector pYLSC1 were purchased from Yeastern Biotech Co. (Taipei, Taiwan). Yarrowia Secretion Vector (pYLSC1, 7205 bp) contains the hybrid promoter (hp4d) and a secretion signal (XPR2 pre region: atgaagctcgctaccgcctttactattctcacggccgttctggcc, which encoded signal peptide MKLATAFTILTAVLA). It also contains a leucine selection marker gene (LEU2), which can complement the deletion of LEU2 gene in the parent strain of Po1g.
+
+
+Constructs for expression of heterologous xylanase genes
+
+Two constructs were built in the backbone of secretion vector pYLSC1, each carrying either of the following xylanase genes that encode the mature protein: XynII from T. harzianum and XlnD from A. niger. For each of the above genes encoding the mature protein, a SfiI site (GGCCGTTCTGGCC) was added before the first codon of mature gene, and a KpnI site (GGTACC) was added after the stop codon for the target mature proteins. The coding sequences of these genes were codon optimized based on the codon bias of Y. lipolytica, and were synthesized by DNA 2.0 (Menlo Park, CA).
+
+The information describing the expressed genes and their corresponding Yarrowia transformants are summarized in Table 1.
+
+
+Transformation and selection
+
+To prepare Y. lipolytica cells for transformation, strains were cultured 20 h in YPD pH 4 liquid broth at 28˚C, 220 rpm in baffled shaker flasks. For the selection of auxotrophic recombinants (Leu + ), transformants were grown on solid YNB medium (2% glucose w/v, 0.67% yeast nitrogen base w/o amino acids, 1.5% agar), incubated at 28˚C for 2,4 days.
+
+The YLEX expression kit used in this transformation was purchased from Yeastern Biotech Co., Ltd. The transformation of Y. lipolytica with the plasmid constructs above was conducted using YLOS One step Transformation system included in the YLEX expression kit. The Y. lipolytica cells grown on YPD liquid broth were harvested after 20 h culturing. The harvested cells were washed twice with sterile dd-H 2 O to delete all YPD residues and collected by centrifugation at 3000 rpm for 5 min, followed by resuspending the cells (,7610 7 cells per tube) in a tube containing 100 mL of freshly prepared YLOS cocktail including YLOS buffer, dithiothreitol (DTT) solution, carrier DNA and linearized plasmid DNA. The tube was incubated at 39˚C for 1 h and then the entire cocktail was spread on dry YNB selection plates, incubated at 28˚C for 2,4 days until the colony of transformants developed.
+
+Plate assay for xylanase enzyme activity of transformants Substrate-containing (birchwood xylan 60502 from Sigma) mineral plates were prepared for the assay of endo-1,4-beta-xylanase and exo-1,4-beta-xylosidase activities. The mineral growth medium in the plates consisted of: 5 g/L xylan, 2 g/ L of K 2 HPO 4 , 1. 
+
+
+SDS-PAGE analysis
+
+Invitrogen NuPAGE Novex Bis-Tris Mini Gel was used for running SDS-PAGE, for which SeeBlue Plus2 Prestained Protein Standard (LC5925; Invitrogen, NY) were used as the markers. 20 mL (Approximately 8,10 mg) of protein preparation (506 concentrated extracellular crude enzyme solution) was loaded into each well. Before loading into gel, the protein were denatured by a reducing agent (which included DTT) and heated to 70˚C for 10 min. The gel was run at 200 V constant for 40 min. After the electrophoresis, the gel was fixed with acetic acid/ methanol solution, stained with Coomassie Blue overnight, and destained with deionized, distilled water for 7 h.
+
+
+Enzyme production and activity assay
+
+The expression of the xylanase enzymes in Y. lipolytica Po1g was performed in 1-L baffled shaker flasks containing 300 ml YPD liquid broth (pH 4.0), incubating at 28˚C, 200 rpm. Thirty ml of seed-culture (also YPD media) was inoculated into fermentation media after one-day culture. The crude enzyme preparation was collected at 4 d by centrifuging whole broth at 5000 rpm. This flask experiment was run in triplicates and the activity data was the mean of three triplicates. The endo-1,4-beta-xylanase activity was determined by the method described by Bailey et al [25]. Briefly, 0.5 mL of 1.0% w/v birchwood xylan (in 50 mM pH 5.0 citrate buffer) was incubated with 0.1 mL of enzyme solution under 50˚C for 5 min and then 1.5 mL DNS solution was added to the test tube and the mixture was boiled in water bath for 5 min. After cooling to room temperature, the absorbance at 540 nm was measured. The enzyme blank was prepared in the same way except that 0.5 ml of the citrate buffer was added to the substrate solution instead of the substrate solution. The xylanase activity was reported as katal/mL. 1 katal was the amount of enzyme needed to produce 1 mol of reducing sugar (D-xylose equivalent) from xylan per second.
+
+The exo-1, 4-beta-xylosidase activity was evaluated using p-nitrophenol b-Dxylopyranoside (pNPX) [26]. The concentration of pNPX in reaction mixture is 3 mM. The substrate (in 50 mM citrate buffer) was incubated with the cell culture under 50˚C for 30 min and then 3 mL of 10% Na 2 CO 3 was added to stop the reaction. The release of p-nitrophenol (PNP) was monitored by measuring the absorbance at 408 nm. The activity was also reported as katal/mL. 1 katal was the amount of enzyme needed to produce 1 mol of p-nitrophenol from substrate per second.
+
+
+Assessment of exo-1, 4-beta-xylosidase in converting xylo-oligomers
+
+The ability of the XlnD to convert xylo-oligomers was initially evaluated on low DP (up to DP56) preparations purchased from Megazyme (Wicklow, Ireland). 0.5 mL of mixed solutions of xylobiose, xylotriose, xylotetrose, xylopentose and xylohexaose (1.5 mg/mL each in 50 mM citrate buffer) were incubated with 0.5 mL of enzyme solution (14 nkat/mL) for 2 h at 50˚C and then analyzed for oligomeric and monomeric xylose on a Dionex ICS-3000 ion chromatograph using a Carbopac PA-100 analytical column and pulsed amperometric detection (HPAEC-PAD) [27]. The column and detector were held at 30˚C for the entire 60 minute run time. The mobile phases containing NaOH (150 mM) and NaOAc (250 mM) were operated in a gradient mode with a flow rate of 1 mL/min. The experiments were performed in duplicates.
+
+
+Digestion of Birchwood xylan
+
+The synergistic digesting ability of XlnD to convert xylo-oligomers resulting from XynII was determined by DNS method using birchwood xylan. 0.5 mL of 1.0% w/ v birchwood xylan (in 50 mM pH 5.0 citrate buffer) was incubated with 13.96 nkat (i.e. 0.01 mL, 1396 nkat/mL) of XynII crude enzyme preparation plus 7 nkat (i.e. 0.5 mL, 14 nkat/mL) of Yl[AnXlnD] 96 h cell culture under 50˚C for 5 min and then 1.5 mL DNS solution was added to the test tube and the mixture was boiled in water bath for 5 min. After cooling to room temperature, the absorbance at 540 nm was measured. The xylan digestion test by XynII enzyme or XlnD cell culture individually was prepared in the same way except that the citrate buffer was added to the substrate solution instead of XlnD cell culture or XynII enzyme solution. The experiments were run in triplicates. The data presented were the mean of the triplicates, and error bars represent standard deviation.
+
+
+Evaluation of growth of recombinant strains on birchwood xylan
+
+Growth of recombinant strains was conducted by inoculating respectively 1 mL of 24 h seed culture into baffled shaker flasks containing 10 mL medium consisting of (g/L): AZCL-dyed birchwood xylan (Megazyme, Ireland), 10; (NH 4 
+
+
+Digestion of xylan in pretreated corn stover
+
+Corn stover used for this study was pretreated by alkaline peroxide. The composition of the pretreated stover was determined according to the NREL Laboratory Analytical Procedure [28]. Digestions were run on the pretreated corn stover (0.03 g) with 0.5 mL (1396 nkat/mL) of XynII crude enzyme preparation plus 4.5 mL (14 nkat/mL) of sonicated Yl[AnXlnD] culture cells. Digestions were also run with each individual enzyme at the same loading above. All digestions were run for 24 h at 50˚C in 50 mM citrate buffer at pH 4.8; after which, the hydrolysates were sampled for analysis by HPLC. The xylo-oligomers were analyzed on Dionex ICS-3000 ion chromatograph as described above. The experiments were conducted in triplicates. The data shown were the mean of the triplicates and error bars represent standard deviation.

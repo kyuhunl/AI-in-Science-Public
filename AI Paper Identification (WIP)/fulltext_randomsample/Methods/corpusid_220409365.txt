@@ -1,0 +1,40 @@
+MATERIALS AND METHODS
+
+
+Plant Materials
+
+The elite inbred line 1484, which exhibits complete resistance to SCR, was used as the donor parental line in this study. The SCRsusceptible line Jing2416, which has been extensively used in maize production in China, was the recurrent parent. After an initial cross between 1484 and Jing2416, six rounds of backcrossing and phenotypic selection were performed to generate BC 6 families. Evaluation of resistance and background selection were conducted on each BC 6 family to identify a single resistant individual with the highest proportion of the recurrent parental genome. The selected BC 6 individuals were self-pollinated to obtain homozygous resistance loci. Finally, a near-isogenic line of Jing2416 carrying the resistance gene allele from 1484 was developed (Supplementary Figure S1) and designated as KangxiuJing2416 (Jing2416K). The F 2 population, derived from reciprocal cross between Jing2416K and Jing2416, was used for genetic analysis and fine mapping of RppM.
+
+natural inoculum, and SCR resistance ratings were recorded at the grain filling stage. Using the parental lines Jing2416 and Jing2416K as controls, plants were classified as resistant or susceptible according to a five-point rating scale described by Zhao et al. (2013).
+
+
+Genetic Analysis
+
+Each individual in the F 2 population was classified as resistant or susceptible based on its response to the SCR pathogen, with the parental lines used as controls. c 2 goodness-of-fit tests were applied to determine whether segregation in the F 2 populations corresponded to a 3:1 ratio. If the P-value was greater than the level of significance (0.05), the segregation ratio was considered to fit the expected ratio in the populations.
+
+
+DNA Extraction, Library Construction and Whole-Genome Re-Sequencing
+
+Genomic DNA was extracted from leaves of parental plants and F 2 individuals using the cetyltrimethylammonium bromide method (Murray and Thompson, 1980) with minor modifications. The isolated DNAs of 45 resistant and 45 susceptible plants from the F 2 population and the two parents were quantified by 1% agarose gel electrophoresis with ethidium bromide staining and then more precisely quantified on a Qubit 2.0 fluorometer (Life Technologies, CA, USA).
+
+DNA of resistant and susceptible individuals was taken from single plant and then equal amounts were respectively mixed to prepare resistant and susceptible pools (Liu et al., 2019). We abbreviate Jing2416 as R01, Jing2416K as R02, resistant pool as R03 and susceptible pool as R04 for simplified description. DNAs of four samples (R01, R02, R03, and R04) were randomly broken into 350-bp fragments by ultrasonication. After end repair and addition of nucleotide (A) overhangs, the fragments were ligated with sequencing adapters using T4 DNA ligase and then amplified by PCR. The purified products were used to construct a sequencing library, which was loaded onto an Illumina sequencing platform (Illumina, San Diego, CA, USA) for pairedend sequencing following the manufacturer's recommendations.
+
+
+BSA Combining SNP-Index and InDel-Index Association Analysis
+
+The raw sequencing data were processed to obtain clean reads as described previously (Liu et al., 2019). Clean reads were aligned to the maize B73 RefGen_v4 reference genome (https://www. maizegdb.org/gbrowse) using the Burrows-Wheeler Aligner (Li and Durbin, 2009), and Picard (https://sourceforge.net/projects/ picard/) was used to mark duplicates. Highly accurate SNP and InDel sets were obtained using GATK (Mckenna et al., 2010) and a range of filters (Reumers et al., 2012). An association analysis was performed using both SNP-index (Abe et al., 2012) and InDel-index (Singh et al., 2017) methods.
+
+
+Fine Mapping of RppM
+
+To genotype the parents and 710 susceptible F 2 individuals, 13 InDel markers (Supplementary Table S1) were designed in Primer 5.0 using the parental re-sequencing data. Genotypes were characterized by capillary zone electrophoresis. Each 20-ml PCR mixture contained approximately 100 ng of template DNA, 0.25 mM each of forward and reverse primers, 2× Taq Plus Master Mix (Vazyme Biotech, Beijing, China) and ddH 2 O. The PCR amplification protocol was as follows: denaturation at 95°C for 5 min, followed by 35 cycles of denaturation at 95°C for 40 s, annealing at 57°C for 35 s and extension at 72°C for 45 s, with a final extension step at 72°C for 10 min.
+
+
+Coding Sequence (CDS) Sequencing and Alignment
+
+Target-region sequences were analyzed using the Maize Genetics and Genomics database (https://www.maizegdb.org/gbrowse) and the FGENESH online tool (http://linux1.softberry.com/ berry.phtml). Markers specific for CDSs of ORFs in the candidate region were designed using maize B73 reference sequences and the re-sequencing data (Supplementary Table  S2). After PCR amplification, the products were purified using a Zymoclean Gel DNA Recovery kit (Zymo, Beijing, China) and cloned into a T-vector with a pEASY-Blunt Simple Cloning kit (Trans). After PCR detection, six positive clones were picked out for Sanger sequencing, respectively. Sequence alignments were conducted using DNAMAN v6.0 (http://www.lynnon.com/), and major functional domains were predicted using the Simple Modular Architecture Research Tools (SMART) program (http://smart.embl-heidelberg.de/).
+
+
+Quantitative Real-Time PCR Analysis
+
+For expression analysis of Zm00001d023265 and Zm00001d023267, total RNA was extracted using an RNAprep Pure Plant kit (Tiangen) from ear leaves of Jing2416K and Jing2416 at three time points: 48 Days After Sowing (DAS) (before the appearance of visible lesions in ear leaves of Jing2416), 55 DAS (lesions just visible) and 66 DAS (lesions clearly visible). First-strand cDNA was synthesized using a SuperScript II kit (Takara) following the manufacturer's recommendations. Primer pairs were designed using GenScript (https://www.genscript.com/tools/real-time-pcrtaqman-primer-design-tool) and are listed in Supplementary  Table S3. Quantitative real-time PCR amplifications were carried out using a SYBR Premix Ex Taq kit (Takara) as described previously (Wang et al., 2017), with the maize Actin gene (Zm00001d012277) used as an internal reference. Relative expression levels of the two genes were determined by the 2 −DDCT method (Livak and Schmittgen, 2001).

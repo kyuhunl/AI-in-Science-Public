@@ -1,0 +1,12 @@
+Methodology
+
+A 2×2 supercell of a GeC monolayer with equal number of Ge and C atoms is considered. The GeC structure is fully relaxed with high values of cutoffs for the plane-waves kinetic energy and the charge densities fixed at 1088.5 eV, and 1.088 × 10 4 eV, respectively [25]. In the relaxation process, the forces on the atoms are less than 10 −5 eV/Å, where a dense Monkhorst-Pack grid with 18×18×1 is used. The distance between GeC monolayers is assumed to be 20Å in the z-direction, which is long enough to cancel out interlayer interactions. The generalized gradient approximation (GGA) is used with the Perdew-Burke-Ernzerhof (PBE) functionals approximating the exchange and the correlation terms implemented in QE software [26]. In the calculations of the band structure and the density of states (DOS), Self-Consistent Field (SCF) and non-selfconsistent field (NSCF) calculations are performed, respectively. In these calculations, we use a Monkhorst-Pack grid of 18 × 18 × 1 for the SCF and 100 × 100 × 1 for the NSCF [27]. The optical properties of a GeC monolayer are obtained using QE with the optical broadening of 0.1 eV.
+
+An ab initio molecular dynamics, AIMD, calculations are utilized to check the thermodynamic stability. The calculations, done in the NVT ensemble, are performed for 10 ps with a time step of 1.0 fs using the heat bath approach described by Nosé-Hoover [28].
+
+The optical characteristics of the GeC monolayer can be calculated using a large number of empty bands which is taken into account to evaluate the dielectric properties, ε(ω) = ε 1 (ω) + iε 2 (ω), where ε 1 and ε 2 are the real and the imaginary parts of the dielectric function. In the long wavelength limit q → 0, ε 2 (ω) is given in Refs. [29,30] 
+ε 2 (ω) = 2e 2 π ωε 0 K,c,v | Ψ v K | u· r |Ψ c K | 2 δ(E c K −E v K −ω). (1)
+Herein, ω indicates the frequency of the electromagnetic waves, ε 0 refers to the free space permittivity. The labels v and c indicate the valence and conduction bands, respectively, and u and r demonstrate the polarization and the position vectors of the electromagnetic field, respectively. The real part and the imaginary part of the complex dielectric functions are connected to each other by the Kramers-Kronig relation [31,32]. Both ε 1 (ω) and ε 2 (ω) are obtained from the QE package. Once the dielectric functions are obtained, the real part of the refractive index is calculated as [33] 
+n(ω) = 1 √ 2 ε 2 1 (ω) + ε 2 2 (ω) 1 2 + ε 1 (ω) 1 2 .(2)
+The optical conductivity is then computed from
+σ optical = −i ω 4π ε(ω) − 1 .(3)

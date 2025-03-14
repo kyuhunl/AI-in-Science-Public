@@ -1,0 +1,26 @@
+methoDs
+
+
+Ethical approval
+
+The protocol for this study was approved by the Ethics Committee of King's College London Guy's Hospital (LREC Reference Number: 07/H0804/77). Written informed consent was obtained from the parents of all infants before their inclusion in the study.
+
+
+Subjects
+
+One hundred subjects (70 asthmatics, including 37 patients with mild and 33 patients with moderate and/or severe asthma, and 30 normal controls) were defined according to the Global INitiative for Asthma (GINA) guidelines [9] and recruited in the Department of Asthma, Allergy and Respiratory Science, King's College London School of Medicine, UK. Asthmatics had a clear history of relevant symptoms, documented reversible airway obstruction (20% improvement in forced expiratory volume in 1 s (FEV 1 ) either spontaneously or after administration of inhaled β 2 agonist), and/or histamine provocation concentration causing a 20% fall in FEV 1 (<8 mg/ ml) measured within 2 weeks before BAL. None of them had ever smoked, and there was no history of other respiratory diseases. All subjects were clinically free of respiratory infection and systemic glucocorticoid therapy for at least 1 month before the study. Atopy was defined as a positive skin prick test (wheal at 15 min >3 mm in diameter in the presence of positive histamine and negative diluent controls) to one or more extracts of common local aeroallergens. Of the asthmatics, 63 of 70 were atopic. Of the controls, 4 of 30 were atopic. Normal controls were healthy, lifelong, nonsmoking volunteers who had no history of lung disease.
+
+
+Fiberoptic bronchoscopy and bronchoalveolar lavage
+
+The fiberoptic bronchoscopy procedure was performed as described previously. [10,11] The volume of fluid returned from BAL was measured. The BALF was passed through sterile gauze to remove any mucus. Supernatants were stored at −80°C until used. Cytospins were prepared from the cell pellets, and differential cell counts were performed with hematoxylin and eosin staining. The absolute numbers and percentages of eosinophils, neutrophils, lymphocytes, and monocyte/macrophages were quantified.
+
+
+Analysis of proinflammatory cytokines and chemokines
+
+Meso scale discovery (MSD) system (MSD, Rockville, MD, USA) [12] was used to measure the concentrations of proinflammatory cytokines and chemokines for IL-1β, IL-6, IL-17, IL-18, TNF-α, CXCL8, CXCL10, CCL2, CCL4, CCL11, CCL13, CCL17, CCL22, and CCL26 using a commercial kit (K15054G-2). The concentrations of CXCL9 and CXCL11 in BALF were determined using commercial ELISA kits (R&D System, Inc., Minneapolis, MN, USA). [10] 
+
+
+Statistical analysis
+
+Data were analyzed with the aid of a commercially available statistical package (Minitab for Windows Release 9.2; Minitab Inc., Coventry, UK). The Kruskal-Wallis analysis of variance and the Mann-Whitney U-test (with Bonferroni's correction) were used for between-and within-group comparisons, respectively. Correlation coefficients were obtained by Spearman's rank-order method with correction for tied values. For all tests, a P < 0.05 was considered significant.

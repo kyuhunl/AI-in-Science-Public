@@ -1,0 +1,13 @@
+	(1)
+VARIABLES	topic_hhi_adjusted
+	
+post	0.00313**
+	(0.00156)
+Constant	0.130***
+	(0.0278)
+	
+Observations	146,869
+Number of id_numeric	6,339
+R-squared	0.007
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

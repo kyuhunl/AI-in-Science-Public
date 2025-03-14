@@ -1,0 +1,17 @@
+	(1)	(2)
+VARIABLES	count	count
+		
+post	0.00462	0.00462
+	(0.00556)	(0.00556)
+months_from_start		0.0176***
+		(0.00177)
+1.post#c.pubs_before_treatment_demean	-0.000864***	-0.000864***
+	(0.000151)	(0.000151)
+Constant	0.304***	-3.547***
+	(0.0684)	(0.443)
+		
+Observations	386,136	386,136
+R-squared	0.020	0.020
+Number of id_numeric	16,089	16,089
+Robust standard errors in parentheses		
+*** p<0.01, ** p<0.05, * p<0.1		

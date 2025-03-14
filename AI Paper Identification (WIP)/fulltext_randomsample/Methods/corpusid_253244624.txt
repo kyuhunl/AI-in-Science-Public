@@ -1,0 +1,148 @@
+METHODOLOGY
+
+The overall architecture of our proposed model conforms to the generic self-supervised training paradigm [45]. PADEL contains components of position encoding, data augmentation, contrastive learning, and pooling. Figure 2 illustrates the pipeline of PADEL. The downstream task is subgraph prediction which is formulated as follows: G = ( , ) denotes the base graph, denotes the node set and denotes the edge set. | | and | | denote the number of nodes and the number of edges, respectively. We focus on undirected graphs. Denote = ( ′ , ′ ) as the -th subgraph of G if ′ ⊆ and ′ ⊆ . Each subgraph has the corresponding label . A subgraph may compromise multiple isolated components or a single component containing some connected nodes. Given a new subgraphˆin G, we predict the label ofˆ.
+
+
+Cosine Phase Position Encoding
+
+Representing the non-trivial position information for Non-Euclidean structured data (i.e., nodes or subgraphs in the base graph) is still a challenging problem. The Position-aware Graph Neural Network (P-GNN) [48] tackles this problem via randomly selecting nodes as anchors and aggregating anchors' information to the target node as position encoding. According to the Bourgain theorem [3], a graph with | | nodes requires at least (log 2 | |) anchors to guarantee the expressiveness of position encoding. Sub-GNN [1] inherits the position encoding method of P-GNN. An obvious limitation is the high computational complexity. In each training iteration in SubGNN, it is necessary to re-select anchors randomly, calculate the shortest path from all nodes to anchors and then aggregate anchors' information. Besides, a large space complexity with (| | 2 ) is needed to store the matrix consisting of the shortest paths between nodes in each iteration. The total complexity is very high.
+
+Another limitation of P-GNN is the expressiveness. The propagation of position information in P-GNN is affected by the distance between target nodes and anchors. The aggregated information will be attenuated if the distance is large; therefore, nodes located in the center of the base graph are easy to obtain strong position signals, while nodes located at the edges of the base graph obtain weak position signals. We argue that the above two limitations impede P-GNN for subgraph position encoding.
+
+To solve the problem, we propose our key insight that nodes' position information in the base graph is innate and can be represented by measuring the distance to other nodes. Inspired by the sequential position encoding method in Transformer [37] and the Distance Encoding Neural Network (DENN) [24], we extend the cosine position encoding to Non-Euclidean space to assign a distinctive position encoding for each node in the base graph.
+
+First, we introduce the concept of "diameter" to describe the farthest distance of a node to its reachable nodes. For the base graph G = ( , ), let denote the | |×| | symmetric matrix consisting of distances between nodes in G. For example, , = , denotes the distance (i.e., the length of the shortest path obtained by Dijkstra's algorithm [7]) between nodes and . The diagonal elements of are all 0, i.e., , = 0. If node cannot reach , , = , = ∞. We use to represent the "diameter" of the -th node ,
+= max , , where , ≠ ∞,(1)
+is the maximum value of the shortest path length from to all reachable nodes.
+
+Then, we propose to use the cosine function to encode the matrix . Since the value of could be very large when there are many nodes in graph G, will fluctuate widely in value. Utilizing the periodic property of the cosine function, we apply the function of Eq.(2) to obtain a scaled matrixˆ:
+, =        cos( × , ) , , ≠ ∞ − 1.5 , , = ∞,(2)
+where cos( × , ) means for each node , its all reachable nodes (including itself) are mapped to phase [0, ]. In other words, among all reachable nodes, the distance of the node closest to (itself) is mapped to 1. The distance of other reachable nodes is mapped to smaller values, and if the distance is farther, the mapped value is closer to -1. Unreachable nodes are mapped to a smaller number than -1 (e.g., -1.5). If we think of each element , in as a discrete phase value of the cosine function, can be viewed as the superposition of different cosine phase values. The processed matrixˆhas the following properties: 1] for reachable nodes, and -1.5 for the others. • Distinctiveness: Each row inˆis distinguished from others, because is symmetric andˆ= 1. • Interpretability: Each element inˆis closely related to the minimal number of hops between node and all nodes. Next, we employ the Principal Component Analysis (PCA) [43] to reduce the dimension ofˆto the size of | | × ′ , where ′ is a manually set hyperparameter,
+• Normalization: The computed phases × , in Eq. (2) range in [0, ], soˆ, ∈ [−1,= PCA(ˆ).(3)
+Last, we perform a linear projection on to generate the position embedding matrix with the size of | | × ,
+= ,(4)
+where ∈ R ′ × is a learnable parameter matrix. The reason we introduce the projection matrix is to make position encoding scalable. Since we need to manually specify the dimension for PCA, it's not flexible if we want to adjust the dimension of position encoding. If we apply the projection matrix directly toˆ, will be large, and more importantly, it brings instability to the subsequent training of the model (i.e., the KL term in Eq. (9) will be extremely large).
+
+Compared with P-GNN, our proposed cosine phase position encoding has the following advantages: 1) Our method is anchorfree. The position information is measured only by distance between nodes.
+
+2) The Cosine phase position encoding matrixˆhas the nature of normalization, distinctiveness, and interpretability as analyzed above. 3) Our position encoding method is expressive. We provide a case study in section 4.5 (See Fig. 5). The above three advantages make our method not only a general-purpose position encoding method but also suitable for data-efficient subgraph neural networks.
+
+
+Variational SubGraph AutoEncoder for Data Augmentation
+
+It is essential to prevent information loss during data augmentation [44]. The quality of an augmented graph is crucial in graph contrastive learning [49]. Existing methods [31,49,50,56] are not suitable for subgraph augmentation because a subgraph contains only a small part of the nodes in the base graph, but contains rich position and structural information, which needs to be augmented with appropriate strategies. Unlike existing graph augmentation methods, we utilize generative models to augment subgraphs in PADEL. Specifically, we design a Variational SubGraph AutoEncoder (VSubGAE) with random 1-hop node diffusion. Given the base graph G with | | nodes, suppose the node embedding matrix is ∈ R | |× . We assign a unique feature vector to each node since some nodes may be shared in different subgraphs, and some nodes may not appear in any subgraph. For the -th subgraph , its corresponding adjacency matrix is .
+
+The Encoder. For the -th node ∈ , we have the corresponding node feature vector and the position encoding . We concatenate and , and feed them into the encoder of VSubGAE which is a two-layer GCN: GCN and GCN are defined as:
+( , |[ , ], ) ∼ N ( ([ , ], ), ([ , ], )),(5)GCN , ([ , ], ) =˜ReLU(˜[ ∈ , ∈ ] 1 ) , ,(6)
+where˜= − 1 2 − 1 2 and is the degree matrix of . 1 ∈ R 2 ×2 is the shared learnable matrix, , ∈ R 2 ×2 are learnable matrices. The parameters of GCN layers are shared among all of the subgraphs. The inference process is defined as:
+( |[ , ], A) = =1 | ′ | =1 ( , |[ , ], ),(7)
+where A = { 1 , 2 , · · · , } is the collection of adjacency matrices with elements. The reparameterization trick is used to sample a node feature: , = ([ , ], ) + ([ , ], ) ⊙ , where ⊙ represents point-wise product between two vectors, ∼ N (0, ).
+
+The decoder. We use a simple inner product between latent variables as the decoder, which obtains the possibility of two edges connecting to each other. Thus we have:
+(A| ) = =1 | ′ | =1 | ′ | =1 ( , | , , , ) = =1 | ′ | =1 | ′ | =1 Sig( , , ),(8)
+where Sig(·) denotes the Sigmoid function.
+
+VSubGAE Optimization. Following VGAE [21] and -VAE [16], the optimization goal of VSubGAE is to maximize the variational Evidence Lower Bound (ELBO) with coefficient , which balances the reconstruction accuracy of subgraphs with the independence constraints of the latent variables (i.e. the KL divergence term in L ):
+L =E ∼ ( | [ , ],A) log (A| ) − · KL( ( |[ , ], A)|| ( )),(9)
+where ( ) ∼ N (0, ) is the prior distribution of latent variables , following the common practice in [16,21].
+
+
+Contrastive Learning in PADEL
+
+We train PADEL in a self-supervised manner by contrasting positive and negative sample pairs. As we analyzed in section 1, nodes in subgraphs are only a small part of the base graph. This results in a bias problem which means "hot" nodes (contained in subgraphs) will dominate model training, and "long-tail" nodes (not included in subgraphs) fail to be fully learned. Although we alleviate the problem to some extent by using 1-hop diffusion in the VSubGAE component, nodes far from subgraphs are still unexplored. To further alleviate the bias problem, we propose Exploratory and Exploitable views for subgraph contrastive learning, which is the right part in Figure  2.
+
+The Exploratory View. We design an exploratory view (abbreviated as Explore-View) for data augmentation to enable our model to explore unseen nodes in the base graph. We randomly sample subgraphs in G as augmented data, which allows our model to explore more distant undetected nodes. Let the -th subgraph be the positive sample, we generate exploratory subgraphs S ran by:
+ran = , if = , RandomWalk(ℎ ), otherwise,(10)
+where RandomWalk(ℎ ) means performing ℎ -step random walks on the base graph to generate a random subgraph. ℎ is equal to the average number of nodes for a given dataset.
+
+The Exploitable View. In addition to exploring distant nodes in the base graph, we also need to find the appropriate perturbation from the subgraph for augmentation adaptively. We consider this an exploitable view (abbreviated as Exploit-View) that changes a subgraph's internal connections. To augment data adaptively, we use VSubGAE to generate the augmented adjacency matrix for subgraph by Eq. (7) and (8), which can be denoted as:
+← aug = VSubGAE([ , ], ).(11)
+Contrastive Learning. Given the subgraph set S containing subgraphs, we train all subgraphs in one training step. Each subgraph is treated as a positive sample, while others are treated as negative ones. Exploratory subgraphs are sampled for each positive sample separately in each training step.
+
+The Exploratory view augmentation and Exploitable view augmentation generate augmented subgraphs S ran and S aug , respectively. For the -th subgraph, we choose the exploratory view ran and the exploitable view aug as the positive pair. We define positive and negative pairs as follows:
+
+• Positive pair: ( ran , aug ).
+
+• Explore-View negative pairs: {( ran , ran ), where ≠ }.
+
+• Exploit-View negative pairs: {( ran , aug ), where ≠ }. 
+
+where is the contrastive score as the sum of cosine similarity for both neighbor-position encoding NP and structure-position encoding S (See section 3.4):
+( , ) = NP , NP || NP || × || NP || + S , S || S || × || S || ,(13)
+where ⟨·, ·⟩ denotes inner product and || · || denotes the norm. Next section will discuss how to compute subgraph encoding NP , S with our structure-aware subgraph pooling model.
+
+
+Structure-Aware Subgraph Pooling
+
+Graph readout plays an important role in GEL [29]. We develop a structure-aware subgraph pooling method. The pooling architecture is shown in Figure 3. Our pooling component is designed to learn structure-aware subgraph representations that can capture three aspects of information: neighborhood, position, and structure. The inputs are node embedding matrix and position encoding matrix . We implement structure-aware subgraph pooling through neighbor nodes' message passing with position information and structure extraction based on the position information.
+
+Neighbor Aggregation with Position Information. Node embedding and position encoding of subgraph are concatenated as the input of a GCN layer, and then through a fully-connected layer followed by an average pooling layer:
+NP = _ (ReLU(GCN NP ([ , ], ) FC )),(14)
+where [·, ·] denotes concatenation, is the adjacency matrix of the input subgraph , FC ∈ R 2 ×ˆi s the learnable parameter matrix.
+
+Structure Extraction with Position Information. We believe that the structural information in the graph should be innate and task-agnostic. In subgraphs, the encoded position encoding matrix is considered as the prior information describing each node's position in the base graph. Naturally, we extract the subgraph's structural feature denoted as S from its nodes' position information. We adopt a two-layer Bi-LSTM [11] as the extractor. Since Bi-LSTM is capable of learning order-invariant information, it is useful to extract the subgraph's structural information [1]. Nodes in the subgraph are reorganized into a sequence and fed into the Bi-LSTM unit. We use the hidden state of the last Bi-LSTM layer as the structure encoding:
+S = ReLU(Bi-LSTM( ∈ )).(15)
+We also tried different kinds of layers, such as attention layers and one Bi-LSTM layer; we found that using two Bi-LSTM layers is the best choice.
+
+
+Objective Functions and Optimization
+
+For subgraph encoding = { NP , S }, we use a 1-layer fullyconnected networks to compute classification logitsˆas follows:
+= ( NP + S ) S ,(16)
+where S ∈ Rˆ× is the parameter matrix, depends on the downstream task.ˆis a vector with the same number of elements as the total class number. Let denote the one-hot vector of the groundtruth label, we use the Cross-Entropy Loss L CE as follows:
+L CE ( ,ˆ) = − ∑︁ logˆ ˆ.(17)
+
+EXPERIMENTS
+
+We provide the pseudocode of the algorithm of VSubGAE's random 1-hop subgraph diffusion, the training pipeline of PADEL, and the training data in our anonymous external repository 2 .
+
+
+Datasets
+
+To evaluate the effectiveness of our proposed method PADEL, we conduct extensive experiments on three real-world datasets: HPO-METAB, EM-USER, and HPO-NEURO. All three datasets are released in [1] by the Harvard team and are used in the source code of SubGNN 3 . Table 1 describes their statistics.
+
+• HPO-METAB is a dataset of clinical diagnostic task for rare metabolic disorders. The base graph contains information on phenotypes and genotypes of rare diseases, in which the nodes denote the genetic phenotypes of the diseases and the edges represent the relationships between phenotypes. Information on relationships is obtained from the Human Phenotype Ontology (HPO) [9] and rare disease diagnostic data [2,14,20]. Each subgraph consists of a set of phenotypes associated with rare monogenic metabolic diseases, with a total of 6 metabolic diseases. Subgraph labels represent the diagnosis categories. • HPO-NEURO is used to diagnose rare neurological diseases. It shares the same base graph with HPO-METAB but has different subgraphs. Each subgraph has multiple disease category labels and contains 10 neurological disease categories. • EM-USER's base graph is from the Endomondo [30] social fitness network used to analyze user properties, where nodes represent exercises, and edges will exist if users finish exercises. Subgraphs show the user's exercise records, while labels represent the 2 genders of the user.
+
+
+Experimental settings
+
+Data Processing. Following SubGNN [1], for HPO-METAB and HPO-NEURO datasets, we randomly divide 80% of the data into the training set, 10% of the data into the validation set, and 10% of the data into the test set. For the EM-USER dataset, the proportions are 70%, 15%, and 15%, respectively. Since our model is for data-efficient learning, we randomly select 10% of the original training set as our data-efficient training set. All methods are trained with the same data-efficient training set. The validation and test sets remain the same with the original dataset.
+
+Baselines. We compare the performance of PADEL with the following baseline methods. GCN [22] is the conventional graph convolutional network [22]. GAT [38] is the graph neural network with attention mechanism. GIN [46] is the graph isomorphism network with powerful representation learning capabilities. GraphCL [50] is the representative graph contrastive learning method. GCA [56] is a node-level graph contrastive learning method with adaptive augmentation. JOAO [49] is the automated graph augmentation method which augments graphs adaptively, automatically and dynamically. SubGNN [1] and GLASS [42] are the state-of-the-art (SOTA) subgraph neural networks.
+
+Evaluation Protocals. We adopt the Micro F1 Score [1] as the evaluation metric. Higher scores indicate better performance.
+
+Reproducibility Settings. We develop our model with PyTorch [8] and NetworkX [12]. All methods are trained on a single GeForce RTX 2080Ti GPU. We repeat the experiment 10 times for all methods, each time with a different random seed. After ten experiments, we record the mean and standard deviation of the results. For a fair comparison, the input dimension for all methods is set to 64. In our model, the dimension of the node feature is set to 32, and the dimension of position embedding is also set to 32, so the total dimension is 64. We set the batch size to 32 and set the maximal training epoch to 3000 for all methods to ensure training convergence. We use the AdamW [26] optimizer for optimization and set the weight decay to 1e-2 in AdamW. We search the learning rate in the range of {1e-3, 5e-3, 1e-2} for all methods. The coefficient in VSubGAE is set to 0.2 according to beta-VAE [16].
+
+For GCN and GAT, we use a default 3-layer graph neural network. For GIN, we use a default 3-layer perceptron. For GraphCL [50] and JOAO [49], we convert test datasets to the TUDataset format 4 while retaining all subgraph internal edges and subgraph labels, and we use the default semi-supervised learning setup (the scaling parameter is set to 4 for HPO-METAB and HPO-NEURO datasets, and 5 for the EM-USER dataset). Since GCA [56] is for node classification, we extend it to the subgraph classification task by adding an average pooling layer. For SubGNN [1], we use the optimal model hyperparameters suggested in the official source code 5 .
+
+For multi-label classification on the HPO-NEURO dataset, we treat it as a multiple binary classification task. We calculate the accumulated loss on each label position by using the Binary Cross Entropy loss: (18) where Sig denotes the Sigmoid function.
+L BCE = − ∑︁ [ log(Sig(ˆ)) + (1 − ) log(1 − Sig(ˆ))],
+
+Performance Comparison
+
+Overall Performance. Table 2 describes the overall performance, we can find the following observations:
+
+• PADEL outperforms all baseline methods on three datasets, and the improvement is achieved. PADEL achieves an average improvement of 12.79% compared with the SOTA method SubGNN. • Conventional methods GCN, GAT, and GIN don't perform well.
+
+The possible reason is that their representation learning ability decreases sharply in subgraph neural networks. • Graph augmentation-based methods GraphCL, GCA, and JOAO perform better than conventional methods in general, but the results are subtle. We find that GraphCL and JOAO perform worse on HPO-METAB and HPO-NEURO datasets than GCN and GAT. It reflects the fact that existing graph-level augmentation methods are very limited in subgraph neural networks. GCA performs much better than GraphCL and JOAO on three datasets. The possible reason is that GCA is a node-level self-supervised learning method, it learns node representation effectively by the intra-and inter-view contrastive learning using adaptive augmentation. • SubGNN achieves the previous SOTA performance. SubGNN is a sophisticated method for extracting subgraph representations and passing messages between subgraphs, and this is the reason why SubGNN performs best of all baseline methods. Our proposed model PADEL outperforms SubGNN by large margins.
+
+There are three possible reasons: 1) Nodes' position information is well captured and learned.
+
+2) The augmentation-contrastive learning paradigm in PADEL is effective.
+
+3) The pooling method in PADEL captures subgraphs' structures. 5 https://github.com/mims-harvard/SubGNN/tree/main/best_model_hyperparameters Performance on different scales of data. We compare PADEL with SOTA baselines SubGNN and GLASS by taking 10%, 20%, 30%, 40%, 50%, and 100% of the training set on three datasets to verify their performance. Table 3 describes the results. We have the observation that PADEL outperforms SubGNN across the board. PADEL shows comparative performance with GLASS, but outperforms GLASS in most data-efficient situations.
+
+Time Cost. To compare the time cost, we test on the HPO-METAB (10%) dataset using a single GPU. SubGNN requires preprocessing of the data file, spending 12 minutes calculating the metric of shortest path length, 4 hours calculating the metric of subgraph similarity, and 12 hours calculating node embedding. The training time of SubGNN is 227 seconds for 100 epochs. In the pre-training phase, GLASS doesn't need to compute metrics, but it need 23 hours to pretrian its node embeddings. The average training time of GLASS is 79 seconds for 100 epochs. In comparison, PADEL spends 12 minutes calculating the shortest path lengths, 17 seconds calculating VSubGAE, and 540 seconds on contrast learning. The training time of PADEL is 39 seconds for 100 epochs. Compared with SuhbGNN, the pretraining time of PADEL is 46 times shorter, and the training time is 6 times shorter. PADEL also takes 65 × time shorter in pretraining and 2 × time shorter in training than GLASS. Results are shown in Table 4. We find that the most time-consuming step in PADEL is calculating the distance matrix for 12 minutes because of the (| | 3 ) time complexity of the Dijkstra's algorithm. Although existing SubGNN and its variants [1,42] also need to pre-compute , we leave the problem of learning position embedding more efficiently and making it suitable for larger-scale graphs in future works.
+
+
+Ablation Study
+
+To investigate different components' effectiveness in PADEL, we design eight cases for ablation study ( 0 -7 ). 0 : Only apply the Subgraph Pooling (PL) module. 1 : Only pre-train the node embedding matrix using VSubGAE in a Self-Supervised (SS) manner. The position embedding matrix is initialized randomly. 2 : Only train the Position Encoding (PE). 3 : Initialize node embedding matrix and position embedding matrix randomly, and train PADEL by Contrastive Learning (CL). The subgraph generator VSubGAE is randomly initialized during training. 4 : Remove CL, but SS and PE are retained. 5 : Remove PE, but SS and CL are retained. The outputs of VSubGAE are fed into CL without position embedding. 6 : Remove SS, use the position embedding matrix as input features. 7 : Use all components.
+
+As shown in Table 5, each component of PADEL has a positive impact on results. The combination of all components brings the best results, which is much better than using any component alone. Using two components is better than using a single component, except for 5 . It indicates that PE contributes the most to the model, as can be seen from the results of 2 , 4 , and 6 . We observe that 1    is worse than 0 on the EM-USER dataset. We conduct an in-depth investigation and find that the subgraphs in EM-USER dataset are much larger than those in the other two datasets, so VSubGAE will truncate some of the nodes in the input, resulting in a high VSubGAE reconstruction loss.
+
+
+Case Study
+
+This section attempts to understand how PADEL facilitates subgraph representation learning. We select subgraphs in the HPO-METAB dataset, obtain their feature vectors after subgraph pooling, and visualize them via t-SNE [36] projection. Figure 4(a) illustrates the results learned by PADEL, and Figure 4(b) illustrates the results using simple end-to-end training without position encoding and contrastive learning. Each point represents a subgraph, and different colors represent different labels. We can find that subgraphs with the same label are more likely to cluster together in Figure 4(a), whereas subgraphs are entangled and hard to distinguish in Figure  4(b). It indicates that position encoding and contrastive learning help the model learning subgraph representation.   We provide a toy example on the Zachary's karate club network [10] to illustrate the expressiveness of our PE. We apply 3dimensional cosine position embedding for each node in the graph. We categorize each node's position encoding as a Red-Green-Blue value and color each node to visualize them. Figure 5(a) illustrates the results. We can observe that nodes close to each other have similar colors. Further, we reduce the dimension to 2 and plot the scatter of . The results are shown in Figure 5(b). The position encoding makes nodes linearly separable without supervised signal.

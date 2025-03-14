@@ -1,0 +1,15 @@
+	(1)
+VARIABLES	count
+	
+post	0.00434
+	(0.0131)
+1.post#c.tmonth_demean	0.00365*
+	(0.00199)
+Constant	0.651***
+	(0.128)
+	
+Observations	189,024
+Number of id_numeric	3,938
+R-squared	0.027
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

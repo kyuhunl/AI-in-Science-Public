@@ -1,0 +1,107 @@
+Material and Methods
+
+
+Reagents
+
+
+Human OC cells
+
+Human HGSOC cell lines OVCAR3 were acquired from Ernst Lengyel at the University of Chicago and OVCAR4 was from Joanna Burdette, University of Illinois at Chicago. Kuramochi was procured from the Japanese Collection of Research Bioresources. The cell lines used were genetically validated and tested to be mycoplasma free using respective services from Idexx BioResearch (Columbia, MO). The genetic validation was done using the CellCheck 16 (16 Marker STR Profile and Inter-species Contamination Test) and mycoplasma testing was done using Stat-Myco. Epithelial OC cell lines OVCAR3, OVCAR4, OVCAR8 and Kuramochi and all CAFs were grown in DMEM media (Corning). Media was supplemented with 10% FBS (Atlanta), 1% Penicillin-Streptomycin solution (100x, Corning), 1% MEM vitamins (Corning), and 1% MEM nonessential amino acids (Corning). For experimental seeding or other purposes, cells were detached using Trypsin EDTA 1x (Corning). The serous OC patient ascites-derived OC cells were obtained from Dr. David Pepin, Harvard Medical School, and grown in suspension culture in ultra-low attachment plates in RPMI1640 medium (Corning) supplemented with 2% B-27 (Gibco) and 1% Insulin-Transferrin-Selenium (Gibco).
+
+
+CAFs/fibroblasts
+
+Human primary CAFs were isolated from freshly obtained human serous ovarian carcinoma specimens as described previously (17). CAFs were characterized for αSMA and Vimentin expression and the absence of pan-Keratin expression by immunostaining using αSMA, Vimentin, and pan-Keratin antibodies (Cell Signaling Technologies, Cat. Nos. 19245S, 5741S, and 4545S respectively). Since the experiments involve 7-day cocultures with OC cells followed by ALDEFLUOR assay for OCSCs, it was important to distinguish the CAFs from OC cells. Therefore, CAFs were immortalized with stable expression of human telomerase reverse transcriptase (pBABE-neo-hTERT was a gift from Bob Weinberg (Addgene plasmid # 1774; http://n2t.net/addgene:1774; RRID:Addgene_1774)) and infected with lentivirus for stable RFP expression (GenTarget Inc Cat. No. LVP582). It is specified in the text wherever primary cultures of non-immortalized CAFs were used for experiments. Normal omental fibroblasts were isolated from normal human omentum obtained from female donors as described previously (17). All specimens were de-identified human tissues that were collected during surgery by the Indiana University Simon Cancer Center's Tissue Procurement & Distribution Core using an IRB approved protocol (IRB # 1106005767). The de-identified specimens were obtained from the core using an institutionally approved 'non-human subjects research protocol' (Protocol # 1606070934).
+
+
+Bioinformatics analysis
+
+OC patient RNA sequencing data and patient clinical features were obtained from The Cancer Genome Atlas (TCGA, https://www.cancer.gov/tcga). Microarray data of the Australian Ovarian Cancer Study (AOCS) were downloaded from the GEO database (GSE9891). The oligo (version 1.54.1) R package was used to normalize the expression matrix from the AOCS dataset. Microenvironment Cell Populationscounter (MCP-counter, version 1.2.0) was applied to deconvolve cells in TCGA and the AOCS dataset.
+
+
+Analysis of scRNA-seq data
+
+Preprocessing scRNA-seq data: Cellular annotation file and count matrix (filtered) were downloaded from GSE165897(21). Stromal cells, immune cells and epithelial ovarian cancer cells are identified based on cellular annotation file provided. In order to remove patient-specific effects, we ran Seurat v4.2.1 integration workflow (https://satijalab.org/seurat/articles/integration_introduction.html) for all cells to derive integration matrix by selecting 8000 features.
+
+Imputation of scRNA-seq data: Considering the high dropout rate in single-cell sequencing data matrix, Rmagic v2.0.3 (Markov Affinity-based Graph Imputation of Cells)(22) was utilized to impute missing values, thus restoring the structure of data. We imputed gene expression using MAGIC(k=20, t=3) and integration matrix.
+
+Annotation: We used the shared nearest neighbor (SNN) modularity optimizationbased clustering from Seurat v4.2.1 for initial clustering. SingleR v1.10.0 was used to annotate subpopulations of stromal part of all cells and all stromal cells labeled as fibroblasts. To avoid misclassification of mesothelial and endothelial cells as fibroblasts, we used markers for mesothelial cells (CALB2, KRT19) and endothelial cells (PECAM1, THBD). Fibroblast subpopulations were isolated from stromal part for further downstream analysis workflow described in the tutorial (https://satijalab.org/seurat/articles/pbmc3k_tutorial.html) except for normalizing step to get 9 fibroblast subpopulations with resolution of 0.5. The same workflow was applied to epithelial ovarian cancer cells to get 13 cancer cell subpopulations.
+
+Data Visualization: To visualize cell layouts, uniform manifold approximation and projection (UMAP) was generated based on first 30 principal components. Imputed expression levels of different WNT variants were compared in fibroblasts and ranked from highest to lowest based on mean values in boxplot.
+
+To visualize gene expression projected on cell layouts, imputed expression levels of WNT5A were assigned to corresponding cells in UMAP. Imputed expression levels of WNT5A were compared in different fibroblast subpopulations in boxplot. All visualization methods were implemented in ggplot2 v3.4.0 (https://ggplot2.tidyverse.org).
+
+
+Cellular communication analysis:
+
+To identify the interactions between fibroblasts and cancer cells in terms of non-canonical/canonical WNT signaling pathways, CellChat v1.5.0(23) was used to infer cell-cell communication probabilities based on imputed matrix.
+
+The workflow we used was outlined in the tutorial (https://htmlpreview.github.io/?https://github.com/sqjin/CellChat/blob/master/tutorial/C ellChat-vignette.html).
+
+
+ALDH enzymatic activity assay
+
+ALDH enzymatic activity was measured using an ALDEFLUOR kit (STEMCELL Technologies) following the manufacturer's instructions. Fluorescent imaging of the ALDEFLUOR assay was done using an EVOS FL Auto microscope (Thermo Fisher Scientific). At least 3 different images were taken from 3 different technical replicates, and at least 3 different biological replicates were done for each experiment. ALDH positive cells population was also quantified by LSRII flow cytometer (BD Biosciences) in the non-RFP cells in cocultures of OC cells with RFP expressing CAFs as outlined in Supplementary Figure 4A. The FACS data analysis workflow and all FACS data is provided in the supplementary data file (combined in Supplementary  Figure 8). Of note, the CAFs did not have ALDH activity. In experiments to separate the ALDH positive and negative OC cells, ALDEFLUOR assay was followed by cell sorting using FACS Aria II (BD Biosciences).
+
+
+Spheroid formation and imaging
+
+Cancer cells were trypsinized and seeded in ultra-low attachment plates (Corning) for spheroid formation assay. Cancer stem cell media is used in the assay, as described previously(4). 1000 cells were seeded in each well and cultured for 14 days before imaging using an EVOS FL Auto microscope (Thermo Fisher Scientific). At least 3 different images were taken from 3 different technical replicates, and at least 3 different biological replicates were done for each image. Spheroids were manually quantified.
+
+
+Spheroid immunofluorescent staining
+
+3x10 5 OVCAR3 cells were seeded with 3x10 5 CAFs in 6-well ultra-low attachment plates (Corning). At the time of seeding, the plate was kept inclined for 30 minutes to help the OC cells and CAFs aggregate and interact. Thereafter, plates were reverted to the usual horizontal position and cultured for 7 days to allow the heterotypic spheroids to grow. Spheroid fixation, blocking, and antibody staining were done as described by Condello et al(24). Briefly, spheroids were fixed and permeabilized in suspension for 3h at 4°C in PBS containing 4% PFA and 1% Triton X-100. Spheroids were dehydrated with increasing concentrations of methanol (25%, 50%, 75%, 95%, 100%) and rehydrated in the opposite sequence, then stained with ALDH1 ( 
+
+
+Interface interaction assay
+
+OVCAR3 cells and CAFs were trypsinized and counted. 12mm round coverslips (TED PELLA, Cat. No. 26023) were placed in wells of 24-well tissue culture plates (Corning,. Cloning rings (6mm diameter, 8mm height, PYREX, Cat. No. CLS31666) were carefully placed at the center of the coverslip. 15,000 OVCAR3 cells suspended in 100μL cell culture medium were slowly added to the center of the cloning ring. 150,000 CAFs in 500μL cell culture medium were added outside the ring in the well. After overnight incubation to allow attachment, the rings were removed. The two cell types were allowed to grow and merge at the interface over 48h. Thereafter, cells were treated with 33μM carboplatin (IC50 for MTT assay) for 48h followed by TUNEL staining. For the ALDH1 staining experiment, cells were fixed and stained 48h after merger at the interface. 
+
+
+Tumor immunofluorescence staining
+
+De-identified HGSOC patient tumors collected during surgery by the Indiana University Simon Cancer Center's Tissue Procurement & Distribution Core were obtained from the core using an institutionally approved 'non-human subjects research protocol' (Protocol # 1606070934). Freshly collected tumors were embedded in OCT compound (Tissue-Tek), flash-frozen, and stored at -80°C. 12μm tumor sections were made using a cryo-microtome (Leica CM1850), fixed with 4% PFA for 15 minutes at 37°C, permeabilized with 1X Proteinase K solution (provided in the Click-It TUNEL Assay kit) followed by TUNEL staining using Click-iT TUNEL Alexa Fluor Imaging Assay for Microscopy (Thermo Fisher Scientific Cat. No. C10245). The OC cells were labeled with Pan-Keratin (1:200, Cell Signaling Technology, Cat. No. 4545S) and CAFs with αSMA (1:200, Cell Signaling Technology, Cat. No. 19245S). Alexa Fluor 594 conjugated goat-anti-mouse (1:1000, Cell Signaling Technology, Cat. No. 8890S) and Alexa Fluor 647 conjugated goatanti-rabbit (1:1000, Cell Signaling Technology, Cat. No. 4414S) were used to detect the primary antibodies and nuclei were labeled with Hoechst 33342 (1:10,000, Life Technologies). The slides were mounted with ProLong Gold (Invitrogen), and the images were acquired with a Leica SP8 confocal microscope.
+
+
+Gene silencing
+
+Cells were seeded in culture plates (Corning) in antibiotic-free DMEM one day before transfection of siRNA. Cells were transfected with 25nM LRP5, LRP6, ROR2, CREB1 and PORCN siRNA (Dhramacon, SMARTPool Cat. Nos. L-003844-00-0005, L-003845-00-0005, L-003172-00-0005, 003619-00-0005, L-009613-00-0005 respectively) using TransIT-X2 transfection reagent (Mirus, Cat. No. MIR6003) following the manufacturer's protocol. The cells were used for experiments 48h after transfection unless indicated otherwise.
+
+
+CRISPR knockout
+
+
+WNT5A
+
+sgRNA (Synthego CRISPRevolution sgRNA EZ Kit, Seq: uccugggcuuaauauuccaa) and Cas9 enzyme (Synthego Cas9 2NLS) ribonucleoprotein complexes were made following manufacturer's protocol. The reaction mixture was electroporated into cells using NeonTransfection System 10 μL Kit (Thermo Fisher Scientific, Cat. No. MPK1025) with the Neon Transfection System (Thermo Fisher Scientific, Cat. No. MPK5000). Knockout efficiency was screened using T7E1 assay and target protein expression level was further screened and validated by immunoblotting.
+
+
+Reverse transcription-quantitative PCR
+
+Reverse Transcription was done using MultiScribe Reverse Transcriptase kit Thermo Fisher Scientific, Cat. No. 4311235) according to the manufacturer's protocol using a Veriti 96-Well Thermal Cycler (Thermo Fisher Scientific). Quantitative real-time PCR for ALDH1A1, Wnt5a, SOX2, OCT4, NANOG, and PORCN was performed using TaqMan gene expression assay (Applied Biosystems, Cat. Nos. Hs00946916_m1, Hs00998537_m1, Hs01053049_S1, Hs00999634_gh, Hs02387400_g1, Hs00224508_m1 respectively) using GAPDH as an endogenous control on LightCycler 96 PCR system (Roche) using Faststart Essential DNA master mix (Roche, Cat. No. 06924492001).
+
+
+Immunoblotting
+
+Immunoblotting was done as previously described (17,25). Briefly, electrophoresis was performed to separate proteins on 4-20% SDS-PAGE precast gels (Bio-Rad, Cat. No. 4561094) and transferred onto nitrocellulose membranes (Amersham), blocked with 5% skim milk, and probed with ALDH1 (BD biosciences, Cat. No. 611194), unphosphorylated-β-catenin, pan phosphorylated-PKC, Wnt5a, pan-Keratin, phosphorylated-Jun, phosphorylated-CAMKII (Cell signaling Technologies, Cat. Nos. 19807S, 9371S, 2530S, 4545S, 3270S, 12716S respectively), phosphorylated-CREB1, pan PKC, CREB1 (Santa Cruz, Cat. Nos. sc-81486, sc-7769, sc-377154 respectively) primary antibodies and detected using HRP-conjugated Mouse/Rabbit IgG secondary antibodies (Cell Signaling Technologies, Cat. Nos. 7076/7074). βactin-HRP antibody (Sigma, Cat. No A3854) was used to detect actin.
+
+
+Immunohistochemistry
+
+Immunohistochemical experiments were performed by the Immunohistochemistry core facility of Indiana University School of Medicine using 5 μm thick formalin-fixed deparaffinized sections as previously described (17,25). Tumor sections were probed with ALDH1A1 (Abcam, Cat. No. ab52492) or αSMA (Cell signaling Technologies, Cat. No. 19245). Images were acquired using EVOS FL Auto microscope (Thermo Fisher Scientific) using 10x and 40x objectives.
+
+
+Xenograft Experiments
+
+OVCAR3 cells (1x10 6 ) and CAFs (2x10 6 ) were mixed in 100μL growth factor reduced matrigel (Corning, Cat. No CLS356231) and injected subcutaneously into flanks of 6week-old, female NSG mice. Once tumors were palpable, mice were randomized into 4 treatment groups (n=5) and treated with carboplatin (25mg/kg, weekly), Box5 (1.6mg/kg, thrice a week), both, or vehicle (PBS). Mice were euthanized after 4 weeks of treatment. Tumors were removed, weighed, and dissociated with a gentleMACS Dissociator (Miltenyi Biotec) using human tumor dissociation kit  for subsequent experiments. For in vivo limiting dilution assay pre-cocultured or control OVCAR3 cells were injected subcutaneously in the right and left flanks respectively of 6-week-old female NSG mice as indicated in Figure 2D. Mice were euthanized 71 days after injection and the tumor take was quantified.
+
+
+Study approval
+
+All specimens were collected during surgery, having obtained informed consent prior to participation, by the Indiana University Simon Cancer Center's Tissue Procurement & Distribution Core using an IRB approved protocol (IRB # 1106005767). The de-identified specimens were obtained from the core using an institutionally approved 'non-human subjects research protocol' (Protocol # 1606070934). All animal experiments were conducted following protocols approved by the Indiana University Bloomington Institutional Animal Care and Use Committee.
+
+
+Statistics
+
+Statistical analyses were conducted using Student's t test. A two-tailed Student's ttest was used for comparison between 2 groups. For all experiments, at least 3 independent biological replicates (n=3) were done. Mean ± SD was shown for each bar graph. P values of less than 0.01 were considered to be statistically significant, unless specified in the figure legend.

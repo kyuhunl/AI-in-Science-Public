@@ -1,0 +1,44 @@
+' MATERIALS AND METHODS
+
+
+Design and subjects
+
+This study used a randomized, prospective, parallel design. A total of 83 newly diagnosed T2DM patients from the First Affiliated Hospital of Dalian Medical University were screened. Patients were diagnosed with T2DM within the past year according to the 2013 American Diabetes Association (ADA) criteria, age from 18 to 65 years and fasting FPGX11.1 mmol/L and/or HbA1cX9%. These patients had never taken oral hypoglycemic agents or received insulin treatment prior to their participation in the present trial.
+
+The exclusion criteria were as follows: the presence of acute complications of diabetes, such as diabetic ketoacidosis or hyperosmolar hyperglycemic syndrome; severe cardiovascular or cerebrovascular events within the past 6 months; kidney damage (estimated glomerular filtration rate less than 60 ml/min Á 1.73 m 2 ), or liver damage (alanine aminotransferase or aspartate aminotransferase 2.5 times more than the normal upper limit); the presence of a tumor, severe infection, or stress; a history of acute pancreatitis; or a history of gastrointestinal surgery.
+
+The protocol was approved by the ethics committee of the First Affiliated Hospital of Dalian Medical University (Ethics References No: YJ-KY-FB-2015-02) and performed in accordance with the Declaration of Helsinki and good clinical practice guidelines. All patients provided written informed consent and then received screening.
+
+
+Randomization and masking
+
+Using a computer-generated random number sequence, the patients were randomly and evenly divided into groups receiving sitagliptin 100 mg per day + metformin + insulin glargine or voglibose 0.2 mg three times daily + metformin + insulin glargine. The random numbers were stored in a closed opaque envelope. The researchers and patients were aware of the grouping and the drug interventions, but the investigators in charge of data collection and analysis were masked to the grouping and drug interventions.
+
+
+Procedures
+
+All patients received diabetes health education, diabetes diets were provided by the nutrition department, and the patients were instructed to comply with a routine exercise plan.
+
+Patients in the sitagliptin group took sitagliptin (100 mg, MSD, Hangzhou) 15 minutes before breakfast; patients in the voglibose group took voglibose (0.2 mg, Takeda, Japan) three times daily with meals. Metformin hydrochloride (0.5 g, SASS, Shanghai) was also orally administered three times daily with meals.
+
+Subcutaneous injection of insulin glargine (Sanofi, France) was administered prior to bedtime. Insulin glargine was used at a dosage of 0.2 U Á kg -1 d -1 initially. The amount of insulin glargine was adjusted based on the results of a fingerprick test. For patients who had fasting blood glucose (FBG) X7 mmol/L for two consecutive days, insulin glargine was increased by 2 U. For patients who had FBGo5 mmol/L or showed hypoglycemia without obvious cause, the insulin glargine dose was decreased by 2 U, as described previously (14). Administration of insulin glargine was discontinued when the dose was p10 U/d.
+
+Every two weeks, telephone follow-up was conducted to record the current amount of insulin intake, fasting and postprandial blood glucose levels, hypoglycemic events and fingertip blood glucose levels at that time. At baseline and three months, the HbA1c level was examined, a 75-g oral glucose tolerance test was conducted, and FPG, two-hour postprandial plasma glucose (2-h PPG), fasting C peptide (FCP) and 2-h C peptide (CP) were measured. In addition, body weight was measured.
+
+C peptide test: After fasting overnight, patients consumed a mixture of 150 mL of warm water and 150 mL of 50% glucose solution over a five-minute period. Venous blood was drawn before and two hours after consumption of the mixture. Serum FCP and 2-h CP levels were examined by electrochemiluminescence. Morning FBG and 2-h PBG levels after three meals were monitored using a finger-prick test (ACCU-CHEK Performa, Roche, Germany) according to the instructions (15). FPG, liver function, kidney function, and blood lipids were measured by an automatic biochemical analyzer (HITACHI 7600-210, Japan), and HbA1c was determined using HPLC (VARIANT-II, Bio-Rad, CA, USA). Homeostatic model assessment of insulin resistance (HOMA-IR) and b function (HOMA-b) were calculated according to wellestablished methods (16).
+
+Symptomatic hypoglycemia was defined as the occurrence of dizziness, palpitations and other symptoms of sympathetic nerve stimulation; biochemical hypoglycemia was defined as a finger-prick blood glucose o4.4 mmol/L.
+
+
+Outcomes
+
+The change in HbA1c from baseline to week 12 was the primary endpoint. The changes in FPG, 2-h PPG, HOMA-IR, HOMA-b, and body weight at week 12 compared with baseline, and duration and dosage of insulin application were the secondary endpoints.
+
+
+Statistical methods
+
+The standard deviation was assumed to be 0.6%, as described previously (9). If the difference in HbA1c between the sitagliptin group and voglibose group was 0.5%, 33 patients were required in each group (66 patients in total) to reach 90% power, permitting a 10% dropout rate; thus, a total of 70 patients were included in the randomization.
+
+The analysis of outcomes was conducted in accordance with the principle of intention to treat.
+
+Data that accorded with a normal distribution are expressed as the mean ± standard deviation (x±s), intergroup differences were compared by an independent samples t-test, and intragroup differences were compared by a paired sample t-test. All p-values were two-sided, and po0.05 indicates a statistically significant difference.

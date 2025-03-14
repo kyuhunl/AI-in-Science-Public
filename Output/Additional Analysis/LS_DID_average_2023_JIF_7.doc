@@ -1,0 +1,23 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx3024\clbrdrt\brdrs\cellx4752\clbrdrt\brdrs\cellx9072\clbrdrt\brdrs\cellx10656\clbrdrt\brdrs\cellx11952\clbrdrt\brdrs\cellx13824
+\ql \cell\qc (1)\cell\qc (2)\cell\qc (3)\cell\qc (4)\cell\qc (5)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4752\cellx9072\cellx10656\cellx11952\cellx13824
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4752\clbrdrb\brdrs\cellx9072\clbrdrb\brdrs\cellx10656\clbrdrb\brdrs\cellx11952\clbrdrb\brdrs\cellx13824
+\ql VARIABLES\cell\qc No Controls\cell\qc Months from First Publication\cell\qc Months Exp\cell\qc Pubs Exp\cell\qc All Controls\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4752\cellx9072\cellx10656\cellx11952\cellx13824
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql post\cell\qc -0.00414\cell\qc -0.00414\cell\qc -0.00414\cell\qc -0.00414\cell\qc -0.00414\cell\row
+\ql \cell\qc (0.162)\cell\qc (0.162)\cell\qc (0.162)\cell\qc (0.162)\cell\qc (0.162)\cell\row
+\ql months_from_start\cell\qc \cell\qc -0.136\cell\qc \cell\qc \cell\qc -0.136\cell\row
+\ql \cell\qc \cell\qc (0.139)\cell\qc \cell\qc \cell\qc (0.139)\cell\row
+\ql Constant\cell\qc 16.03*\cell\qc 49.92\cell\qc 16.03*\cell\qc 16.03*\cell\qc 49.92\cell\row
+\ql \cell\qc (8.336)\cell\qc (42.82)\cell\qc (8.336)\cell\qc (8.336)\cell\qc (42.82)\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql Observations\cell\qc 68,516\cell\qc 68,516\cell\qc 68,516\cell\qc 68,516\cell\qc 68,516\cell\row
+\ql R-squared\cell\qc 0.012\cell\qc 0.012\cell\qc 0.012\cell\qc 0.012\cell\qc 0.012\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4752\clbrdrb\brdrs\cellx9072\clbrdrb\brdrs\cellx10656\clbrdrb\brdrs\cellx11952\clbrdrb\brdrs\cellx13824
+\ql Number of id_numeric\cell\qc 4,065\cell\qc 4,065\cell\qc 4,065\cell\qc 4,065\cell\qc 4,065\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

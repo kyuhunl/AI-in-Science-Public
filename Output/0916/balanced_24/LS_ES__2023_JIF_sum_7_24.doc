@@ -1,0 +1,113 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx3024\clbrdrt\brdrs\cellx5040
+\ql \cell\qc (1)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx5040
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx5040
+\ql VARIABLES\cell\qc _2023_JIF_sum\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx5040
+\ql \cell\qc \cell\row
+\ql time24_0\cell\qc 2.225\cell\row
+\ql \cell\qc (2.561)\cell\row
+\ql time24_1\cell\qc 1.786\cell\row
+\ql \cell\qc (2.495)\cell\row
+\ql time24_2\cell\qc 1.583\cell\row
+\ql \cell\qc (2.427)\cell\row
+\ql time24_3\cell\qc 1.874\cell\row
+\ql \cell\qc (2.369)\cell\row
+\ql time24_4\cell\qc 1.993\cell\row
+\ql \cell\qc (2.292)\cell\row
+\ql time24_5\cell\qc 1.670\cell\row
+\ql \cell\qc (2.241)\cell\row
+\ql time24_6\cell\qc 2.124\cell\row
+\ql \cell\qc (2.197)\cell\row
+\ql time24_7\cell\qc 2.068\cell\row
+\ql \cell\qc (2.128)\cell\row
+\ql time24_8\cell\qc 2.192\cell\row
+\ql \cell\qc (2.075)\cell\row
+\ql time24_9\cell\qc 1.865\cell\row
+\ql \cell\qc (2.025)\cell\row
+\ql time24_10\cell\qc 1.371\cell\row
+\ql \cell\qc (1.994)\cell\row
+\ql time24_11\cell\qc 1.374\cell\row
+\ql \cell\qc (1.896)\cell\row
+\ql time24_12\cell\qc 2.076\cell\row
+\ql \cell\qc (1.848)\cell\row
+\ql time24_13\cell\qc 2.208\cell\row
+\ql \cell\qc (1.782)\cell\row
+\ql time24_14\cell\qc 1.113\cell\row
+\ql \cell\qc (1.703)\cell\row
+\ql time24_15\cell\qc 1.452\cell\row
+\ql \cell\qc (1.652)\cell\row
+\ql time24_16\cell\qc 1.017\cell\row
+\ql \cell\qc (1.568)\cell\row
+\ql time24_17\cell\qc 1.086\cell\row
+\ql \cell\qc (1.522)\cell\row
+\ql time24_18\cell\qc 0.369\cell\row
+\ql \cell\qc (1.448)\cell\row
+\ql time24_19\cell\qc 1.098\cell\row
+\ql \cell\qc (1.389)\cell\row
+\ql time24_20\cell\qc 0.581\cell\row
+\ql \cell\qc (1.328)\cell\row
+\ql time24_21\cell\qc 0.336\cell\row
+\ql \cell\qc (1.273)\cell\row
+\ql time24_22\cell\qc 0.446\cell\row
+\ql \cell\qc (1.221)\cell\row
+\ql time24_23\cell\qc 0.345\cell\row
+\ql \cell\qc (1.143)\cell\row
+\ql time24_25\cell\qc 0.0937\cell\row
+\ql \cell\qc (0.991)\cell\row
+\ql time24_26\cell\qc -0.0751\cell\row
+\ql \cell\qc (0.915)\cell\row
+\ql time24_27\cell\qc -0.273\cell\row
+\ql \cell\qc (0.851)\cell\row
+\ql time24_28\cell\qc -0.168\cell\row
+\ql \cell\qc (0.803)\cell\row
+\ql time24_29\cell\qc -0.381\cell\row
+\ql \cell\qc (0.752)\cell\row
+\ql time24_30\cell\qc -0.381\cell\row
+\ql \cell\qc (0.692)\cell\row
+\ql time24_31\cell\qc -0.152\cell\row
+\ql \cell\qc (0.623)\cell\row
+\ql time24_32\cell\qc 0.0510\cell\row
+\ql \cell\qc (0.568)\cell\row
+\ql time24_33\cell\qc -0.526\cell\row
+\ql \cell\qc (0.501)\cell\row
+\ql time24_34\cell\qc -0.373\cell\row
+\ql \cell\qc (0.438)\cell\row
+\ql time24_35\cell\qc -0.383\cell\row
+\ql \cell\qc (0.348)\cell\row
+\ql time24_36\cell\qc 0.00777\cell\row
+\ql \cell\qc (0.314)\cell\row
+\ql time24_37\cell\qc 0.872***\cell\row
+\ql \cell\qc (0.306)\cell\row
+\ql time24_39\cell\qc -0.234\cell\row
+\ql \cell\qc (0.287)\cell\row
+\ql time24_40\cell\qc -0.0524\cell\row
+\ql \cell\qc (0.335)\cell\row
+\ql time24_41\cell\qc -0.334\cell\row
+\ql \cell\qc (0.364)\cell\row
+\ql time24_42\cell\qc -0.411\cell\row
+\ql \cell\qc (0.421)\cell\row
+\ql time24_43\cell\qc -0.893*\cell\row
+\ql \cell\qc (0.483)\cell\row
+\ql time24_44\cell\qc -0.814\cell\row
+\ql \cell\qc (0.552)\cell\row
+\ql time24_45\cell\qc -1.244**\cell\row
+\ql \cell\qc (0.602)\cell\row
+\ql time24_46\cell\qc -1.405**\cell\row
+\ql \cell\qc (0.684)\cell\row
+\ql time24_47\cell\qc -1.116\cell\row
+\ql \cell\qc (0.745)\cell\row
+\ql time24_48\cell\qc 0.217\cell\row
+\ql \cell\qc (0.852)\cell\row
+\ql Constant\cell\qc 5.088***\cell\row
+\ql \cell\qc (0.976)\cell\row
+\ql \cell\qc \cell\row
+\ql Observations\cell\qc 88,752\cell\row
+\ql Number of id_numeric\cell\qc 1,849\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx5040
+\ql R-squared\cell\qc 0.007\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

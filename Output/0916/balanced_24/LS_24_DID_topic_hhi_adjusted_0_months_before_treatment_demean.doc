@@ -1,0 +1,23 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx5760\clbrdrt\brdrs\cellx8496
+\ql \cell\qc (1)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx5760\cellx8496
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx5760\clbrdrb\brdrs\cellx8496
+\ql VARIABLES\cell\qc topic_hhi_adjusted\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx5760\cellx8496
+\ql \cell\qc \cell\row
+\ql post\cell\qc 0.00167\cell\row
+\ql \cell\qc (0.00122)\cell\row
+\ql 1.post#c.months_before_treatment_demean\cell\qc 5.17e-05***\cell\row
+\ql \cell\qc (1.21e-05)\cell\row
+\ql Constant\cell\qc 0.0680**\cell\row
+\ql \cell\qc (0.0276)\cell\row
+\ql \cell\qc \cell\row
+\ql Observations\cell\qc 186,874\cell\row
+\ql Number of id_numeric\cell\qc 3,938\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx5760\clbrdrb\brdrs\cellx8496
+\ql R-squared\cell\qc 0.020\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

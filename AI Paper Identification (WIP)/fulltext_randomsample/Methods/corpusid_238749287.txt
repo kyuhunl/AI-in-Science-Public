@@ -1,0 +1,47 @@
+Materials and methods
+
+
+Patient cohort
+
+We identified patients with newly diagnosed and pathologically confirmed glioblastoma and grade 4 astrocytoma, IDH-mutant at our institution from December 2014 through January 2020. In our electronic medical record system, the diagnosis was glioblastoma, in line with the 2016 WHO classification. Eligible patients met both of the following criteria: (1) had preoperative MRI, including sequences of T1-and T2-weighted image (T1WI and T2WI), FLAIR, and contrast-enhanced T1WI; and (2) had a known specific genetic alteration status, that is, IDH and ATRX mutation, MGMT promoter methylation, and EGFR amplification. This retrospective study was approved by our institutional review board, and the informed consent requirement was waived.
+
+We initially screened 471 patients from medical records. Patients without molecular marker information (n = 20) or preoperative MRI were excluded (n = 11). Patients with the poor image quality of MRI scans or without the full four sequences were also excluded (n = 19). Furthermore, we excluded two patients due to segmentation failure and one due to feature extraction error. Finally, 418 patients were enrolled.
+
+The final study cohort was randomly split into training and test sets (7:3 ratio) while maintaining the proportions of two less-frequent mutations: IDH and ATRX.
+
+
+Image processing and radiomic feature extraction
+
+All preoperative MRI scans were performed using a 3 T system MRI with an eight-channel sensitivity-encoding head coil (Achieva or Ingenia, Philips Healthcare). The MRI parameters are described in the Supplementary material. Using T1WI, T2WI, FLAIR, and contrast-enhanced T1WI, a previously described and validated algorithm (HD-GLIO) was used to produce contrast-enhancing tumor (CE) and non-enhancing T2/FLAIR signal abnormality (T2) segmentation masks of the tumors [27,28]. During this process, image co-registration and brain extraction were also performed. After that, images were resampled to an identical spatial resolution of 1 × 1 × 1 mm. A board-certified neuroradiologist inspected all images and masks to ensure accuracy. These images were subjected to N4 bias correction to remove low-frequency intensity and nonuniformity. After N4 bias correction, Z-score image normalization was done. A total of 660 radiomic features were extracted from the masks on T1WI, T2WI, FLAIR, and contrast-enhanced T1WI using pyradiomics with a bin count of 32 (http:// www. radio mics. io/ pyrad iomics. html) [29].
+
+
+Genetic evaluation and molecular subtyping
+
+For IDH and EGFR, mutational and copy number analyses were performed by targeted next-generation sequencing, using the TruSight Tumor 170 panel [23]. Immunohistochemistry was performed using antibodies against ATRX protein. Staining loss in > 50% of tumor cells was considered an ATRX loss case. MGMT promoter methylation was evaluated through a methylation-specific polymerase chain reaction [30].
+
+
+Visualization of mutual relations of genetic alterations
+
+An UpSet plot was drawn based on the frequency table from the entire dataset to examine the relationships between the mutations of IDH, ATRX, MGMT, and EGFR [31]. The UpSet plots the intersections of a set as a matrix (Fig. 1). Each column corresponds to a set, and each row corresponds to one segment in a Venn diagram.
+
+
+Multi-label oversampling of training data
+
+Our data had class imbalance, especially for IDH and ATRX. Synthetic Minority Oversampling Technique (SMOTE) is currently one of the most commonly used algorithms to handle this imbalance [32]. We used Multi-Label SMOTE (ML-SMOTE) to mitigate the class imbalance because our task was multi-label classification [33].
+
+
+Multi-label classification
+
+A common approach to multi-label classification is the binary relevance (BR) method, whereby a multi-label problem is transformed into multiple binary problems, such that a binary model is trained for each label. Classifier chain (CC) is another approach for multi-label classification; it links classifiers along a chain where each classifier deals with a single-label classification [34]. CC is based on the BR method but can take into account label correlations (Fig. 2); therefore, it is often applied in an ensemble framework, whereby multiple chains with different orders of classifiers are ensembled [34]. In this study, we compared the BR and ensemble CC (ECC) methods.
+
+
+Model development and validation
+
+For both BR and ECC methods, the basic unit of our models was a pipeline consisting of three components: a standardizer using Z-score normalization, a feature selector using the least absolute shrinkage and selection operator (LASSO), and a classifier using the support vector machine with the linear kernel (Fig. 2). For the BR method, each pipeline for a single label was trained separately. For the ECC method, ten different CCs with random classifier orders were trained, and the mean value of the predicted probabilities was used as the final prediction. Hyperparameter tuning is described in the Supplementary material.
+
+After training the BR and ECC models with the optimized number of input features and C values, the trained models were tested in the test dataset.
+
+
+Feature importance for CC
+
+To examine whether the predicted outcomes from earlier classifiers played important roles in the next prediction along a chain and identify radiomics features that were important for predicting mutations in the four genes, we calculated the mean absolute Shapley value for each of the selected Fig. 2 The structure of independent classifiers for the binary relevance and classifier chain models. Ten different classifier chain models were averaged for the ensemble input features using the Shapley additive explanations (SHAP) algorithm. For this analysis, the classifier order of IDH > ATRX > MGMT > EGFR was chosen in decreasing order of the test performance. All process up to this point has been done using Python 3 with ScikitLearn library v0.21.2 and the R software (version 3.5.1; R Foundation for Statistical Computing, Vienna, Austria).

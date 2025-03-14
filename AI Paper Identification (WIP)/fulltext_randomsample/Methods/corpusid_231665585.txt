@@ -1,0 +1,33 @@
+Methods
+
+
+Study population
+
+This cross-sectional study included 222 children (boys: 126; girls: 96) aged 3-6 years from two kindergartens in Guiyu, an e-waste disposal area (exposed group). In addition, 204 children (boys: 112; girls: 92) aged 3-6 years were recruited from three kindergartens in the Haojiang District (mainly engaged in agriculture and fishery, approximately 50 km from Guiyu) (control group) in 2014. This district does not conduct e-waste disassembly operations. All participants fulfilled the inclusion criteria as determined by a questionnaire survey and laboratory tests: (1) they lived in the study area for at least 3 years; (2) they had no serious haematological system disease in the past, such as aplastic anaemia and leukaemia; (3) they had no history of taking iron, folic acid or vitamin B 12 in the past three months; and (4) thalassemia was excluded by Hb electrophoresis screening. Medical examinations were conducted with the permission of children and the written permission of the children's guardians and the approval of the Ethics Committee of the Medical College of Shantou University.
+
+
+Sample collection and biochemical measurements
+
+Care was taken to ensure that the venepuncture sites (routinely the back of the child's hand) were completely sterilized, and 5 ml of venous blood was collected by a professional nurse. One millilitre of whole blood was immediately tested for Hb by the Hb cyanide (HiCN) method. One millilitre of whole blood was centrifuged at 5000 rpm for 5 min for Hb electrophoresis screening. Serum was obtained from two millilitre of whole blood and centrifuged at 3000 rpm for 15 min to determine ferritin, folic acid and vitamin B 12 levels. Hb level was measured using an automatic LH-780 haematology analyser (Beckmann, Germany). Hb electrophoresis was done using agarose gel zone electrophoresis (PN1210 electrophoresis apparatus, Sevilla, France). Ferritin, folic acid, and vitamin 12 levels were determined via chemiluminescence (Advia Centaur XP automatic immunoassay of Siemens, Germany). Because children in both areas did not get their blood drawn at the same time, to reduce the detection error, the remaining 1 ml of blood was placed in a 2-ml vacuum blood vessel containing EDTA (40 U) anticoagulant, and each blood sample was stored at −20 °C to detect the BLL. The blood collection and sample management processes were carried out by professional staff, and all laboratory indicators adhered to standard reference materials.
+
+
+Measurement of BLLs
+
+Before analyses, 100 μL of sampled blood was added to 900 μl of 0.5% nitric acid. This was then vortexed and digested at room temperature for 10 min. The resulting mixture was then used for the determination of lead levels.
+
+Lead levels were determined using graphite furnace atomic absorption spectrophotometry (Zenit 650, Analytik Jena, Jena, Germany), which was done with an MPE60 autosampler (Analytik Jena, Jena, Germany) with an injection volume set at 20 μL. The main parameters used for the detection of lead levels were a wavelength of 283.3 nm; a lamp current of 4.0 mA; a slit width of 0.8 nm; drying at 90 °C, 105 °C, and 120 °C; ashing at 600 °C; and atomization at 1500 °C. The standard calibration curve was plotted using the six working standard solutions, which were prepared from a stock lead standard solution diluted with nitric acid, to which a matrix modifier mixed with human blood was added. The linear correlation coefficient of the lead standard calibration curve was 0.9920. The accuracy of the method was controlled by the use of recoveries between 96 and 108% (Rui-biao et al. 2015).
+
+
+Diagnostic criteria
+
+According to the World Health Organization/UNICEF 2001 standard, anaemia is represented by Hb under 110 g/L in those aged 6-59 months or a Hb less than 115 g/L (level) in those aged between 6 and 11 years old (WHO 2011 ). Child BLLs were subdivided into low BLLs and high BLLs groups at 10.0 µg/dL, in reference to the U. S. Center for Disease Control and Prevention (CDC) (Brown 2007). This is then amended to 5.0 µg/dL (Betts 2012). A ferritin level of < 16 µg/L indicates iron deficiency (Powers and Buchanan 2014). Beta-thalassemia occurs when HBA 2 is > 3.5%. Alpha poverty is diagnosed when HBA 2 is < 2.5% or via abnormal HBH (HBBART) (Brancaleoni et al. 2016). A plasma folate level of 3 ng/mL indicates folate deficiency. A plasma Vitamin B 12 level of 200 pg/mL indicates folate deficiency (Finglas 2000).
+
+
+Questionnaire investigation
+
+The parents of the children examined were asked to complete a questionnaire regarding the socio-demographic characteristics of the children. The contents of the questionnaire mainly included the child's birthplace, health status, surroundings, family economic conditions, and parental education level. Three classifications of total family income were defined according to the following levels: < 1999 Chinese yuan (333.2 US dollars, 1.0 US dollar ≈ 6.0 Chinese yuan in 2014) per month equated to low income, 2000-4999 Chinese yuan (333.3-833.2 US dollars) per month equated to middle income, and 5000 Chinese yuan (833.3 US dollar) per month equated to high-income families.
+
+
+Statistical analysis
+
+Data entry and statistical analysis were performed using SPSS 15.0 (SPSS Inc., Chicago, IL, USA). Data distribution was tested for normality with the Kolmogorov-Smirnov test. Hb level was normally distributed, and BLL, folate, vitamin B 12 and general characteristics were skewed. Data are expressed as arithmetic mean ± standard deviation (SD), median (25th-75th percentile), or number (percentage), depending on their distribution. Comparisons between two independent samples were performed using the t test or Mann-Whitney U test. Three subgroups were created according to BLL (Group A: < 5.0 µg/dL; Group B: 5.0-9.9 µg/dL; Group C: ≥ 10.0 µg/dL) and compared by using one-way ANOVA. Categorical data were compared using the χ 2 test. The significance level was P < 0.05.

@@ -1,0 +1,20 @@
+Experiments
+
+
+Materials and chemicals
+
+1-Allyl-3-methylimidazolium hexaf luorophosphate (AMIMPF 6 , > 99 wt%) was obtained from the Lanzhou Institute of Chemical Physics. Irgacure 184, disperse red (DR, > 99 wt%) and i-propanol (i-PA, > 99 wt%) were provided by Shanghai Titan Technology Ltd. Poly(ethylene glycol) diacrylate (PEGDA, Mn = 575) and pentaerythritol tetrakis (3-mercaptopropionate) (PETMP, > 95 wt%) were bought from Sigma Aldrich.
+
+
+In situ synthesis of poly(ionic liquid)s within surfactant-free ionic liquid microemulsions
+
+Firstly, the surfactant-free ionic liquid microemulsions were constructed following the procedure: (a) AMIMPF 6 , PETMP, PEGDA and H 2 O with the certain proportion were mixed at room temperature. (b) Under the same condition, co-solvent was dropped into the solution until the turbid solution becoming transparent.
+
+Then, Irgacure 184 was added into to the obtained surfactant-free ionic liquid microemulsions to trigger the in situ thiol-ene "click" reaction under UV light. The final spongy polymers were obtained after washing and vacuum drying at 60 ℃ for 24 h, and named as poly-IL-0.45, poly-IL-0.35 and poly-IL-0.30. The general recipe is shown in Table 1.
+
+
+Characterization of poly(ionic liquid)s
+
+Fourier transform infrared spectroscopy (FTIR) of the asprepared poly(ionic liquid)s were detected using Nicolet is50 FTIR spectrometer from Thermo Fisher Scientific™ over the spectra range of 4000-400 cm −1 . The Morphology of poly(ionic liquid)s was investigated by scanning electron microscopy (SEM) SU8010, Hitachi. Nuclear magnetic resonance (NMR) data were collected by 500 MHz AVANCE Digital NMR spectrometer. Thermogravimetic analysis (TGA) and differential scanning calorimetry (DSC) using Netzsch STA449C F3 and Netzsch 204F1 calorimeter, respectively.
+
+The adsorption capacities of poly-IL-0.45, poly-IL-0.35 and poly-IL-0.30 for disperse red (DR) were conducted by the following procedure: a certain amount of poly(ionic liquid) was placed in to a 100 mL Erlenmeyer flask and 30 mL of 20 mg/L dye solutions was then added. The mixture was shaken in a thermostatic shaker for 8 h under the constant temperature of 25 ± 1℃, then determined the concentration of DR via UV-vis absorption spectrum. Figure 1 shows the FTIR spectrum of poly-IL-0.45, poly-IL-0.35, and poly-IL-0.30, respectively. It can be noticed that three poly(ionic liquid)s showed a similar FTIR spectrum, which illustrated that the mole fraction of pendant enes showed negligible influence on the molecular structure of poly(ionic liquid)s. Take the spectrum of poly-IL-0.35 for example, the absorption peak around 2883 cm −1 was ascribed to the stretching vibration of C-H, the peak situated at 1728 cm −1 were attributed to the stretching vibration of C = C from the PEDGA and ionic liquid, and the absorption peaks located at 838 cm −1 was the characteristic adsorption peak of PF 6 − . Besides, no typical characteristic peak of S-H (about 2560 cm −1 ) was detected in the FTIR spectrum. These results indicated that then enes on AMIMPF 6 and PEGDA successfully reacted with the sulfydryl on PETMP. In addition, these poly(ionic liquid)s were also characterized using 1 HNMR and 31 PNMR. As shown in the Fig. 2, the 1 HNMR further confirmed the formation of the designed polymers. With the increasing of the mole fraction of pendant enes, the response of 31 P on NMR increased gradually (Fig. 3), and this was mainly due to the increment of AMIMPF 6 dosage in the formulation.

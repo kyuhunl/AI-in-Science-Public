@@ -1,0 +1,15 @@
+	(1)
+VARIABLES	count
+	
+post	-0.0116
+	(0.00922)
+months_from_start	0.0160***
+	(0.00214)
+Constant	-4.968***
+	(0.761)
+	
+Observations	192,408
+Number of id_numeric	8,017
+R-squared	0.024
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

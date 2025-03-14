@@ -1,0 +1,42 @@
+Methods
+
+
+Ensemble Configuration
+
+To generate our ensemble, we first calibrate each of the nine FDM emulators to its corresponding FDM (Table 1) in a representative range of EAIS climate conditions, and then we use it to emulate compaction rates across the entire EAIS.Changes in SMB as well as climatic forcing for the emulators are computed from three RCMs: RACMO2, MAR and HIRHAM (Table 1).Our modeled scenarios of firn thickness change span the 1992-2017 period.This period is chosen to match the long-term altimetry record of Shepherd et al. (2019), hence facilitating intercomparison of observed elevation changes and modeled firn thickness change experiments of this study.We limit our analysis to the EAIS because surface melt there is minor compared to the AP and WAIS, and FDM fidelity remains questionable for simulating wet firn compaction, water percolation and refreezing (Steger et al., 2017;Vandecrux et al., 2020;Verjans et al., 2019).
+
+
+Geophysical Research Letters
+
+
+Firn Thickness Change Calculations
+
+Observed ice sheet elevation changes, once corrected for glacial isostatic adjustment, are composed of two different signals: one related to ice dynamical imbalance and one to firn thickness change.In this study, we focus on the latter.The change in firn thickness at time step t, dh f (t), is given by: dh for dh ice in Equation 1 yields Equation 3.This is equivalent to calculating firn thickness change by computing anomalies in each of the acc, M and c components with respect to their average value in the reference period (Li & Zwally, 2015).
+              acc ice f M c dh t            acc ice r f M c dh t
+
+Table 1
+
+The Nine Firn Densification Models (FDM), Three Regional Climatic Models (RCM) and Two Surface Density Parameterizations (ρ 0 ) Used in This Study
+
+Note.The horizontal resolutions of the RCM grids are given in brackets.All RCMs were forced by the ERA-Interim reanalysis at their boundaries (Dee et al., 2011).See supplementary information for details on the FDMs
+
+In this study, we are interested in the cumulative 1992-2017 firn thickness changes.We thus integrate Equation 3 over this time period to compute a total firn thickness change tot f dh .
+
+
+Emulation of Firn Compaction
+
+The nine FDM emulators are first calibrated at 50 sites on the EAIS and over the entire time span  covered by the output of RCMs (Supplementary Information for details).The goal of the emulation is to capture both long-and short-term sensitivity of dh c to climatic forcing.The long-term (1979-2017) mean and trend in dh c are estimated by linear regressions on the long-term means and trends of temperature, accumulation and melt.These linear regressions are specific to each FDM and show good performance in capturing the FDM-computed means and trends at the calibration sites (R 2 > 0.99 and R 2 > 0.97, respectively).Gaussian Process regression complements the linear regression by capturing short-term fluctuations from the long-term trends as a function of detrended values of temperature and accumulation.We evaluate the emulation capabilities in a leave-one-out cross-validation framework; the nine FDM emulators reproduce the FDM output well, both for the total 1979-2017 dh c (R 2 > 0.99, RMSE = 0.49 m, corresponding to 3.5% of the mean total dh c ) and for daily values (R 2 > 0.99, RMSE = 0.15 × 10 −3 m) (supplementary information for details).
+
+
+Uncertainty Contributions
+
+In order to evaluate uncertainty on the time series of cumulative dh f (t) and on tot f dh , we construct a model ensemble; the spread arising from a large number of simulations provides an estimate of uncertainty (e.g., Déqué et al., 2007).Our ensemble includes all combinations of the nine FDM emulators and the three RCMs (Table 1).Furthermore, surface snow density, ρ 0 , contributes to uncertainty in all components of dh f (e.g., Agosta et al., 2019;Ligtenberg et al., 2011).As such, we use two different possibilities for the value of ρ 0 : the climate-dependent parameterization of Ligtenberg et al. (2011) and the approach of Smith et al. (2020), which takes a constant value of 350 kg m −3 (B.Medley, personal communication, 2020) (Table 1).The different combinations of RCM, FDM and ρ 0 provide 54 different firn thickness change scenarios across the EAIS.We refer to the spread in the model ensemble results as the total ensemble uncertainty to distinguish it from the true uncertainty, which may not be captured by the ensemble.We then use the analysis of variance (ANOVA) theory to partition the total ensemble uncertainty among the three factors RCM, FDM, and ρ 0 (Déqué et al., 2007;von Storch & Zwiers, 1999;Yip et al., 2011).This approach allows us to decompose the variance in model results into the contribution of each factor and of each interaction between these factors (Equation 4).
+                        2 2 2 2 2 2 2 2 0 0 0 0 RCM FDM RCM FDM RCM FDM RCM FDM (4)
+where  2 is the variance in the ensemble results (m 2 ) and the η 2 terms are the contributions from each factor and interaction between factors to  2 .Interaction effects stem from a nonlinear behavior of the three uncer- tainty sources.Contributions are calculated by computing the sum of squares associated with each η 2 term.
+  i i i N i i i j i j i N i j N j ij i N x x N N x x x 2 1 2 2 1 1 1 1                .. . .. . j j i j k i j k i N i j N j k N k ijk ij i k x N N N x x x x . . .                 2 2 1 1 1 1  . . .. . . .. jk i j k x x x x                   2 (5)
+where N denotes the number of possible levels for a factor (3 for RCMs, 9 for FDMs, 2 for ρ 0 ), x denotes the value of the variable of interest ( tot f dh ) and a dot represents the arithmetic mean with respect to the index it is substituted for.Because the sums of squares in Equation 5 are averaged departures from a mean, these terms are biased estimates of the variance (Déqué et al., 2007).An unbiased estimate should be divided by
+
+
+Geophysical Research Letters
+
+N−1, but dividing by N results in η 2 terms fulfilling Equation 4. As such, any ratio   2 2 / is only interpreted as a percentage of contribution to the total ensemble uncertainty.We group together all η 2 terms capturing an interaction effect to quantify the nonlinear behavior of the model experiments with respect to the three factors ( 2 intr ).

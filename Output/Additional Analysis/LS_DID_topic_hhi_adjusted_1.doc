@@ -1,0 +1,23 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx3024\clbrdrt\brdrs\cellx4752\clbrdrt\brdrs\cellx9072\clbrdrt\brdrs\cellx10656\clbrdrt\brdrs\cellx12096\clbrdrt\brdrs\cellx13968
+\ql \cell\qc (1)\cell\qc (2)\cell\qc (3)\cell\qc (4)\cell\qc (5)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4752\cellx9072\cellx10656\cellx12096\cellx13968
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4752\clbrdrb\brdrs\cellx9072\clbrdrb\brdrs\cellx10656\clbrdrb\brdrs\cellx12096\clbrdrb\brdrs\cellx13968
+\ql VARIABLES\cell\qc No Controls\cell\qc Months from First Publication\cell\qc Months Exp\cell\qc Pubs Exp\cell\qc All Controls\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4752\cellx9072\cellx10656\cellx12096\cellx13968
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql post\cell\qc 0.00127\cell\qc 0.00127\cell\qc 0.00127\cell\qc 0.00127\cell\qc 0.00127\cell\row
+\ql \cell\qc (0.00118)\cell\qc (0.00118)\cell\qc (0.00118)\cell\qc (0.00118)\cell\qc (0.00118)\cell\row
+\ql months_from_start\cell\qc \cell\qc 0.000490\cell\qc \cell\qc \cell\qc 0.000490\cell\row
+\ql \cell\qc \cell\qc (0.000465)\cell\qc \cell\qc \cell\qc (0.000465)\cell\row
+\ql Constant\cell\qc 0.0670**\cell\qc -0.0425\cell\qc 0.0670**\cell\qc 0.0670**\cell\qc -0.0425\cell\row
+\ql \cell\qc (0.0279)\cell\qc (0.132)\cell\qc (0.0279)\cell\qc (0.0279)\cell\qc (0.132)\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql Observations\cell\qc 200,243\cell\qc 200,243\cell\qc 200,243\cell\qc 200,243\cell\qc 200,243\cell\row
+\ql R-squared\cell\qc 0.015\cell\qc 0.015\cell\qc 0.015\cell\qc 0.015\cell\qc 0.015\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4752\clbrdrb\brdrs\cellx9072\clbrdrb\brdrs\cellx10656\clbrdrb\brdrs\cellx12096\clbrdrb\brdrs\cellx13968
+\ql Number of id_numeric\cell\qc 4,255\cell\qc 4,255\cell\qc 4,255\cell\qc 4,255\cell\qc 4,255\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

@@ -1,0 +1,38 @@
+MATERIALS AND METHODS
+
+
+Animals and Housing
+
+All studies were performed using 8-week-old and 42-45-weekold CD-1 R (ICR) female mice (Vital River Laboratory Animal Technology Co., Ltd. Beijing, China). Mice were housed in ventilated cages on a 12 h light/12 h dark cycle (lights on from 08: 00 to 20: 00) under controlled temperature (22 ± 2 • C) with freely available food and water. The mice were allowed to adapt to conditions for 7 days before the initiation of experiments. In this experiment, 42-45-week-old female mice nearly at the end of their reproductive lifespan were used as a natural aging model.
+
+
+Chemicals and Antibodies
+
+All chemicals and drugs were purchased from Sigma (St. Louis, MO, USA) unless otherwise indicated. The anti-pERM antibody (#3726), anti-pMRLC antibody (#3675), and anti-rabbit IgG (H+L), F(ab')2 Fragment (Alexa Fluor R 594 Conjugate) secondary antibody (#8889) were purchased from Cell Signaling Technology (Cell Signaling, USA). The anti-alpha Tubulin antibody (62204) was purchased from Thermo Fisher (Thermo Fisher Scientific, USA). The Fluorescein (FITC)-conjugated Affinipure Goat Anti-Rabbit IgG (H+L) secondary antibody (SA00003-2) was purchased from Proteintech (Proteintech Group, Inc.).
+
+
+Experimental Design
+
+8-week-old young mouse oocytes were regarded as young group. 42-45-week-old aged mouse oocytes were randomly assigned to aged and PCB2-supplemented groups. Procyanidin B2 (PCB2) was dissolved in DMSO and diluted to a final concentration of 5 µg/mL with M16 or M2 medium, respectively. The youth group served as the control and received no treatment. The in vitro matured oocytes were randomly divided into three groups as follows: (1) young group: oocytes obtained from 8-week-old mice matured in vitro; (2) aged group: oocytes obtained from 42 to 45-week-old mice matured in vitro; (3) aged+PCB2 group: oocytes obtained from 42 to 45-week-old mice matured in vitro and treated with 5 µg/mL PCB2.
+
+
+Oocyte Collection
+
+The mice were sacrificed by cervical dislocation 46-48 h after intraperitoneal injection of 10 IU pregnant mare serum gonadotropin (PMSG, Ningbo Hormone Product Co. Ningbo, Zhejiang Province, China). Fully-grown GV oocytes were collected by removing cumulus cells in a drop of M2 medium supplemented with dbcAMP (100 ng/mL) through repeatedly pipetting. Fully-grown GV oocytes were cultured in M16 medium under mineral oil at 37 • C in 5% CO 2 incubator.
+
+
+Immunofluorescence Staining (IF) and Confocal Microscopy
+
+Oocytes were fixed with 4% (w/v) paraformaldehyde (PFA) for 40 min at room temperature, followed by permeabilization with 0.5% Triton X-100 at room temperature for 1h. After being blocked in 3% BSA for 1h at room temperature, oocytes/embryos were incubated with different primary antibodies (anti-pERM, 1:600; anti-pMRLC, 1:300; anti-α-tubulin, 1:8000; anti-β-tubulin, 1:100) overnight at 4 • C. The oocytes were further incubated with FITC-conjugated Affinipure Goat Anti-Rabbit IgG (H+L) or Alexa Fluor 594-conjugated goat anti-rabbit antibody for 1 h at room temperature. Finally, all oocytes were stained with 4 ′ ,6-diamidino-2-phenylindole (DAPI) for 5 min at room temperature, then oocytes were mounted on glass slides and the fluorescent images were taken with a laser scanning confocal microscopy (A1 Cell Imaging System; Nikon) under the same staining procedure and confocal microscopy parameters. Mean fluorescence intensity per unit area within the region of interest was used to quantify the fluorescence intensity of each oocyte.
+
+
+Intracellular ROS Level Assay
+
+Denuded oocytes were added to the medium which contains 1
+mmol/L 2 ′ , 7 ′ -dichlorodihydrofluoresceindiacetate (DCFHDA)
+for measuring ROS at 37 • C in 5% CO 2 for 20 min. Then oocytes were washed by M2 three times. The fluorescence was examined under an epifluorescence microscope with a filter at 460-nm excitation for ROS (IX73; Olympus). The fluorescence of each oocyte was analyzed by EZ-C1Free-Viewer (Nikon).
+
+
+Statistical Analysis
+
+In all experiments, data were analyzed using SPSS software v.21.0 (SPSS Inc., Chicago, IL, USA). Student's t-test was performed for statistical analysis. For abnormal spindle and chromosome alignment, chi-square test was performed for statistical analysis. Unless otherwise stated, * = P < 0.05, * * = P < 0.01, * * * = P < 0.001, ns = non-significant difference (P > 0.05).

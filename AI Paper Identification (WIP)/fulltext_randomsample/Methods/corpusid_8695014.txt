@@ -1,0 +1,44 @@
+Methods
+
+
+Animals and Reagents
+
+Pathogen free male Sprague-Dawley rats (250-300 g) were purchased from Experimental Animal Center of Sichuan University. Bleomycin was purchased from Harbin Bolai Pharmaceutical Co. Ltd (Harbin, China) and aminoguanidine was bought from Sigma (St. Louis, MO, USA).
+
+
+Treatment of Animals
+
+This animal study was approved by the Panel on Laboratory Animal Care of West China School of Medicine, Sichuan University. These animals were housed in the temperature (22 ± 2°C) -and humidity (60 ± 5%)-controlled condition and kept on a 12-h light/dark cycle, with 24-h free access to the standard Purina (5001) rodent chow (autoclaved) and tap water that was heated to boiling for 20 min and then cooled to the room temperature before using it. Thirty rats were randomly divided into six experimental groups, with five rats per group, as follows: 1) Saline (SA)-treated with distilled water (DW) (SA group); 2) BLM-treated with DW (BLM group); 3) BLMtreated with AG (40, 80, 120 mg/kg) (BLM plus AG group); 4) SA-treated with AG (120 mg/kg) (AG group). Rats were anesthetized intraperitoneally with chloral hydrate (3 ml/kg) [18] and bleomycin (5 mg/kg) in 100 ml of saline was administered by intratracheal instillation with the same volume of saline in control animals. AG was dissolved in DW at a dose of 8 mg/ml. AG or DW was administered by gavage once daily from day 1 to day 14 after BLM or saline treatment (day 0) and all rats were sacrificed with exsanguination on day 15 ( Figure 1). Figure 1 Bleomycin administration and treatment protocol. BLM instillation was performed on day 0. Following this, AG was administered by gavage from day 1 to day 14. All rats were killed on day 15.
+
+
+Bleomycin administration and treatment protocol
+
+
+Histopathology
+
+Middle lobes of right lungs were embedded in paraffin, following fixation in 10% buffering formalin, and then processed to obtain 4-mm sections for Masson's trichrome staining. Histopathologic evaluation of pulmonary fibrosis was performed using Ashcroft scoring method. Briefly, the grade of lung fibrosis was scored on a scale of 0 to 8 using the following criteria: grade 0, normal lung; grade 1 to 2, minimal fibrous thickening of alveolar or bronchiolar wall; grade 3 to 4, moderate thickening of walls without obvious damage to lung architecture; grade 5 to 6, increased fibrosis with definite damage to lung structure; grade 7 to 8; severe distortion of structure and large fibrous areas [19]. After the examination of 30 randomly chosen regions in each sample at a magnification of ×100, the mean score of all the fields was taken as the fibrosis score in each sample. The scoring method strictly followed the blind principle.
+
+
+Hydroxyproline Assay
+
+To assess collagen accumulation, lung tissues (40 mg per rat lung, wet weight) were used for measurement of hydroxyproline content. Hydroxyproline assay was performed according to the instruction of hydroxyproline test kit from Nanjing Jiancheng Bioengineering Institute (Nanjing, China). In brief, frozen lung tissues were homogenized by a Polytron tissue homogenizer in saline containing 0.1 M phenylmethylsulfonylfluoride. The homogenized sample was hydrolyzed in 6 N HCl, and the hydroxyproline concentration was determined according to the method of Otsuka et al [20].
+
+
+RT-PCR
+
+For RNA isolation, lung tissues were frozen in liquid nitrogen and stored in -80°C freezer immediately. Total RNA was extracted from frozen lung tissues (left lungs) using Trizol reagent (Gibco-BRL, Gaithersburg, MD, USA), and amplified using a PCR single-step kit (Promega, USA), according to the manufacturer's instructions. RT-PCR was performed with PTC-200 DNA Engine PCR cycler (MJ Research, Inc., USA). The primers, which were designed based on published sequence of these genes and synthesized by Invitrogen (Carlsbad, CA), as follows: HSP47, forward (5'-CAAGAA CA AG GC AG AC TTATCGC-3'); reverse (5'-TCTGAT T AT CTCGCACCAGGAAG-3'), bactin, forward (5'-C C T C A TGAAGATCCTGACCG-3'); reverse (5'-ACCGCTCA TTGCCG ATA G TG-3'). b-actin served as the constitutive control. The annealing temperature for each primer pair was 59°C to HSP47 and 58°C to b-actin, respectively. The products were separated by agarose gel electrophoresis and visualized by Gelview (Bioteke Corporation, Beijing, China). Semiquantitative densitometric analysis was performed with the Bio-Rad Universal Hood and Bio-Rad Quantity One software (Bio-Rad, Hercules, CA). Means of the ratio of HSP47 band photodensity to b-actin band photodensity in various groups were presented.
+
+
+ELISA
+
+Lung tissues for ELISA were homogenized in 10 mM Tris buffer (pH 7.4) containing 1% Triton X-100, 1 mM EDTA, 1 mM PMSF, 10 ug/ml aprotinin, and 10 ug/ml leupeptin. Protein concentration was quantitated by the Bicinchoninic Acid (BCA) Method according to the instruction of the BCA protein assay kit (Pierce, Rockford, IL). AGEs level in lung tissues was determined according to the instruction of the commercial ELISA kit (Uscnlife, Missouri City, TX). Samples were measured photometrically by an automated plate reader (Microplate Reader Model 1680; Bio-Rad, USA).
+
+
+Western Blot
+
+Lung homogenates were prepared in lysis buffer, containing 50 mM Tris-HCl, 150 mM NaCl, 1% NP-40, 0.5% sodium deoxycholate, 2 mM NaF, 2 mM EDTA, 0.1% SDS and a protease inhibitor cocktail tablet (Roche Applied Science, Indianapolis, IN, USA). Protein concentration was quantitated by BCA Method described above. Equal amounts of protein samples (30 mg) from each group were loaded onto each lane of gels. Samples and prestained molecular weight markers (Bio-Rad, Hercules, CA) were subsequently electrophoresed on 12% Tris-glycine polyacrylamide gels and then were electrophoretically transferred onto polyvinylidene difluoride (PVDF) membranes (Millipore Corp., Marlborough, MA). The membranes were blocked for 1 h at room temperature with 5% Bovine Serum Albumin (BSA) and were incubated overnight at 4°C with primary antibodies including anti-HSP47 (Santa Cruz), anti-TGFb1 (Cell Signaling), anti-Smad2 (Cell Signaling), anti-Smad3 (Cell Signaling), anti-p-Smad2 (Cell Signaling), anti-p-Smad3 (Cell Signaling), and anti-b-actin (Santa Cruz), at a dilution of 1:1000 in Tris-buffered saline with Tween-20 (TBST). b-actin served as the constitutive control to confirm equal amounts of protein loading. After washing with TBST, the membranes were incubated with the corresponding horseradish peroxidase-linked antirabbit antibody (Pierce, Rockford, IL) diluted 1:20000 in TBST for 1 h at room temperature. After further washing with TBST, immunoreactive bands were visualized by enhanced chemiluminescence (ECL), and quantified by densitometry with the Bio-Rad Universal Hood and Quantity One software (Bio-Rad). All results were normalized to b-actin levels in each lane.
+
+
+Statistical Analysis
+
+All values were expressed as means ± standard deviation (SD). One-way ANOVA followed by Student-Newman-Keuls test was used to compare the differences among multiple groups. Significance was defined by a P value of 0.05. SPSS 13.0 software package (SPSS, Inc., Chicago, IL) was used for statistical analysis.

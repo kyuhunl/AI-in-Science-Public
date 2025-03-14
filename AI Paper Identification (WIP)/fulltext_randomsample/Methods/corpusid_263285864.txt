@@ -1,0 +1,8 @@
+Materials and methods
+
+For experimental procedures and compound characterization data, see the Supplementary Materials.Aziridine (0.20 mmol, 1.0 equiv.),imine (0.30 mmol, 1.5 equiv.),copper bromide (3.0 mg, 0.020 mmol, 10 mol%), and 2,9-dimethyl-1,10-phenanthroline (4.2 mg, 0.020 mmol, 10 mol%) were added with a stirring bar to a dried Schlenk tube.The tube was filled with nitrogen.Toluene (0.5 mL) was added to the tube and the mixture was stirred at 120 °C for 20 h.The crude mixture was passed through a short pad of silica gel and concentrated in vacuo.Purification by chromatography on silica gel provided the desired product.
+
+
+General procedure for reaction of aziridine with isocyanate
+
+Aziridine (0.20 mmol, 1.0 equiv.),isocyanate (0.30 mmol, 1.5 equiv.),copper bromide (3.0 mg, 0.020 mmol, 10 mol%), and 2,9-dimethyl-1,10-phenanthroline (4.2 mg, 0.020 mmol, 10 mol%) were added with a stirring bar to a dried Schlenk tube.The tube was filled with nitrogen.Toluene (0.5 mL) was added to the tube and the mixture was stirred at 120 °C for 20 h.The crude mixture was passed through a short pad of silica gel and concentrated in vacuo.Purification by chromatography on silica gel provided the desired product.

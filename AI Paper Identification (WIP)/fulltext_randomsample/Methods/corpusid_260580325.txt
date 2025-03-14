@@ -1,0 +1,25 @@
+Methods:
+
+
+Study design
+
+This was a retrospective cohort study of transfer patients to a single, large academic tertiary center. Two cohorts of adult neurosurgical patients were examined: the "Pre-COVID Era" cohort included patients transferred to our center from an outside hospital during the time period of April 16 th 2019 through November 30 th 2019 and the "COVID Era" cohort included patients transferred from an outside hospital during the period of April 16 th 2020 through November 30 th 2020. During this defined time, both emergency and non-emergency J o u r n a l P r e -p r o o f neurosurgical services had resumed. Patients in March and early April 2020 were not included as our center's transfer center was closed to transfers or had limited transfers for emergencies to ensure enough bed capacity in anticipation of an increased rate of hospitalization from COVID-19 infection. Corresponding timeframes from 2019 and 2020 were selected to account for potential seasonal variations in transfer requests.
+
+All adult patients that underwent emergency room-to-inpatient or inpatient-to-inpatient transfer from an outside hospital to the neurosurgery service at our institution regardless of transfer reason were included in the study. All transfers to our institution from outside centers were accepted regardless of insurance or socioeconomic status. Patients who were accepted but were not transferred due to cancellation by the outside hospital were not included in the study.
+
+Two international patients were excluded from analyses of zip code-based distance from home to UCSF but were otherwise included in all analyses. Consensus-based perioperative protocols during the COVID-19 pandemic were developed by our institution and implemented to help streamline delivery of neurosurgical care. 8,9 Limits on elective cases were implemented during the first 3 months of the pandemic.
+
+After searching the UCSF Transfer Center Database, 331 and 343 patients were identified and included in the Pre-COVID and COVID Era cohorts, respectively.
+
+
+Clinical variables
+
+A medical chart review was performed to identify patient demographics including age, sex, race/ethnicity, insurance status, home zip code, referring outside hospital zip code, and county of residence. Clinical information included time to transfer, the level of transfer required (i.e. to ICU level or non-ICU level care), surgical interventions required, COVID-19 infection status, discharge disposition, time to transfer, time to surgery, and time to discharge. "Transfer diagnosis" was broadly defined into the following categories: "Tumor", "Infection", "Vascular/Hemorrhage", "Hydrocephalus/Shunt", "Spine Instability/Compression", and "Other" based on the specific suspected/confirmed diagnosis provided by the referring hospital at the time of transfer request. Specific diagnoses in the "Other" included complex pain, seizure of unclear etiology, postoperative complications, undifferentiated weakness, encephalopathy, peripheral nerve injury, hyponatremia, trigeminal neuralgia, and vasovagal syndrome.
+
+
+J o u r n a l P r e -p r o o f
+
+
+Data Analysis
+
+Group level analyses were performed between the two comparative cohorts. Student's ttest was used for univariate analysis of two-level continuous independent variables, and ANOVA for multi-level independent variables. Categorical variables were compared using Chi-square tests. A p-value less than .05 was defined as statistically significant. Univariate analyses were performed using one-way analysis of variance and F-test/statistic assessed significance of the predictive models. Adjusted multivariate analyses were performed with linear and logistic regressions. All analyses were performed using STATA SE, (Version 16.1).

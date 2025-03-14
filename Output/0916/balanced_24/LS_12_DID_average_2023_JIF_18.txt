@@ -1,0 +1,13 @@
+	(1)
+VARIABLES	average_2023_JIF
+	
+post	-0.0360
+	(0.185)
+Constant	3.783
+	(7.598)
+	
+Observations	48,913
+Number of id_numeric	1,965
+R-squared	0.012
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

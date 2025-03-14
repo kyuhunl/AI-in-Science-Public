@@ -1,0 +1,20 @@
+Method
+
+
+Study design
+
+The retrospective cross-section analysis was conducted using the data of reported case cards of HIV positive mothers and their infants from 2007 to 2010 in Guangdong province of China. The case cards of HIV positive mothers were reported in five days after their HIV infected status were confirmed, and then the case cards of all infants born to HIV positive mothers were reported in five days after their HIV infected status were tested in the follow up period of 18 months. The mother's HIV infected status was confirmed by the Western blot after her HIV antibody was positive. The infant's HIV infected status was confirmed by the Western blot after the HIV antibody was positive at age 12 months and 18 months. If the condition was available, the infant's HIV infected status was confirmed by HIV DAN polymerase chain reaction (PCR) tests through transported dry blood spots (DBS) at age 6 weeks to 3 months. During the follow up period, there were no death of infants, and only four infants became AIDS patients.
+
+The targeted subjects needed to meet four requirements: 1) Born in hospital of Guangdong province from 2007 to 2010; 2) The mother's HIV infected status was confirmed; 3) The infant born to HIV infected mother was followed up until to 18 months age and the infant's HIV infected status was confirmed; 4) The data of ARV prophylaxis or treatment, delivery mode, and feeding were completely. We obtained 108 pairs of eligible HIV positive mothers and infants from 196 pairs of them in this article. We described the status of subjects of age, marriage status, education level, occupation, and ARV prophylaxis, and we compared the rates of MTCT respectively by various PMTCT interventions, such as ARV prophylaxis, delivery mode, and feeding mode.
+
+
+Programm description
+
+The key interventions of the free PMTCT program included general health education on PMTCT, and providerinitiated testing and counseling (PITC) during pregnancy, safe and in hospital delivery and anti-retroviral (ARV) prophylaxis or treatment for HIV positive mothers, and formula feeding and ARV prophylaxis for infants born to HIV-positive mothers. If the HIV infected status confirmed antematally and the service condition of caesarian delivery was safe, the pregnancy women were planed to elective caesarian delivery.
+
+With the consideration of availability of ARV drugs and existed evidences, and reference of regimen recommend by WHO since 2004, the PMTCT program of Guangdong from 2007 to 2010 used the ARV prophylaxis protocol of zidovudine (AZT) started in late pregnancy, combined with lamivudine (3TC) and single-dose nevirapine (sdNVP) during labour, and stopped in one week after delivery. And women with a CD4 count below 200 cells/mm3 were given antiretroviral treatment. Due to any unexpected reasons, if the HIV positive mothers couldn't take the ARVs before parturient, the mothers would be offered sdNVP intrapartum as soon as possible.
+
+
+Statistic analysis
+
+The descriptive analysis was conducted, and the mean and standard deviation were used to describe the measurement variables, and the frequency distribution was used to describe the categorical variable. The statistical significance of the comparison of proportions was determined using χ 2 or Fisher's exact test. The OR values and their 95% confidence intervals of the factors were estimated. The bivariate correlate was used to analyze the relationship between confirmed period of HIV infected status and whether received ARVs of mothers, and the Spearman correlation coefficient was estimated. All the statistical analyzes were done with SPSS version 13.

@@ -1,0 +1,15 @@
+	(1)	(2)	(3)	(4)	(5)
+VARIABLES	No Controls	Months from First Publication	Months Exp	Pubs Exp	All Controls
+					
+post	0.179	0.179	0.179	0.179	0.179
+	(0.266)	(0.266)	(0.266)	(0.266)	(0.266)
+months_from_start		-0.209			-0.209
+		(0.175)			(0.175)
+Constant	16.95**	61.13	16.95**	16.95**	61.13
+	(8.157)	(45.17)	(8.157)	(8.157)	(45.17)
+					
+Observations	14,202	14,202	14,202	14,202	14,202
+R-squared	0.015	0.015	0.015	0.015	0.015
+Number of id_numeric	2,333	2,333	2,333	2,333	2,333
+Robust standard errors in parentheses					
+*** p<0.01, ** p<0.05, * p<0.1					

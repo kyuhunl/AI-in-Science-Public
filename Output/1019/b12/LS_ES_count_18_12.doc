@@ -1,0 +1,65 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx3024\clbrdrt\brdrs\cellx4608
+\ql \cell\qc (1)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4608
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4608
+\ql VARIABLES\cell\qc count\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4608
+\ql \cell\qc \cell\row
+\ql months_from_start\cell\qc 0.0177***\cell\row
+\ql \cell\qc (0.00222)\cell\row
+\ql time12_1\cell\qc -0.00983\cell\row
+\ql \cell\qc (0.0247)\cell\row
+\ql time12_2\cell\qc -0.0294\cell\row
+\ql \cell\qc (0.0239)\cell\row
+\ql time12_3\cell\qc -0.0305\cell\row
+\ql \cell\qc (0.0247)\cell\row
+\ql time12_4\cell\qc -0.00223\cell\row
+\ql \cell\qc (0.0235)\cell\row
+\ql time12_5\cell\qc 0.0314\cell\row
+\ql \cell\qc (0.0232)\cell\row
+\ql time12_6\cell\qc 0.0138\cell\row
+\ql \cell\qc (0.0233)\cell\row
+\ql time12_7\cell\qc 0.0450*\cell\row
+\ql \cell\qc (0.0235)\cell\row
+\ql time12_8\cell\qc 0.00675\cell\row
+\ql \cell\qc (0.0231)\cell\row
+\ql time12_9\cell\qc 0.0128\cell\row
+\ql \cell\qc (0.0233)\cell\row
+\ql time12_10\cell\qc 0.0332\cell\row
+\ql \cell\qc (0.0226)\cell\row
+\ql time12_11\cell\qc 0.00534\cell\row
+\ql \cell\qc (0.0227)\cell\row
+\ql time12_13\cell\qc -0.0510**\cell\row
+\ql \cell\qc (0.0222)\cell\row
+\ql time12_14\cell\qc -0.0478**\cell\row
+\ql \cell\qc (0.0226)\cell\row
+\ql time12_15\cell\qc -0.0722***\cell\row
+\ql \cell\qc (0.0229)\cell\row
+\ql time12_16\cell\qc -0.101***\cell\row
+\ql \cell\qc (0.0222)\cell\row
+\ql time12_17\cell\qc -0.0512**\cell\row
+\ql \cell\qc (0.0232)\cell\row
+\ql time12_18\cell\qc -0.0564**\cell\row
+\ql \cell\qc (0.0227)\cell\row
+\ql time12_19\cell\qc -0.0531**\cell\row
+\ql \cell\qc (0.0233)\cell\row
+\ql time12_20\cell\qc -0.0335\cell\row
+\ql \cell\qc (0.0232)\cell\row
+\ql time12_21\cell\qc -0.0427*\cell\row
+\ql \cell\qc (0.0240)\cell\row
+\ql time12_22\cell\qc -0.0567**\cell\row
+\ql \cell\qc (0.0237)\cell\row
+\ql time12_23\cell\qc -0.0497**\cell\row
+\ql \cell\qc (0.0241)\cell\row
+\ql Constant\cell\qc -4.410***\cell\row
+\ql \cell\qc (0.618)\cell\row
+\ql \cell\qc \cell\row
+\ql Observations\cell\qc 112,584\cell\row
+\ql Number of id_numeric\cell\qc 4,691\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4608
+\ql R-squared\cell\qc 0.044\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

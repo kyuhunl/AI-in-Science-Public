@@ -1,0 +1,41 @@
+Materials and Methods
+
+
+Ethics Statement
+
+All yaks were handled in strict accordance with the Animal Ethics Procedures and Guidelines of the People's Republic of China. The present study was approved by the Animal Administration and Ethics Committee of the Lanzhou Institute of Husbandry and Pharmaceutical Sciences of the Chinese Academy of Agricultural Sciences (Permit No. 2019-002).
+
+
+Animals
+
+All animals used in this study were from the Datong Breeding Farm of Qinghai province. The nine selected Ashidan yak were healthy and fed in similar conditions. Furthermore, the animals were separated into three groups (6 months, M6; 18 months, M18; and 30 months, M30). Every group contained three male yaks. The nine male yaks were slaughtered and tissues from the left testis were collected. All samples were immediately stored at −80 • C for total RNA extraction.
+
+
+RNA-Sequencing Data Analysis
+
+Total RNA was extracted from testis tissue using TRIzol (Invitrogen, Carlsbad, CA, USA). Genomics DNA was removed using DNase I. A total of 9 cDNA libraries were constructed in this study using the NEB Next Ultra Directional RNA LibraryPrep Kit for Illumina (NEB, Ipswich, MA, USA). Sequencing libraries were then sequenced on an Illumina HiseqTM 2500 (Illumina Corp., San Diego, CA, USA) instrument to generate 150-nt paired-end reads. Libraries were constructed and sequenced using the Illumina platform by OE Biotech Co. (Shanghai, China). Then, the raw data was checked using the FASTQC (version 0.11.9) tools. Trimmomatic (version 0.36) software was first used for removing adapters, and then low-quality bases and N-bases or low-quality reads were filtered out. The quality of the trimmed reads was rechecked with the FASTQC tool, after which the clean reads were aligned with the yak genome using HISAT2 (version 2.0.5) [26]. The genome sequence of yak (BosGru_v3.0) and the annotation file was downloaded from Ensemble. Transcripts were assembled by Stringtie (version 1.3.4) [27]. Raw data for RNAseq has been documented in the SRA public database (Accession number: SRP367128).
+
+
+Identification of lncRNA and circRNA
+
+Use the following procedure to identify lncRNAs: (1) Transcripts annotated as "i (a transfrag falling entirely within a reference intron)", "u (unknown, intergenic transcript)", "x (exonic overlap with reference on the opposite strand)" and "o (generic exonic overlap with a reference transcript)" were retained by the cuffcompare software [28]. (2) Transcripts longer than 200 bp and containing more than 2 exons were retained. (3) Finally, four approaches of Coding-Non-Coding-Index (CNCI, score < 0), Coding Potential Calculator (CPC, score < 0), Pfam (E value < 0.001), and k-mer scheme (PLEK, score < 0) were used to predict coding potential, and transcripts without coding potential were candidate lncRNAs [15]. Then, CIRI software was used to scan for PCC signals (paired chiastic clipping signals), and circRNA sequences were predicted based on junction reads and GT-AG cleavage signals [29]. Briefly, paired chiastic clipping, paired-end mapping, and GT-AG splicing signals were found by scanning the obtained slicing alignments. Next, the alignment files were scanned again using a dynamic programming algorithm to detect additional junction reads and eliminate false-positive circRNA candidates. Final circRNAs were obtained by retaining sequences with ≥2 junction reads.
+
+
+Analysis of Differentially Expressed (DE) Genes
+
+The fragments per kilobase of transcript per million read mapped (FPKM) and spliced reads per billion mappings (SRPBM) values were used to detect the expression levels of mRNA, lncRNA, and circRNA, respectively [30]. Differentially expressed mRNAs, lncRNAs, and circRNAs were detected using the DESeq2 software package [31], and differentially expressed genes were defined as |log2 (fold change)| ≥ 1 and FDR < 0.001 between any comparison groups. Meanwhile, genes differentially expressed in three comparisons (M6 vs. M18, M6 vs. M30, and M18 vs. M30) were defined as common DE genes.
+
+
+Functional Enrichment Analysis
+
+The cis-target mRNAs were screened by the genomics location 50 Kb upstream and downstream of the lncRNA, trans-target mRNAs were identified by the Pearson correlation coefficient of the lncRNA-RNA pairs being ≥ 0.9, and then the cis-and trans-target mRNAs were subjected to GO analysis. The parental genes of DE circRNAs were mapped to GO terms using the Gene Ontology database (http://www.geneontology.org) (accessed on 14 May 2022), followed by enrichment analysis with the Omicshare (version 3.0) tools. Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis was also performed to annotate the signaling pathways associated with these common DE genes [32]. Terms with p-values less than 0.05 were identified as significant or enriched terms.
+
+
+Co-Expression Network Construction
+
+To study the functions of key lncRNAs, Cytoscape software (version 3.1.1) was used to construct the co-expression network of common DE lncRNAs and common DE mRNAs [33].
+
+
+Gene Expression Validation by Quantitative Real-Time PCR
+
+We used qRT-PCR to verify the gene expression levels. The PCR reaction was performed on the LightCycler 480 II (Roche, Basel, Switzerland) using the SYBR Green Realtime PCR Master Mix (TOYOBOCO, Ltd., Osaka, Japan) with different cycling conditions as 95 • C for 10 min, followed by 45 cycles for 15 s at 95 • C, annealing for 60 s at 55 to 60 • C, extension for 30 s at 72 • C, final extension for 5 min at 72 • C, and storage at 4 • C. GAPDH was used as an internal reference to normalize target gene expression. All experiments were performed in triplicate. The primers (Table S18) were produced by Sheng gong Biotech Co., Ltd. (Shanghai, China). For gene expression levels, each experiment was repeated in at least 3 replicates, and the threshold cycles were calculated using the 2 -∆∆Ct method [34]. All data were expressed as "means ± SD". A p-value < 0.05 was established as a significant difference.

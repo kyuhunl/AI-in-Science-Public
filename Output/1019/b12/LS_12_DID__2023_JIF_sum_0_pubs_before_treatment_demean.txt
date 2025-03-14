@@ -1,0 +1,17 @@
+	(1)
+VARIABLES	_2023_JIF_sum
+	
+post	0.192***
+	(0.0595)
+months_from_start	0.150***
+	(0.0201)
+1.post#c.pubs_before_treatment_demean	-0.00142
+	(0.00169)
+Constant	-31.61***
+	(4.985)
+	
+Observations	386,136
+Number of id_numeric	16,089
+R-squared	0.003
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

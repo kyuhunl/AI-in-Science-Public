@@ -1,0 +1,57 @@
+	(1)
+VARIABLES	_2023_JIF_sum
+	
+time12_0	-1.221
+	
+time12_1	-1.102
+	
+time12_2	-1.206
+	
+time12_3	-1.231
+	
+time12_4	-1.076
+	
+time12_5	-0.642
+	
+time12_6	-0.832
+	
+time12_7	-0.603
+	
+time12_8	-0.679
+	
+time12_9	-0.747
+	
+time12_10	-0.546
+	
+time12_11	-0.464
+	
+time12_13	0.0692
+	
+time12_14	0.0711
+	
+time12_16	0.0167
+	
+time12_17	0.187
+	
+time12_18	0.421
+	
+time12_19	0.396
+	
+time12_20	0.531
+	
+time12_21	0.310
+	
+time12_22	0.626
+	
+time12_23	0.474
+	
+time12_24	1.127
+	
+Constant	2.014
+	
+	
+Observations	193,728
+Number of id_numeric	8,072
+R-squared	0.004
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

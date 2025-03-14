@@ -1,0 +1,28 @@
+Cell Viability Assay
+
+HTR-8/SVneo or JEG-3 cells (5 × 10 3 cells/well) were seeded into sterile plates of 96 wells in complete medium (DMEM/F12, MEM, 10% FBS). Cells were incubated and cultured with TCS of different concentrations for 24 h. An amount of 10 µL CCK-8 (Vicmed, Busan, Korea) solution was added to each well and incubated for 0.5-4 h at 37 • C in a 5% CO 2 atmosphere. The plate was detected at 450 nm on a microplate reader Spark (TECAN, Austria, 30086376).
+
+
+Cell Migration Assay
+
+HTR-8/SVneo or JEG-3 cells were grown in 6-well cell plates overnight to obtain approximately 70% confluency. After corresponding treatment, HTR-8/SVneo and JEG-3 cells were starved in 1% serum medium. Scratch wounds were made via a sterile 10 µL pipette tip to obtain three parallel lines. Multiple photographs were taken of the wound using an inverted microscope (KS400; Carl Zeiss Imaging GmbH), and the migration distance was measured by Image J analysis software (National Institutes of Health, v1.8.0). The whole wound closure distance was calculated and the distance of newly covered cells was measured at 0 and 24 h to evaluate migration.
+
+
+Tube Formation Assay
+
+Approximately 50 µL Matrigel (10 mg/mL) (BD Biosciences, San Diego, CA, USA) was decked into 96-well plates and allowed to completely solidify at 37 • C for 1 h to form a gel. Approximately 5 × 10 3 /mL HUVECs were suspended in a conditioned medium (the conditioned medium was derived from HTR-8/SVneo and JEG-3 cells and added into the wells of the Matrigel solidified plate. Tube formation in each well was monitored and imaged using an inverted microscope after the plate was incubated at 37 • C for 5 h. We repeated the experiment three times independently. Tube branch length was measured with six duplicates per well, while average branch length was taken from three random microscopic fields per well. Each assay was done in triplicate and quantification was conducted with Image J software (National Institutes of Health, v1.8.0).
+
+
+Real Time PCR (RT-PCR)
+
+Placental tissues, trophoblast cells, and Trizol (Vicmed, Busan, Korea) were used to isolate total RNA. RNA concentration was detected by Nanodrop 2000 (Thermo, Scientific). The reverse transcription was conducted using SYBR Green qPCR SuperMix and 500 ng of the total RNA was reverse transcribed to cDNA. The quantitative RT-PCR was carried out using SYBR Green Master Mix on a 7500 fast real-time PCR System (Applied Biosystem, Foster, CA, USA) according to the manufacturer's instructions. The mRNA levels were analyzed using the comparative cycle threshold method (2 −∆∆CT ), and the relative levels were normalized to the level of GAPDH. The primers were designed by Sangon Biotech (Shanghai, China), and primer sequences were listed in Supplementary Table S1.
+
+
+Western Blot Analysis
+
+Total cellular protein was extracted and lysed with RIPA lysis buffer with protease inhibitors (KeyGEN, Nanjing, China) and phosphatase inhibitors (KeyGEN, Nanjing, China). Proteins were separated with 10% SDS-PAGE gels and transferred to PVDF membranes (Merck Millipore, MA, USA). Membranes were blocked with 5% non-fat milk for 1h and then incubated with primary antibodies of PPARγ, ANGPTL4, MMP-2, IL-1β, GAPDH, and tubulin β (Bioword, Beijing, China) overnight at 4 • C. After being washed five times for five minutes, the membranes were incubated with the corresponding secondary antibodies for 1h at room temperature. The protein bands were visualized with an Enhanced Chemiluminescence (ECL) detection kit (Amersham, NJ, USA). The protein bands were analyzed using Image Lab Software (Bio-Rad, CA, USA).
+
+
+Statistical Analysis
+
+The above assays were carried out three independent times and all data were carried out by GraphPad Prism 8.3 software (San Diego, CA, USA), and data were exhibited as the mean ± SEM. The comparison of the data was subjected to a one-way analysis of variance among each independent group. The t-test or one-way ANOVA was implemented using the SPSS 19.0 (IBM, Armonk, NY, USA). p-value < 0.05 and p-value < 0.01 were considered a statistically significant difference and higher significance, respectively.

@@ -1,0 +1,105 @@
+	(1)
+VARIABLES	_2023_JIF_sum
+	
+time24_0	2.802
+	
+time24_1	2.685
+	
+time24_2	2.446
+	
+time24_3	2.734
+	
+time24_4	2.691
+	
+time24_5	2.291
+	
+time24_6	2.960
+	
+time24_7	2.327
+	
+time24_8	2.403
+	
+time24_9	2.472
+	
+time24_10	2.172
+	
+time24_11	2.079
+	
+time24_12	2.178
+	
+time24_13	2.506
+	
+time24_14	1.908
+	
+time24_15	1.827
+	
+time24_16	1.755
+	
+time24_17	2.234
+	
+time24_18	1.908
+	
+time24_19	1.907
+	
+time24_20	1.422
+	
+time24_21	1.220
+	
+time24_22	1.630
+	
+time24_23	1.723
+	
+time24_25	1.348
+	
+time24_26	1.450
+	
+time24_27	1.194
+	
+time24_28	1.171
+	
+time24_29	0.904
+	
+time24_30	1.072
+	
+time24_31	0.584
+	
+time24_32	1.143
+	
+time24_33	0.258
+	
+time24_34	0.982
+	
+time24_35	0.536
+	
+time24_36	0.343
+	
+time24_37	0.962
+	
+time24_38	0.400
+	
+time24_39	0.367
+	
+time24_41	0.255
+	
+time24_42	0.0608
+	
+time24_43	0.0701
+	
+time24_44	0.101
+	
+time24_45	0.0111
+	
+time24_46	-0.0899
+	
+time24_47	0.102
+	
+time24_48	0.668
+	
+Constant	3.135
+	
+	
+Observations	94,608
+Number of id_numeric	1,971
+R-squared	0.006
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

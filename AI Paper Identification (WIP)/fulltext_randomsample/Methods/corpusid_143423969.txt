@@ -1,0 +1,43 @@
+STAR+METHODS
+
+Detailed methods are provided in the online version of this paper and include the following: BAT Mitochondrial Calcium Uptake Measurements BAT mitochondrial calcium uptake measurements were performed according to Al-Shaikhaly et al. (1979). 30 mg of crude BAT mitochondria in isolation buffer was centrifuged at 8,500g for 10 mins at 4 C, and the resulting pellet was resuspended in 150 mL calcium uptake buffer (125mM sucrose, 20mM Tris-HCl, pH 7.2 with Tris base) supplemented with 2 mM rotenone, 1mM GDP, 0.1% bovine serum albumin (fatty acid free), and 1 mM membrane impermeable Oregon Green BAPTA-6F. Immediately prior to calcium uptake measurement, the medium was supplemented with 5mM L-glycerol-3-phosphate and mixed by gentle agitation. Fluorescence was monitored with a PerkinElmer Envision plate reader before and after injection of 50 mM CaCl 2 using FITC filter sets (Ex485/ Em535), with a 0.5 s measuring interval. Calcium uptake rates were calculated using the linear fit of uptake curves between 40-60 s.
+d KEY RESOURCES
+BAT Mitochondrial Oxygen Consumption Measurements 30 mg of BAT crude mitochondria in isolation buffer was centrifuged at 8,500g for 10 mins at 4 C, and the resulting pellet was resuspended in calcium uptake buffer (125mM sucrose, 20mM Tris-HCl, pH 7.2 with Tris base) supplemented with 0.1% bovine serum albumin (fatty acid free) and 0.5uM tetramethylrhodamine methyl ester. Mitochondria were then added to a well-stirred cuvette at 25 C to reach 500 mL total volume. At indicated time points 1mM L-glycerol-3-phosphate and 1mM GDP were added. O 2 consumption and membrane potential were measured simultaneously using a custom spectrophotometer outfitted with an Ocean Optics benchtop NeoFox-GT phase fluorimeter, as previously described (Gohil et al., 2013).
+
+
+Western Blotting
+
+Animals were sacrificed by CO 2 asphyxiation followed by cervical dislocation. Tissues were immediately harvested and snap frozen in liquid N 2 . For preparation of protein lysates, 1 BAT depot (or equivalent volume of another tissue) was immersed in approx. 300 mL ice-cold RIPA buffer supplemented with either cOmplete EDTA-free protease inhibitor cocktail or Protease/Phosphatase Inhibitor Cocktail. The tissue was then lysed with two 5mm stainless steel beads using a QIAGEN TissueLyser for 2 mins at 25 Hz. The resulting homogenate was centrifuged for 10 mins at maximum speed at 4 C, and the supernatant was centrifuged a second time to remove residual insoluble material. Protein content of the resulting clarified lysate was determined using a Bradford assay. Appropriate volumes of lysate were boiled for 5 mins in the presence of SDS sample buffer, resolved on Tris-Glycine SDS-PAGE gels, and transferred to PVDF membranes for western blotting. All antibodies used are listed in the key resources table.
+
+RNA isolation from BAT Animals were sacrificed by CO 2 asphyxiation followed by cervical dislocation, and tissues were immediately harvested and snap frozen in liquid N 2 . Frozen BAT samples were homogenized in 1mL Qiazol per 100mg tissue using the QIAGEN TissueRuptor II. The homogenate was mixed thoroughly with chloroform (1:5 chloroform:homogenate), incubated for 3 mins at room temperature, and centrifuged at 12,000g for 15 mins at 4 C, and 100 mL of the resulting aqueous phase was added to 350 mL QIAGEN buffer RLT plus 250 mL of 100% ethanol. The resulting mixture was transferred to a column from the QIAGEN RNeasy Mini Kit, and RNA was purified according to the manufacturer's protocol.
+
+Quantitative Real-Time PCR RNA was reverse transcribed using the SuperScript III First-Strand Synthesis SuperMix Kit according to the manufacturer's protocol. Quantitative real-time PCR (qPCR) was performed using TaqMan assays; all probe IDs are listed in the key resources table. Relative gene expression was calculated as 2 -DDCT , where HPRT was used as the housekeeping gene for normalization.
+
+
+RNA-seq
+
+RNA-sequencing libraries were prepared by the Broad Technology Labs at the Broad Institute based on the Smart-seq2 protocol (Picelli et al., 2014) and sequenced on an Illumina NextSeq 500 instrument to generate 2x25bp paired-end reads. The reads were aligned to the mouse genome (mm10, with gencode M7 annotations) using STAR 2.4.0j (default parameters) (Dobin et al., 2013). Counts of reads uniquely mapping within exonic regions of annotated genes (irrespective of strand) were collated using HTSeq . 14,651 genes with at least 8 reads mapping to them in at least 6 of the samples were retained for differential expression analysis. This was performed in R using DESeq2 (Love et al., 2014) and the design formula $Genotype + Temperature + Genotype:Temperature.
+
+Where gene expression levels are reported, they represent normalized read counts following application of the estimateSizeFactors function, which implements the median ratio method. Where log2 fold-changes and p values are reported, they represent the result of the Wald test. P values are adjusted with the method of Benjamini-Hochberg. Further data analysis based on the normalized read counts was performed in MATLAB. Gene Set Enrichment Analysis (GSEA) was performed as described in Mootha et al. (2003) and Subramanian et al. (2005). All sequencing results have been deposited in NCBI GEO with the accession number GSE119964.
+
+
+Cytokine assays
+
+Mice were sacrificed by CO 2 asphyxiation and blood was immediately drawn from the inferior vena cava. To obtain plasma, blood was incubated in EDTA-treated tubes and centrifuged at 14,000rpm for 10 mins at 4 C. FGF21 and GDF15 were measured from plasma samples using R&D Systems Quantikine ELISA Kits MF2100 and MGD150, respectively, according to the manufacturer's protocols.
+
+DE-2-3 cell culture and differentiation DE-2-3 cells were cultured and differentiated essentially as described in Pan et al. (2009) and Shen et al. (2017). Briefly, cells were passaged in growth media consisting of high glucose DMEM supplemented with 10% fetal bovine serum, penicillin and streptomycin (100 U/mL), and GlutaMAX (2mM). For differentiation, cells were seeded at day À2 in differentiation medium (DM, growth media supplemented with 20nM insulin and 1nM T3) to reach confluence on day 0. On day 0, media was switched to induction media (DM supplemented with 0.5mM IBMX, 0.5 mM dexamethasone, and 0.125mM indomethacin). Media was changed to DM on day 2 and day 4. Cells were considered to be fully differentiated on day 6, and experiments were performed on day 6-9. For oxygen consumption measurements, DE-2-3 cells were differentiated in Seahorse XF24 Cell Culture Microplates, and oxygen consumption rates were measured using a Seahorse XF24 Extracellular Flux Analyzer instrument.
+
+
+Oil Red O Stain
+
+Oil Red O staining was performed as described in Shen et al. (2017) Fully differentiated DE-2-3 cells were gently rinsed with sterile DPBS and fixed for 30-60 mins in 10% formalin. The fixed cells were then rinsed with sterile water, incubated in 60% isopropanol for 2-5 mins, and incubated in Oil Red O working solution for 5 mins. The cells were rinsed with water until excess stain was removed, and then incubated for 1 min with hematoxylin counterstain. The cells were then rinsed with water until excess stain was removed, and kept under water prior to and during imaging.
+
+
+QUANTIFICATION AND STATISTICAL ANALYSIS
+
+All statistical comparisons for low-throughput data were performed as described in the appropriate figure legends using Microsoft Excel. Significance for Student's t tests was evaluated using a two-tailed test assuming unequal variances. Statistical analysis of the RNA-seq data was performed as described in the RNA-seq section of the STAR methods.
+
+
+DATA AND SOFTWARE AVAILABILITY
+
+Software availability Source codes for the STAR 2.4.0j (Dobin et al., 2013), HTSeq , and DEseq (Love et al., 2014) software packages are freely available for download through the corresponding references. GSEA and MSigDB can be freely accessed through the Broad Institute website, and is implemented via a graphical user interface. MATLAB is accessible through MathWorks, Inc. on a subscription basis.

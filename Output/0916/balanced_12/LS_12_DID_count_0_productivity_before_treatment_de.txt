@@ -1,0 +1,15 @@
+	(1)
+VARIABLES	count
+	
+post	0.00541
+	(0.00550)
+1.post#c.productivity_before_treatment_de	-0.159***
+	(0.0109)
+Constant	0.326***
+	(0.0689)
+	
+Observations	386,136
+Number of id_numeric	16,089
+R-squared	0.023
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

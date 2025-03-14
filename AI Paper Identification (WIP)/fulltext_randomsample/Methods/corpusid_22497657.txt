@@ -1,0 +1,41 @@
+MATERIALS AND METHODS
+
+
+Patient information
+
+This study included 129 previously untreated locally advanced NPC patients who were diagnosed and given induction chemotherapy and concurrent chemoradiotherapy at the Department of Oncology-Pathology in our hospital. Before the treatment, all patients underwent physical examination, electronic nasopharyngoscopy, nasopharyngeal contrast-enhanced MRI, neck chest and abdomen contrast-enhanced CT scan, whole body bone scan, blood biochemical examination, EBV-DNA copy number, and thyroid function test. The patient inclusion criteria were as follows:
+
+(1) pathologically confirmed NPC; (2) locally advanced stage III/IVA NPC without distant organ metastasis (2009 UICC staging system); (3) PS score between 0 and 1; (4) completion of 2 cycles of TP or TPF-based induction chemotherapy, followed by concurrent IMRT and chemotherapy; and (5) availability of complete clinical data. Written informed consent was obtained from all participants. This study was approved by the Medical Ethics Committee of Daping Hospital. Table 1 summarizes the patient information.
+
+
+Treatment
+
+
+Chemotherapy
+
+Patients were given 2 cycles of TP or TPF-based induction chemotherapy. The TP regimen consisted of docetaxel 75 mg/m 2 or paclitaxel 135 mg/m 2 on d1 + nedaplatin 80 mg/m 2 on d1-3. The TPF regimen involved 120 h continuous intravenous infusion of docetaxel 75 mg/m 2 or paclitaxel 135 mg/m 2 on d1 + nedaplatin 80 mg/m 2 on d1-3 + fluorouracil 450-550 mg/m 2 on d1-5. Each cycle was completed in 4 weeks and a patient was given 2 cycles. Patients were then given concurrent radiotherapy and 2 cycles of TP chemotherapy as described above.
+
+
+Radiotherapy
+
+All patients were given IMRT with a 6-MV linear accelerator (Elekta, Sweden). The treatment target was outlined based on pretreatment MRI results, and the ICRU report 50 and 62. The single dose for the gross target volume of the primary tumor (GTVnx) was 2.12-2.2 Gy, resulting in a total dose of 70-72.6 Gy. The single dose for the gross target volume of the metastatic lymph nodes (GTVnd) was 2.00 Gy, and the total dose was 66 Gy. The maximum dose for critical organs was determined according to the RTOG-0615 protocol. 
+
+
+Measurement of tumor volume
+
+Once the tumor was outlined, the GTVnx and GTVnd were automatically calculated with an Elekta TPS treatment planning system (TPS). The gross tumour volume (GTV) was then calculated accordingly.
+
+
+Detection of plasma EBV DNA level
+
+Fasting blood (3 ml) of patients was collected using an EDTA vacuum blood collection tube before and after the induction chemotherapy. The plasma was isolated by centrifugation at 1500 g for 10 min and stored at -80 °C until use. Free DNA was extracted from the plasma using a QIAamp DNA blood kit. Plasma EBV DNA copy number was determined by TaqMan real-time PCR assay using a BioRad CFX 96TM real-time PCR instrument (Bio-Rad Laboratories Inc., America) (Lo et al., 1999). The standard curve was made using the human Burkitt's lymphoma cell line Namalwa (Cobioer Biosciences Co., Ltd Nanjing, China) as a standard. Namalwa genomic DNA was extracted and quantified using a NanoDrop2000 (Thermo Fisher Scientific Inc., America). The weight of each diploid cell genome was set as 6.6 pg to calculate the copy number of standard. Forward primer: 5'-CCCAACACTCCACCACACC-3', reverse primer: 5'-TCTTAGGA GCTGT-CCGAGGG-3', fluorescent probe: 5'-(FAM)CACACACTACACACACCCACC-CGTCTC(TAMR A)-3'. Both primers and Taqman fluorescent probes were synthesized by Daan Gene Co., Ltd. at the Sun Yat-sen University (Guangzhou, China). The reaction mixture was prepared (50 μl) and thermal reaction was as follows: 95 °C denaturation for 10 min, followed by 40 cycles of 95 °C 15s and 56 °C 1 min. EBV-DNA copy number below 100 copies/ml was considered as negative.
+
+
+Evaluation of efficacy
+
+The treatment efficacy was evaluated according to the 2009 RECIST (version l.1) at 3-4 weeks after induction chemotherapy and 1 month after radiotherapy. 1.5 T MRI and CT were performed and measurable lesions of the nasopharynx and neck lymph node metastasis was respectively assessed. Efficacy was defined as progressive disease (PD), stable disease (SD), partial remission (PR), complete remission (CR), and CR + PR = objective response (OR).
+
+
+Statistical analyses
+
+The correlation between each clinical parameter and EBV-DNA positive rate was analyzed by chi-square test and Fisher exact probability test. The plasma EBV DNA copy number was converted to a common logarithm value. Samples below the detection limit were given a value of 0. The difference in EBV DNA copy number among groups was compared by Mann-Whitney U test and Kruskal-Wallis test. The correlation between EBV DNA copy number/decrease rate and GTVnx /GTVnd/GTV/tumor regression rate was analyzed by Spearman correlation analysis independent predictors for no residual nasopharynx tumor or neck lymph node metastasis after radiotherapy were analyzed by stepwise logistic regression analysis. The variables were selected by likelihood ratio test according to the following criteria: a variable with a P value lower than 0.05 was selected whereas a variable with a P value higher than 0.1 was excluded. The area under the ROC curve was compared using function "roc.test" embedded in R language package "pROC" (version 3.3.1 Foundation for Statistical Computing, Vienna, Austria) with method proposed by DeLong et al. (1988), all other statistical analyses were performed using SPSS 17.0 (IBM SPSS, Chicago, IL, USA). All tests were bilateral, and P <0.05 was considered statistically significant.

@@ -1,0 +1,17 @@
+	(1)
+VARIABLES	_2023_JIF_sum
+	
+post	0.196***
+	(0.0593)
+months_from_start	0.149***
+	(0.0201)
+1.post#c.productivity_before_treatment_de	-0.759***
+	(0.128)
+Constant	-31.20***
+	(4.992)
+	
+Observations	386,136
+Number of id_numeric	16,089
+R-squared	0.004
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

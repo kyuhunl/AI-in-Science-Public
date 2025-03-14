@@ -1,0 +1,23 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx3024\clbrdrt\brdrs\cellx5040
+\ql \cell\qc (1)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx5040
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx5040
+\ql VARIABLES\cell\qc _2023_JIF_sum\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx5040
+\ql \cell\qc \cell\row
+\ql post\cell\qc 0.252***\cell\row
+\ql \cell\qc (0.0688)\cell\row
+\ql months_from_start\cell\qc 0.199***\cell\row
+\ql \cell\qc (0.0307)\cell\row
+\ql Constant\cell\qc -20.80***\cell\row
+\ql \cell\qc (4.069)\cell\row
+\ql \cell\qc \cell\row
+\ql Observations\cell\qc 193,728\cell\row
+\ql Number of id_numeric\cell\qc 8,072\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx5040
+\ql R-squared\cell\qc 0.004\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

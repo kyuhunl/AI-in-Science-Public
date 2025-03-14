@@ -1,0 +1,78 @@
+Research Methodology
+
+A case study method was used to develop the process of integrating BIM and VE. e application of BIM and VE in a high-rise building project in China was described and evaluated. e case study approach is suitable to describe certain processes or practices in their real context. More description of the case study project is provided in Section 5. In this study, VE was used to identify high-cost elements, and BIM was used to detect clashes, develop cost information, and simulate the proposed changes to the design. An integral step involved in the improved value engineering method is to develop weight and project value indices using the analytic hierarchy process (AHP) and the entropy method, as shown in Figure 2.
+
+e selection of building elements to be evaluated was conducted by decomposing the building components into elements based on the hierarchical analysis of the project. e new method is validated throughout the case study. During the construction stage and before procurement initiation, VE can be used to select the appropriate construction materials as well as developing a construction site management plan. VE can be applied directly before the construction stage to analyze building components, develop functional analysis, and determine the weightage to evaluate the building elements. e typical steps involved in the VE methodology application include establishing the VE team, conducting a functional analysis, determining weights through expert scoring and grade scoring methods, calculate function, cost, and value indices, develop alternatives and evaluate alternatives, and develop recommendations and countermeasures to improve cost and functionality of building elements. e following sections describe the development of VE indices. e framework developed in this study (refer to Figure 3) shows the integration between BIM and VE through an improved value engineering method.
+
+
+Project Value Index.
+
+e first step in evaluating the cost of building components is to determine its value, which can be simply calculated as the ratio between the functional cost and the predetermined cost. e evaluation index of building elements can be evaluated and scored to obtain the total function score F i by using the weighted sum of all components of the building element or system. e function coefficient FI i can be calculated using  Advances in Civil Engineering 3
+FI i � F i n i�1 F i � n k�1 u ik W k n i�1 n k�1 u ik W k , i � 1, 2, . . . , n, (1)
+where u ik is the scores of each evaluation element, W k is the weight of each index, and n is the number of factors of the index system. e cost coefficient can be calculated based on the cost in the original BIM model based on building quantities. Equation (2) can be used to calculate the construction cost coefficient CI i :
+CI i � C i n i�1 C i , i � 1, 2, . . . , n.(2)
+Subsequently, the value coefficient (V i ) can be calculated as the ratio of the functional coefficient to the cost factor, as shown in
+V i � FI i CI i , i � 1, 2, . . . , n.(3)
+If V ≥ 1, the functional cost (i.e., worth) of the building element or system is equal or greater than the budget cost, which means that the cost of a particular element meets the requirements without the need for further adjustment such as redesign. However, if V < 1, the cost standard of the target cost control object is less than the budget cost, and therefore, measures should be taken to control the cost of the element.
+
+
+Weight Determination of the Functional Index.
+
+e analytic hierarchy process (AHP) and the entropy method are combined in this study to determine the subjective and objective weight of functional analysis and scoring of building elements. e AHP was developed by Saaty during the 1970s as a multicriteria decision-making tool [22]. e AHP has several applications in planning, resource allocation, and conflict resolution as it considers both deductive and inductive thinking taking several factors into account in the decision-making process [23]. e AHP has been widely used in various industries and fields, due to its strong ability to simplify complex problems. erefore, this study uses the AHP to determine the importance of building elements for VE based on experts' opinions. Since the weights obtained by the AHP are subjective, and to obtain more accurate and objective evaluation results, the entropy weight method is introduced to obtain the objective weights in the evaluation index system. e entropy weight method uses information entropy to calculate the entropy weight of each indicator according to the degree of variation of each indicator and then corrects the weight of each indicator through entropy weight to obtain a more objective functional indicator weight. e processes used to develop the functional evaluation index are described as follows.
+
+e first process is to develop the judgment matrix by establishing a hierarchical structure. For this purpose, a scale of 1 to 9 was used to represent experts' opinions regarding which alternative element or system to choose. e scale is shown in Table 1. e judgment matrix can be calculated by taking the average of experts' scores. e second process was to calculate the maximum eigenvalue and eigenvector of the judgment matrix using the following steps. e product A i of each row element of the matrix is calculated in
+A i � n j�1 a ij , i � 1, 2, . . . , n.(4)
+For A i to open the nth power root, the calculation is through
+W i � �� A i n , i � 1, 2, . . . , n. (5) Normalize the vector W � [W 1 , W 2 , . . . , W n ] T in W i � W i n j�1 W j , i � 1, 2, . . . , n.(6)
+e feature vector W � (W 1 , W 2 , . . . , W n ) T and the weight vector of A i is relative to A. Calculating the maximum eigenvalue of the judgment matrix, λ max in Equation (7) is given as follows:
+λ max � n i�1 (AW) i nW i , i � 1, 2, . . . , n.(7)
+e third process was to determine the consistency of the judgment matrix using the CI index using  
+
+e smaller the CI calculated, the higher the consistency of matrix A. If CI � 0, then use the random index CR to assist detection through  
+
+RI is the average consistency index, and some RI values are calculated in Table 2.
+
+When n � 1, 2 and RI � 0, the formula was not valid, but when CI � 0, the formula was valid. When the order n > 2, the formula holds. When CR � (CI/RI) < 0, the matrix met the requirements. According to the hierarchy model layer, the consistency test of the total sorting is carried out in
+CR � B i CI i B I RI i , i � 1, 2, . . . , n,(10)
+where B i is the weight value of each low level. When CR < 0.1, it means that the consistency requirements are met. e fourth process was to determine the objective weight using the entropy weight method. is process included the following steps: 
+
+Here, K � 1/ln m, e j ∈ (0, 1), and P ij � 0, P ij ln P ij � 0 (d) Calculate the entropy weight of the j index w j in w j � 1 − e j n − n j�1 e j , n j�1 w j � 1, j � 1, 2, . . . , n,
+
+where w � (w 1 , w 2 , . . . , w n ) is the entropy weight of the evaluation index.
+
+e last process was to combine the AHP and entropy weight methods to take advantage of both methods and produce more accurate results. e combined weight T is calculated in
+T � W j .w j n j�1 W j .w j ,(14)
+where T is the combined weight determined by the AHP and entropy weight method, W j is the subjective weight calculated by the AHP, and w j is the objective weight calculated by the entropy weight method. Finally, the comprehensive weight was obtained: T � (t, t 2 , t 3 , . . . , t n ) .
+
+
+Application of the Integrated Approach in the Case Study
+
+e case study of this research is a high-rise residential building called CJ building in Fujian Province, China. Figure 4 shows the 3D model of the building. e total land area of the project is 3076.93 m 2 , and the total building area is 44925.89 m 2 . e project included basement floors with a total area of 14570.70 m 2 . e main structural element of the building is the frame shear wall, with the ability to resist a 7level earthquake. e design service life is 50 years with a fire resistance rating of Grade I for the underground and Grade II above the ground.
+
+As the project is a high-rise building which has a large basement area, a lot of resources such as human, material, and machinery are consumed, a large number of processes are connected, the pipeline is densely arranged, and the ventilation, water supply, and drainage pipelines are complicated. e construction organization needs to be carefully determined, and coordinated construction requires scientific overall planning. us, the project is very suitable to use the construction cost control model based on BIM and value engineering.
+
+
+BIM Application.
+
+Revit was used to complete the architectural, structural, mechanical, and electrical BIM models ( Figure 5). e BIM model was also used to generate cost data including bill of quantities. e integration of the models and clash detection was performed using Navisworks. Clash detection was a significant process to ensure proper integration of different building elements and Table 1: Scale values used in the judgment matrix of the AHP.
+
+
+Scale
+
+Meaning 1 e two comparative factors i and j are of the same importance 3
+
+i factor is slightly more important than j factor 5 i factor is obviously more important than j factor 7
+
+i factor is strongly more important than j factor 9
+
+i factor is extremely more important than j factor 2, 4, 6, 8 e median value between the two adjacent judgments Reciprocal a ij represents the importance ratio of factor i to factor j, and a ji � 1/a ij , which shows the importance ratio of factor j to factor i systems and less rework during the construction stage. is function could save a considerable amount of project time and cost. After completing the pipeline clash detection, according to the specifications, construction sequence, and avoidance principles, the existing clash is optimized and adjusted reasonably. Figure 6 shows an example of clash detection. In this project, 1821 clashes were found. e rectification of these clashes saved about 80 days of project time and RMB 603,918 (equivalent to about USD 87,700) of project direct cost. To solve the problems of the tight project schedule, difficult on-site section layout, limitation of material transportation times, and secondary handling of large machinery, this study also used the BIM model to rationally arrange the construction site and prepare the general layout of the construction site in advance. Figure 7 shows the project site planning simulation.
+
+
+Function Analysis and Weight Determination.
+
+VE workshop was conducted to analyze factors that influence cost and ensure high value for building elements. e VE workshop included the following members: project manager, project technical director, value engineering experts, cost engineer, architect, structural engineer, and civil engineer. In the review analysis, the work breakdown structure (WBS) of the project was developed to obtain project deliverables, processes, and activities. e WBS enabled a better idea of the installation process, material inspection   
+
+
+Advances in Civil Engineering
+
+and test required, and others. Table 3 shows the hierarchical cost of building components and elements and percentages of the cost. e highest components in terms of cost were the structural, followed by services, installation, and finishes.

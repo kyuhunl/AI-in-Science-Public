@@ -1,0 +1,57 @@
+Materials and Methods
+
+
+Ethics Statement
+
+All procedures were in compliance with the ARVO statement for the Use of Animals in Ophthalmic and Vision Research and approved by the Michigan State University Institutional Animal Care and Use Committee (AUF number 05-11-106-00; Institutional NIH/PHS Animal Welfare Assurance number A3955-01). Owners of WDPs and SDPs gave consent for use of their dogs in this study.
+
+
+Clinical Examinations
+
+Applantion tonometry, slit-lamp biomicroscopy, indirect ophthalmoscopy, examination for dermal masses, and routine phlebotomy were performed as part of a standard health screening examinations by a board-certified veterinary ophthalmologist (DTR) at two regional Doberman pinscher rescue facilities; prior consent was provided by the director of each facility. Twenty white Doberman pinschers (WDPs) and twenty Doberman pinschers of breed standard coat-colors (SDPs) were evaluated. Signalment, pertinent historical information, and results of clinical examinations were collected from medical records.
+
+
+Excisional Biopsies and Histopathology
+
+As part of routine clinical practice, three client-owned WDPs were presented to DTR for periocular, intraocular, and cutaneous mass excision. A total of six masses (4 dermal, 1 oral, 1 iridal) were excised en bloc, fixed in 10% buffered formalin and submitted to the Comparative Ocular Pathology Laboratory of Wisconsin for histopathological interpretation by one of the authors (RRD). The formalin-fixed tissue was embedded in paraffin, sectioned, stained with hematoxylin and eosin, and analyzed via light microscopy. Additionally, historical histopathology reports for five client-owned WDP presented to the clinic were obtained; the cutaneous biopsy samples (all from the facial region) had been obtained previously by referring veterinarians. Histopathologic examination of these samples was performed at the Animal Disease Laboratory-Illinois Department of Agriculture (1 case), IDEXX Laboratories (3 cases), and Kansas State Veterinary Diagnostic Laboratory (1 case).
+
+
+DNA Extraction
+
+Blood samples were collected by one of the authors (DTR) and sent to the Comparative Ophthalmology Laboratory at Michigan State University for genetic analysis. DNA was extracted using a previously described protocol [13]. Briefly, red blood cells were hemolyzed and discarded before adding cell lysis buffer (Qiagen, Germantown, MD, USA) to lyse the white blood cells. A subsequent protein precipitation step was performed, followed by isopropanol precipitation of the DNA.
+
+
+Exclusion Analysis Using Single Nucleotide Polymorphisms and Microsatellite Markers
+
+Based on similarity of the WDP phenotype to human OCA, four genes; tyrosinase (TYR), P-gene (OCA2), tyrosinase-related protein 1 (TYRP1), and solute carrier family, member 2 (SLC45A2), were selected for exclusion analysis. Exclusion analysis works under the following assumptions; (1) the underlying mutation of a high frequency Mendelian condition is identical by decent due to a founder event (i.e. no allelic or locus heterogeneity), (2) there are no phenocopies, (3) no new mutation occurs in the marker, and (4) no recombination has occurred between the marker and the candidate gene [14].
+
+Markers were located using the RepeatMasker track (for microsatellite markers; MS) or the SNPs track on the UCSC Genome Browser 2005 build of the canine genome (http:// genome.ucsc.edu/). Two markers were identified within 500 kb of either side of the gene or within the intronic regions of the gene itself. These markers were selected to be as close as possible to the gene to minimize the chance of falsely excluding the gene due to an unidentified recombination between the marker and the potential mutation within the gene.
+
+Primers to amplify the markers were designed using Primer3 (http://bioinfo.ut.ee/primer3-0.4.0/), primer sequences and related information are given in Table 1 and Table S1. All PCR reactions consisted of 20 mM Tris-HCl (pH 8.4), 50 mM KCl, 1.5 mM MgCl 2 , 0.5 U Taq DNA polymerase (Life Technologies, Grand Island, NY, USA) and 50 ng of DNA in 20 or 25 ml reaction volumes. For PCR reactions to be used for SNP and exonic sequencing analysis, 0.3 mM of each primer was added to the PCR mix. All PCR amplifications were performed under the following conditions: 30 sec at 94uC, 30 sec at 59uC and 1 min at 72uC for 30 cycles with a final extension step of 3 min at 72uC.
+
+Amplification products for SNP analysis were digested with an appropriate restriction enzyme ( Table 1). The markers were analyzed by standard agarose gel electrophoresis using 2% agarose gels in a tris-acetate-EDTA buffer run at 200V for 45 or 60 minutes (SNP or MS, respectively).
+
+
+Sequencing SLC45A2
+
+SLC45A2 exons were identified using UCSC Genome Browser 2005 (CanFam2.0) canine genomic assembly. Primers were designed in the nearby intronic regions surrounding the exons ( Table 2). PCR products were submitted to Michigan State University's Research Technology Support Facility (MSU-RTSF) for Sanger dideoxy sequencing on an ABI 3730 Genetic Analyzer. Sequences were viewed using Sequencher 4.0 (Gene Codes, Ann Arbor, MI, USA).
+
+
+Estimation of the Extent of Linkage Disequilibrium around SLC45A2
+
+Additional MS markers were identified in increasing distances from SLC45A2 (Table S2). Markers were genotyped as far away as 7 Mb on either side of the gene. Primers made for MS markers used for linkage disequilibrium mapping had a universal sequence tag attached to the 59 end of the forward primer (59-AGGGTTTTCCCAGTCACGAC-39) [15]. This enabled the addition of a FAM or HEX fluorescently labeled complementary primer. The chimeric forward primers were added at 0.03 mM concentration and the reverse primer and the universal primer were added at a concentration of 0.3 mM. Allele sizes were determined on an ABI PRISM 3130 Genetic Analyzer by MSU-RTSF. The results of this high resolution genotyping were analyzed with Peak Scanner software (Life Technologies, Carlsbad, CA, USA) (Table S3).
+
+
+RNA Collection and Extraction
+
+With prior owner consent, a small skin tissue sample was collected from a larger skin sample excised from a WDP undergoing a routine surgical procedure for an unrelated medical condition at the Michigan State University-Veterinary Teaching Hospital (MSU-VTH). Following euthanasia for an unrelated study, white and pigmented skin samples were separately collected for use as control samples from a tri-colored, mixed-breed dog maintained in a research colony at MSU-VTH (AUF number 05-11-106-00). The samples were fixed in RNA Later (Qiagen, Valencia, CA, USA) and stored at 220uC until further processing. Approximately 30 mg of tissue was finely ground in liquid nitrogen using a sterile mortar and pestle. RNA was extracted following the manufacturer's protocol (RNeasy Fibrous Tissue Kit, Qiagen, Valencia, CA, USA).
+
+
+cDNA Synthesis and Sequencing
+
+Complimentary DNA (cDNA) was synthesized using approximately 200 ng of RNA and the components of a 39 RACE kit utilizing a poly(dT) primer (Invitrogen, Carlsbad, CA, USA) following the manufacturer's instructions. The resultant cDNA was stored at 220uC. A qualitative assessment of the presence/ absence of SLC45A2, TYR, and Beta-actin (ACTB, selected as house-keeping control gene) expression was analyzed using a PCR product of exonic regions and compared with control skin samples. Primers were designed using Primer3 (http://bioinfo.ut.ee/ primer3-0.4.0/). PCRs reactions were in 20 ml volumes as described in the ''exclusion analysis'' section above. Reverse transcription PCRs for SLC45A2, TYR and ACTB were performed under the following conditions: 94uC for 3 min followed by 50 cycles of 94uC for 1 min, 63uC for 2 min, and 72uC for 3 min and a final extension step of 1 cycle at 72uC for 3 min. PCR products were sent to MSU-RTSF for Sanger sequencing on an ABI 3730 Genetic Analyzer.
+
+
+Statistical Analysis
+
+Parametrically distributed clinical examination data were compared using Student's T-Test and non-parametrically distributed clinical examination data were compared using Chi-square analysis, with significance set at p#0.05. The association of the fixed microsatellite allele in WDPs was compared with the number of alleles of that size in SDPs and analyzed for significance with a two-tailed Fisher's Exact test. The alleles were pooled into (1) most common allele size in the WDPs and (2) 

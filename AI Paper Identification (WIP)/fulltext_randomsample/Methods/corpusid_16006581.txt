@@ -1,0 +1,59 @@
+Methods
+
+
+Animal ethics statement
+
+The fertilized eggs used in this study were incubated in the egg incubators in Institute of Biotechnology at National Taiwan University, and in Department of Pathology, School of Medicine at University of South California. The animal use protocol and dissection techniques [21] have been reviewed and approved by the Institutional Animal Care and Use Committee in National Taiwan University and in University of South California. All efforts were made to minimize suffering.
+
+
+Microarray Profiles
+
+Chicken embryonic skin microarray profiles, which had been described by Hughes et al., were obtained from Chuong's laboratory [21]. The profiles were obtained from the feather-forming dorsal and scale-forming metatarsal skin compartments, including two E7 dorsal skin epithelial (E7fe), three E7 dorsal skin mesenchymal (E7fm), two E9 dorsal skin epithelial (E9fe), three E9 dorsal skin mesenchymal (E9fm), two E9 metatarsal skin epithelial (E9se), three E9 metatarsal skin mesenchymal (E9sm), two E11 metatarsal skin epithelial (E11se), and three E11 metatarsal skin mesenchymal (E11sm) compartments [21]. The expression profiles of the 20 microarray assays were combined into a common set of known chicken genes. Raw array data were normalized using the Robust Multi-array Average technique. The array-specific bias was eliminated through quantile normalization (R: affy package) [22,23]. The microarray profiles have been deposited in Gene Expression Omnibus (GEO) data repository under accession number GSE62882.
+
+
+Cosine Similarity Analysis
+
+The property of cosines can be used to evaluate the similarity between trends of data progression and has been widely adapted in data mining and clustering strategies [24][25][26]. With the 20 microarray data points we generated from various regional and temporal embryonic chicken skin samples, we gathered the 20-dimensional data points for each gene, in which the i th dimension represents the gene's expression in the i th microarray, where i denotes the 1 st to 20 th microarray profiles. The regulatory concordance of any 2 genes can be presented by a cosine value from 1 to −1 corresponding to 0°to 180°angles. When genes are co-regulated, the cosine value approximates to 1. Genes that are reciprocally regulated have a cosine value approximates to −1. A cosine value close to 0 suggests a pair of genes have little regulatory concordance.
+
+For two data points a and b, representing the expression values of gene a and b in the 20 microarrays, their inner product space measured by the cosine function is defined as follows: cosθ ¼ a⋅b
+a j j b j j ¼ P k a k b k ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi P k a 2 k P k b 2 k p
+, where θ is the angle between a and b, illustrating the difference of their regulatory trends [27]. Genes that show regulatory concordance are clustered ( Figure 1A, B).
+
+
+Seed (candidate genes) selection
+
+We defined differentially expressed genes as "seeds" if they have greater than 5-fold expression differences between feather-and scale-forming skin tissues. Specifically, we selected seeds by performing the following 4 groups of comparisons between feather-and scaleforming skins of similar developmental plasticity: E7fe vs. E9se, E7fm vs. E9sm, E9fe vs. E11se, and E9fm vs. E11sm (E7, E9, and E11 embryonic days, feather (f; dorsal) and scale (s; metatarsal) skin region, and epithelium (e) and mesenchyme (m) skin compartments follow the descriptions by Hughes et al. [21]).
+
+
+Identification of genes co-regulated or reciprocally regulated with seeds
+
+We calculated the spectrum of cosine values by comparing each gene to a particular seed and divided the resulting cosine value distribution into 16 even sections from −1 to 1. We applied Fisher Transformation (R: psych package) [22,28] to normalize the cosine value distribution for each of the 4 groups of seeds (E7fe/E9se; E7fm/ E9sm; E9fe/E11se, E9fm/E11sm; Figure 1C). Genes in the top 0.5% and bottom 0.5% of the cosine value distribution are defined as co-and reciprocally expressed genes to a seed. With total of 1% of the whole microarray probe set, we ensured that the probes/genes selected have very similar or reciprocal expression to the corresponding seeds.
+
+
+Identification of key regulators by exploratory data analysis
+
+The exploratory data analysis approach is suitable for preliminary discoveries of data structure and checking whether the data are consistent with the study expectations [27]. First, we grouped seeds with genes that share regulatory concordances. We then clustered these groups according to whether their seeds are co-or reciprocally regulated ( Figure 1B). Some genes may be assigned to multiple gene clusters. We deemed that a gene shared by multiple clusters may play potential roles in the regulatory crosstalk among these clusters. Genes showing a strong correlation (similar or reciprocal) with more than 10 probes were enlisted as genes of interest being co-or differentially regulated between feather and scale skins ( Figure 1D).
+
+
+Sample Collection for Gene Expression and Chromatin Analysis
+
+We collected 8 sets of embryonic chicken (Cobb500 Broiler) skins from both feather and scale regions that represent predicted plastic and differentiated states: E7fe, E7fm, E9fe, E9fm, E9se, E9sm, E11se, and E11sm. E7, E9, and E11 are the egg incubation days and reflect Hamburger-Hamilton stages (HH) [29] of HH30, HH34, and HH37, respectively. The feather epithelium (fe), feather mesenchyme (fm), scale epithelium (se), and scale mesenchyme (sm) were collected separately. For separation of the skin epithelium and mesenchyme, skins were treated with 2× HBSS buffer at 4°C for 5 min prior to fine forceps separation.
+
+
+RNA Purification
+
+Approximately 10-20 mg of skin samples from 1-4 embryos were homogenized in 1 ml of TRIzol® reagent (15596-018; Invitrogen) for each biological repeat. Two hundred microliters of chloroform was added, followed by phase separation by centrifugation at 12,000 g for 15 min at 4°C. To isolate RNA, the supernatant aqueous phase was aspirated and mixed with 1 volume of isopropanol. The RNA was pelleted by centrifugation at 12,000 g for 10 min at 4°C. RNA pellets were washed with 75% ethanol and resuspended in pure water. Figure 1 Cosine similarity analysis methodology for determining co-differentially regulated genes in the feather/scale region. A) 2D representation of the concept of cosine similarity analysis. The actual analysis occurs in a 20-dimension hyperspace. θ represents the angles between a probe vector and a differentially expressed vector. B) 2D representation of the clustering concept after the identification of similarly regulated vectors. Differentially expressed genes and their correlated probes are represented by blue squares and green circles, respectively. The correlated differentially expressed genes and probes are clustered (encircled gene sets by the outlines of different colors representing different clusters). Some differentially expressed genes and probes may be clustered into more than one group. C) Demonstration of cosine value distribution for each seed. The cosine value distributions are normalized by Fisher transformation. The upper 0.5% and lower 0.5% mark the selection boundaries in choosing probes with similar regulation patterns. D) Distribution of genes that share common seeds. Genes sharing more than 10 common seeds are shortlisted for their potential roles in developmentally important pathways.
+
+
+Reverse Transcription-qPCR (RT-qPCR)
+
+Reverse transcription was performed using the Invitro-gen™ SuperScript® III First-Strand Synthesis System according to the RT-PCR manual. Briefly, each 20 μl reaction contained the following: 1 μg of purified RNA, 50 ng of random hexamers, 1 μl of 10 mM dNTPs, and 10 μl of cDNA Synthesis Mix. Samples were incubated using the following PCR parameters: 10 min at 25°C, 50 min at 50°C, and 5 min at 70°C. Next, the samples were chilled on ice and then stored at −30°C for future use. Real-time PCR was performed using a Roche Light Cycler® 480II and the SYBR Green PCR Master Mix. The RT-qPCR primers used are listed in Additional file 1: Table S1. GAPDH and beta-actin were used to normalize gene expression for cytosolic proteins and membrane proteins, respectively.
+
+
+In Situ Hybridization
+
+To make the antisense probe for in situ hybridization, two PCRs were performed for each gene. In the first PCR, we used the primer set Forward1 + Backward1. cDNA from E7 skin was used as template. The single band PCR product was purified with a gel purification kit (Qiagen). In the second PCR, we used the primer set Forward1 + the nested primer Backward2-T7. The previously purified PCR product was diluted 1:100 and used as the template. The PCR product was gel purified and sequenced with T7 primer to verify its identity. An antisense RNA probe was generated using DIG RNA Labeling Kit (Roche). Whole mount in situ hybridization was performed according to Jiang et al. [30]. For each probe, the E7 and E9 samples are kept in the same tube to perform in situ hybridization and develop color over the same time period. One set of samples without probe added was used as the control. Photos for different samples are taken using similar lighting conditions.
+
+Chromatin Immunoprecipitation (ChIP)-next generation sequencing (ChIP-seq) and qPCR
+
+Skin epithelium samples from 1-4 embryos per biological repeat were treated with 0.0625% trypsin and 20 μM collagenase IV for 2 min at 37°C for homogenization, and this reaction was stopped with fetal bovine serum (10100147; Gibco®). The homogenized samples were fixed with 1% formaldehyde at room temperature and stopped by 125 mM glycine. Cell nuclei were extracted with 0.5% NP-40 and 0.25% Triton X-100. Formaldehyde-fixed nuclei were resolved and sonicated following Diagenode's® Low Cell# ChIP manual (kch-maglow-G48; Diagenode) to overcome the limited cell availability from embryonic skin epithelium. The following antibodies were used for the immunoprecipitation: anti-H3K4me1 (ab8895; Abcam), anti-H3K27ac (ab4729; Abcam), and anti-H3K27me3 (#07-449; Millipore). Antibodies were pre-bound with protein G-coated magnetic beads for 2 hours in 4°C. A total of 1 × 10 5 cells was used for each 100 μl ChIP reaction overnight at 4°C. ChIP samples were collected following the manufacturer's instructions. ChIP and input libraries were prepared according to the Illumina protocol and sequenced using an Illumina HiSeq™ Sequencing System. Sequencing reads were trimmed using CLC Genomics Workbench v6.0.2 (CLC Bio, Aarhus, Denmark), mapped to chicken genome assembly galGal4 with Bowtie2 v2.1.0 [31], and analyzed with MACS v1.4.2 [32] for peak calling using the default settings. Real-time PCR was carried out on a Roche Light Cycler® 480II using the SYBR Green PCR master mix. As the loading control, 10% input was used to normalize the recovery rate in each sample of the same ChIP antibody. The primers used were designed according to our unpublished ChIP-seq dataset and are listed in Additional file 1: Table S2.

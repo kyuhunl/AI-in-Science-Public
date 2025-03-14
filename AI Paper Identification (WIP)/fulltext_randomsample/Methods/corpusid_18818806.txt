@@ -1,0 +1,7 @@
+Methods
+
+The propagation length, defined as the distance from the input to where the mode field decays by a factor of 1/e 29 , is calculated by
+λ π = /( ⋅ ( )) ( ) L n 4 Im 1 eff
+where Im(n eff ) is the imaginary part of the effective mode index. A 0 is the diffraction-limited mode area and defined as λ 2 /4, A eff is the ratio of the total mode energy to peak energy density written by FoM is the ratio of the propagation length to the square root of effective mode area written by
+= / ( ) FoM L A 4 eff
+FoM is another important parameter providing an appropriate measurement for the trade-off between the propagation length and attenuation.

@@ -1,0 +1,17 @@
+	(1)
+VARIABLES	count
+	
+post	0.00278
+	(0.00592)
+1.post#c.is_ls_first	0.0221***
+	(0.00651)
+1.post#c.is_ls_last	-0.0102
+	(0.00771)
+Constant	0.295***
+	(0.0670)
+	
+Observations	386,136
+Number of id_numeric	16,089
+R-squared	0.019
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

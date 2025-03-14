@@ -1,0 +1,17 @@
+	(1)
+VARIABLES	topic_hhi_adjusted
+	
+post	0.000929
+	(0.000625)
+months_from_start	-0.000243
+	(0.000448)
+1.post#c.productivity_before_treatment_de	-0.00464***
+	(0.000728)
+Constant	0.169
+	(0.120)
+	
+Observations	380,644
+Number of id_numeric	16,089
+R-squared	0.005
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

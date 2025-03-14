@@ -1,0 +1,102 @@
+MATERIALS AND METHODS
+
+
+Milk collection
+
+Bovine colostrum milk was collected from Holstein cows within 3 days postpartum at a local dairy farm and delivered to the laboratory immediately in a portable freezer. Mature bovine milk was collected during the mid-lactation period and used in most experiments unless stated otherwise. Human milk samples were obtained as previously described (62). Briefly, fresh human milk samples were collected by means of an electric breast pump from women aged 25 to 35 years who were at a lactational stage of 15 to 180 days. All donors signed the informed consent, and the study was approved by the ethics committee of Ocean University of China (SPXY2020073010).
+
+
+Isolation and characterization of mEVs and EV-depleted supernatant
+
+B-mEVs and H-mEVs were isolated and purified as previously descripted (15). Briefly, 0.05% chymosin and 0.3% CaCl 2 were incubated with milk at 4°C for 30 min. Afterward, the samples were centrifuged at 16,500g to remove fat, casein, and residual chymosin. The supernatant was collected and then centrifuged at 90,000g for 60 min at 4°C (HIMAC CP70ME Ultracentrifuge with Type Ti alloy fixed angle rotor, Hitachi Ltd., Tokyo, Japan) to remove large particles and debris. Next, 10-ml aliquots of the supernatant were centrifuged at 135,000g at 4°C for 90 min, and then the pellet was resuspended in phosphate-buffered saline (PBS) and washed by ultracentrifugation at 135,000g for 60 min. mEVs were transferred onto the 100-kDa filters and centrifuged twice at 3000g for 30 min to improve mEV purity. Bovine mEV-depleted supernatant was collected after ultracentrifugation at 135,000g for 90 min. The protein concentrations of mEVs and mEV-depleted samples were measured using the Micro BCA Protein Assay Kit (Thermo Fisher Scientific, USA). The complete isolation protocol of mEVs has been submitted to the EV-TRACK (ID: EV200018) (13). The size distribution and particle concentrations of mEVs were assessed with a NanoSight NS300 (NTA, Malvern Instruments Ltd., UK) equipped with a 488-nm laser. The samples were diluted and measured at 25°C. All samples were analyzed in five replicates.
+
+To examine mEV morphology, 10 μl of mEVs was incubated for 5 min on a formvar film-coated FF200-Cu grid (200 mesh, CU). Negative staining was then performed with 2.5% gadolinium triacetate for 1 min. Images were obtained under an FEI TECNAI SPIRIT G2 TEM from FEI company of USA (S.E.A.) Pte Ltd. (Singapore).
+
+
+Small RNA sequencing of B-mEVs and H-mEVs
+
+Total RNA from mEVs was extracted using the RNeasy Plus Micro Kit (QIAGEN, 74034, USA) according to the manufacturer's instructions. Quality of extracted small RNA was determined using Agilent Bioanalyser 2100 (Agilent Technologies, Santa Clara, CA, USA). Small RNA library was prepared using the Agilent 2100 DNA Bioanalyzer and a Quant-iT PicoGreen dsDNA assay kit. Quantitated libraries were constructed using the NEBNext Multiplex Small RNA Library Prep Set for Illumina (Shanghai Personal Biotechnology Co. Ltd., Shanghai, China).
+
+
+Preparation of liposomes
+
+Liposomes were prepared and characterized as previously described (63). In brief, Dipalmitoylphosphatidylcholine (DPPC), cholesterol, and 1,2-distearoyl-sn-glycero-3-phosphoethanolamine-N-[amino(polyethylene glycol)-2000] (DSPE-PEG-2000, molecular weight 2000) were mixed in molar ratios of 1.85:1:0.15. Lipids were dissolved in chloroform-methanol [1:1 (v/v)] in a roundbottom flask, and a lipid thin film was prepared by rotary evaporation (Büchi Labortechnik AG, Flawil, Switzerland), followed by an additional drying step under a stream of nitrogen for 1 hour. Subsequently, the lipid film was hydrated using Hepes-buffered saline (HBS) solution (pH 7.4), or Hepes-HBS containing trypan blue (Bi-oWhittaker, MD, USA) or miR-148a (Mature Mimic Strand: /5PHOS/rUrCrArGrUrGrCrArCrUrArCrArGrArArCrUrUmUm-GrU), to form a lipid dispersion. Liposomes were produced by multiple sequential extrusion steps using a mini extruder (Northern Lipids, Burnaby, BC, Canada) through polycarbonate membranes (Nuclepore, Pleasanton, CA, USA) with final filters. The liposomes were filtered through a 0.22-μm nylon filter and stored at 4°C. Liposome size and particle concentrations were determined by dynamic light scattering (DLS; Malvern, United Kingdom) and NTA, respectively. Trypan blue was determined by absorbance at 610 nm with a plate reader (Thermo Fisher Scientific, USA), and miR-148a was measured using the Quant-iT Ribogreen RNA Assay Kit (Thermo Fisher Scientific, Eugene, USA). miR-148a was purchased from IDT Inc.
+
+
+Ex vivo digestion of B-mEVs, H-mEVs, and liposomes
+
+The digestive juices, including saliva, gastric juice, pancreatic juice, and bile juice, were prepared as previously described (table S1) (23). To examine whether mEVs survive the gastrointestinal conditions in an ex vivo model system, 100 μl of B-mEVs, H-mEVs, or liposomes (as a control nanoparticle) was mixed with 150 μl of salivary juice and incubated at 37°C for 5 min, followed by incubation with 300 μl of gastric juice at 37°C for 120 min. Then, 300 μl of pancreatic juice and 150 μl of bile juice were added and incubated at 37°C for 60 min. PBS (replacing the digestive juices) was used as a negative control for samples to go through the same ex vivo digestion steps. Last, digestive juices were removed by centrifugation at 8000g at 20°C, and particle concentrations of mEVs and liposomes were determined by NTA. All chemicals and enzymes for the ex vivo model system were purchased from Sigma-Aldrich (St. Louis, MO, USA).
+
+
+Preparation of microRNA containing LNPs
+
+Lipid nanoparticles were prepared by microfluidic mixing as previously reported (64), with modifications. In brief, one volume of lipid mixture [a synthetic amino lipid SM-102, cholesterol, DSPC (1,2-distearoyl-sn-glycero-3-phosphocholine), and DMG-PEG (1,2-dimyristoyl-rac-glycerol-polyethylene glycol)] in pure ethanol and three volumes of miR-148a (Mature Mimic Strand: /5PHOS/rUrCrArGrUrGrCrArCrUrArCrArGrArArCrUrUmUm-GrU) or scrambled microRNAs in a NaOAc buffer (25 mM, pH 5) were injected into a T-junction mixer. The formed LNPs were dialyzed overnight against PBS (pH 7.4) to remove ethanol. After dialysis, LNPs were sterilized using 0.22-μm filters and concentrated to an appropriate volume using Amicon Ultra-15 centrifugal filter units with a membrane cutoff of 10 kDa. LNPs were stored at 4°C till use. LNP particle size (~70 nm) and zeta potential (~0) were determined by NanoSight 300 and DLS, respectively. RNA encapsulation efficiency (~90%) was determined using the Quant-iT Ribogreen RNA Assay Kit. Cholesterol, DSPC, and DMG-PEG were purchased from Avanti Polar Lipids Inc. Scrambled micro-RNA was purchased from IDT Inc.
+
+
+Cell culture
+
+The murine macrophage cell line Raw264.7, the human intestinal epithelial cell line Caco-2, and mouse BMDM were cultured in Dulbecco's modified Eagle's medium (DMEM) containing 10% fetal bovine serum (FBS) and penicillin (100 U/ml) and streptomycin (100 mg/ml; P/S). DC2.4 cells were cultured in RPMI 1640 medium with 10% FBS and P/S. Furthermore, 1% nonessential amino acids were supplemented in the complete medium for Caco-2 cells. Raw264.7 cells [macrophage cell line derived from male BALB/c mice, American Type Culture Collection (ATCC) no. TIB71] and Caco-2 cells (human intestinal epithelial cell line derived from white male, ATCC no. HTB-37) were purchased from ATCC (Manassas, Virginia, USA). DC2.4 cells (mouse dendritic cell line derived from C57BL/6 mice, SCC142) were purchased from Merck Millipore (Sigma-Aldrich, USA). BMDM were generated as previously described (65). In brief, bone marrow cells were collected from the male C57BL/6J mice and were cultured in DMEM supplemented with 20% FBS and macrophage colony-stimulating factor (30 ng/ml) for 6 days. The adherent cells were differentiated macrophages, which were confirmed by flow cytometry (F4/80 + /CD11b + ) or microscopy (immunofluorescence staining with CD68 or F4/80 + ). Cells were maintained in a humidified incubator with 5% CO 2 at 37°C.
+
+
+TEER measurement
+
+The apical and basolateral compartments of the Transwells were maintained with a complete DMEM that was changed every 2 days. TEER values were measured and recorded using a Millicell ERS-2 resistance system (EMD Millipore Corporation, Burlington, MA). TEER was calculated as follows: TEER = (R m − R i ) * A. R m is transmembrane resistance, R i is the intrinsic resistance of cell medium, and A is the surface area of the Transwell membrane. Cellular uptake assay B-mEVs and H-mEVs (100 μg) were labeled with 100 μl of the 40 μM protein-binding dyes CFSE [5-(and-6)-carboxyfluorescein diacetate succinimidyl ester; Thermo Fisher Scientific, USA] by incubation at 37°C for 2 hours. Free dye was removed by ultrafiltration at 2000g for 30 min. Labeled CFSE-mEVs were incubated with Caco-2 cells at 37°C for 8 hours, and then the cells were harvested and washed to remove free particles. For confocal microscopy, samples were fixed with 4% paraformaldehyde and washed twice with PBS. Afterward, PKH26 dyes (Sigma-Aldrich, MINI26-1KT, USA) were used to stain cell membrane, and LysoTracker Deep Red (Invitrogen, L12492, USA) were used to stain lysosomes in Caco-2 cells. Cell nuclei were visualized by 4′,6-diamidino-2-phenylindole (DAPI) staining (Thermo Fisher Scientific, 62248, USA).
+
+
+Animal models
+
+For acute colitis, 6-week-old male C57BL/6J mice (InVivos, Singapore) were grouped randomly and given 3.5% DSS (colitis grade, 36 to 50 kDa, MP Biomedicals, USA) in drinking water for 7 days. B-mEVs (0.6 mg/kg per day, low dose; 3.0 mg/kg per day, high dose) were orally administered to mice for 1 week before DSS feeding.
+
+Chronic colitis was induced by intermittent administration of 3.5% DSS. Body weight and DAI (body weight loss, stool consistency, and bleeding) were assessed in both acute and chronic models of colitis. For NASH, 7-week-old C57BL/6J mice were fed on the MCD diet (MP Biomedicals, USA) for 8 weeks. At 4 weeks of MCD diet feeding, mice were randomly grouped for different treatments. Mice were orally administered with B-mEVs starting at 4 weeks feeding on MCD diet 1.2 mg/kg every other day for 4 weeks. Saline or EVdepleted supernatant (1.2 mg/kg every other day) were used as negative control. Mice were kept on a 12-hour light and dark cycle. All animal experiments were approved by the Institutional Animal Care and Use Committee of the National University of Singapore or Ocean University of China and conformed to the Guide for the Care and Use of Laboratory Animals published by the U.S. National Institutes of Health (NIIH Publication, 8th Edition, 2011).
+
+
+Biochemical assays
+
+Mouse colon tissue, serum, and plasma were collected for biochemical assays. Colon segments (0.1 g) were homogenized in 0.5 ml of PBS containing 0.05% Tween-20 and 10 mM EDTA. Tissue homogenate was centrifuged at 3000g for 10 min. Supernatants were collected to determine IL-10 levels with an enzyme-linked immunosorbent assay (ELISA) kit (Nanjing Jiancheng Bio, Nanjing, CN). Serum levels of inflammatory cytokines (TNF-α, IL-6, IL-1β, and IL-17) were measured using ELISA kits (Nanjing Jiancheng Bio). Plasma levels of NO were determined using a Nitric Oxide assay kit according to the manufacturer's protocol (Abcam, ab272517).
+
+
+Colon and liver histology
+
+Colon and liver tissues were fixed in 10% formalin solution (Sigma-Aldrich, HT501128). Tissues were incubated in 30% sucrose solution and kept at 4°C overnight before further processing and embedding in paraffin. Paraffin-embedded tissue was cut into 5-μmthick sections and stained with hematoxylin (Sigma-Aldrich, H9627) and eosin (Merck, E4382), Alcian blue (Sigma-Aldrich, A3157), Masson's trichrome (Solarbio, G1346), or PicroSirius red (Abcam, ab150681). For immunohistology, antigens were retrieved by boiling colon sections in sodium citrate buffer (pH 6.0). Tissue sections were incubated in 3% hydrogen peroxide solution (Sigma-Aldrich, 516813) to block endogenous peroxidase activity and then in 3% bovine serum albumin (BSA) for 30 min at room temperature to block nonspecific binding. Colon tissue was stained with primary antibodies, anti-CX3CR1 (Proteintech, 13885-1-AP) and anti-CD4 (Abcam, ab183685), overnight at 4°C followed by horseradish peroxidase-conjugated secondary antibodies. Afterward, tissue sections were incubated with 3,3′-diaminobenzidine (Sigma-Aldrich, D12384) and hematoxylin and then imaged using a light microscope (Olympus, Japan). For ORO (Sigma-Aldrich, O0625) staining, fresh frozen liver tissue was embedded in Frozen Section Compound (Leica, 95057-838) and cut into 5-μm cryosections with a cryostat (Leica CM1850, Wetzlar, Germany). Then, the sections were then fixed with 10% formalin and stained with 0.3% ORO solution followed by hematoxylin. Histological staining was quantified using ImageJ software (NIH, Bethesda, USA). Loss of goblet cells, mucin-depleted foci, and loss of epithelium were analyzed by Alcian blue staining.
+
+
+In vivo imaging of B-mEVs and H-mEVs in mice
+
+To monitor the biodistribution of mEVs in mice, mEVs were labeled with Cy5 fluorescence dyes (Cyanine 5 NHS ester, Lumiprobe, 43020) and administered by oral gavage. Briefly, B-mEVs (300 μg/μl) and H-mEVs were incubated with 1 μl of Cy5 (5 mg/ml) at 4°C for 4 hours. Mice were anesthetized and imaged over a 12-hour period using IVIS Spectrum In Vivo Imaging System (PerkinElmer, Boston, USA). Afterward, organs were collected and imaged using IVIS. The same amount of free Cy5 dyes in PBS was administered to mice as control.
+
+
+Isolation of colon and liver immune cells
+
+Twelve hours after oral administration of Cy5-labeled mEVs, colons were collected with all fat tissue, and Peyer's patches were removed and cut into 0.5-cm-long sections. The epithelial sheet was removed by incubation in 5 mM EDTA and 2 mM dithiothreitol. The remaining tissue was cut into small pieces and transferred into a six-well plate containing 3 ml of digestion solution [collagenase IV (0.2 mg/ml) and deoxyribonuclease I (DNase I; 0.05 mg/ml) in RPMI 1640 with 10% FBS] and incubated at 37°C for 60 min. The digested tissue was filtered through a 70-μm cell strainer, followed by centrifugation at 300g for 5 min at 4°C. The cell pellet was resuspended in FACS buffer (5 mM EDTA and 1% FBS) and kept on ice until further analysis.
+
+For liver immune cell isolation, liver tissue was cut into small pieces, transferred into one well of a six-well plate containing 2 ml of digestion solution [collagenase IV (0.2 mg/ml) and DNase I (0.05 mg/ml) in RPMI 1640 with 10% FBS], and incubated at 37°C for 60 min. The digested liver tissue was filtered through a 70-μm cell strainer and centrifuged at 300g for 5 min at 4°C. Cell pellet was resuspended in 5 ml of ammonium-chloride-potassium lysis buffer to remove red blood cells. After 5 min of incubation, the cells were spun down and resuspended in 2 ml of FACS buffer for further analysis.
+
+
+Flow cytometry analysis
+
+Colonic and liver immune cells were treated with a cocktail containing phorbol 12-myristate 13-acetate, ionomycin, and brefeldin A (eBioscience, 004975) for 5 hours at 37°C and then were blocked by mouse Fc block buffer (10 μg/ml; eBioscience, A53015) for 5 min at 4°C. Cells were stained for various surface markers [CD4 (Bi-oLegend, 100432), CD3 (BioLegend, 100222), CD8 (BioLegend, 100759), CD45 (BD Bioscience, 562420), CD25 (BioLegend, 102008), CD11c (Invitrogen, MCD11c17), LyG6 (BioLegend, 127612), and F4/80 (BioLegend, 123141)] at 4°C for 30 min, then fixed, and permeabilized with Fixation/Permeabilization solution (eBioscience, 005523). The intracellular cytokines were stained using IL-4 monoclonal antibodies (eBioscience, 12-7041-81), and intranuclear cytokines were stained by Foxp3 (eBioscience, 17-5773-80). After washing three times, cells were analyzed using a FACSCalibur flow cytometer (BD Biosciences).
+
+
+Immunofluorescence staining
+
+Cells and colon tissue were fixed with 4% paraformaldehyde. Specifically, colon tissue was dehydrated with 30% sucrose solution at 4°C overnight, embedded in Frozen Section Compound (Leica), and cut into 5-μm cryosections. Cells or colon sections were incubated in the blocking buffer for 1 hour before incubation with primary antibodies [ZO-1 (Abcam, ab221547), Occludin (Abcam, ab216327), JAM-1 (Abcam, ab272172), Foxp3 (Abcam, ab275120), MUC2 (Abcam, ab272692), Collagen Type I (Merck, AB765P), CD68 (Bio-Rad, MCA1957), CD11c (GeneTex, GTX74940), and F4/80 (Abcam, ab16911)] at 4°C overnight. After washing, samples were stained with fluorescent dye-conjugated secondary antibodies for 1 hour at room temperature and mounted with DAPI. Images were taken under an eclipse TI2-E inverted research microscope (Nikon) and analyzed with ImageJ software (NIH, Bethesda, MD).
+
+
+Gut permeability assays
+
+Gut permeability was determined by oral administration of FITCdextran (0.6 mg/g; Sigma-Aldrich, 46944) to mice. After 4 hours, blood was collected, and plasma was obtained by centrifugation at 2000g for 10 min. Fluorescence was measured with emission at 530 nm and excitation at 485 nm using microplate reader (Thermo Fisher Scientific, USA). Gut permeability was expressed as fluorescence intensity units.
+
+
+Western blot
+
+Proteins were separated by SDS-polyacrylamide gel electrophoresis, transferred to a polyvinylidene difluoride membrane, blocked with 5% BSA in tris-buffered saline with 0.1% Tween-20 detergent at room temperature for 1 hour, and probed with various primary antibodies: TSG101 (Abcam, ab225877), Alix (Abcam, ab186429), CD81 (GeneTex, GTX101766), Calnexin (Abcam, ab227310), ApoA1 (Abcam, ab52945), RAB5C (Abcam, ab199530), ZO-1 (Abcam, ab221547), Occludin (Abcam, ab216327), GLP2 (Thermo Fisher Scientific, BS-0841R), IGF-1 (Abcam, ab182408), AMPK (Abcam, ab32047), p-AMPK (Abcam, ab131357), and glyceraldehyde-3-phosphate dehydrogenase (Abcam, ab181602). The rabbit (Abcam, ab6721) and mouse (Abcam, ab6789) secondary antibodies were used for protein visualization. Proteins were quantified with ImageJ software version (NIH, Bethesda, MD).
+
+
+Quantitative real-time polymerase chain reaction
+
+Total RNA was extracted from cells and tissue using the RNeasy Mini Kit (QIAGEN, 74106) and quantified by Nanodrop (Thermo Fisher Scientific). A total of 500 ng of RNA was converted into cDNA with the Reverse Transcription Kit (QIAGEN, 205313). mRNA levels were quantified using the PowerUp SYBR Green Master Mix (Applied Biosystems, 01151389). Relative expression of genes was calculated using the −2 ΔΔCt method. Gapdh was used as a housekeeping gene. Primers used in this study are listed in table S2.
+
+
+Statistical analysis
+
+All data were presented as means ± SD. Statistical analysis was conducted using Student's two-tailed t test or one-way analysis of variance (ANOVA) with GraphPad Prism 8. P values <0.05 were considered statistically significant.

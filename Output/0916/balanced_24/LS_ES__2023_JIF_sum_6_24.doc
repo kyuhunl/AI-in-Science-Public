@@ -1,0 +1,113 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx3024\clbrdrt\brdrs\cellx5040
+\ql \cell\qc (1)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx5040
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx5040
+\ql VARIABLES\cell\qc _2023_JIF_sum\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx5040
+\ql \cell\qc \cell\row
+\ql time24_0\cell\qc -6.017***\cell\row
+\ql \cell\qc (0.940)\cell\row
+\ql time24_1\cell\qc -6.233***\cell\row
+\ql \cell\qc (0.998)\cell\row
+\ql time24_2\cell\qc -5.752***\cell\row
+\ql \cell\qc (1.008)\cell\row
+\ql time24_3\cell\qc -5.514***\cell\row
+\ql \cell\qc (0.966)\cell\row
+\ql time24_4\cell\qc -5.218***\cell\row
+\ql \cell\qc (0.920)\cell\row
+\ql time24_5\cell\qc -5.304***\cell\row
+\ql \cell\qc (0.933)\cell\row
+\ql time24_6\cell\qc -4.353***\cell\row
+\ql \cell\qc (0.956)\cell\row
+\ql time24_7\cell\qc -4.774***\cell\row
+\ql \cell\qc (0.885)\cell\row
+\ql time24_8\cell\qc -4.384***\cell\row
+\ql \cell\qc (0.853)\cell\row
+\ql time24_9\cell\qc -3.776***\cell\row
+\ql \cell\qc (0.846)\cell\row
+\ql time24_10\cell\qc -3.956***\cell\row
+\ql \cell\qc (0.815)\cell\row
+\ql time24_11\cell\qc -3.527***\cell\row
+\ql \cell\qc (0.811)\cell\row
+\ql time24_12\cell\qc -2.981***\cell\row
+\ql \cell\qc (0.783)\cell\row
+\ql time24_13\cell\qc -3.154***\cell\row
+\ql \cell\qc (0.803)\cell\row
+\ql time24_14\cell\qc -2.975***\cell\row
+\ql \cell\qc (0.761)\cell\row
+\ql time24_15\cell\qc -2.777***\cell\row
+\ql \cell\qc (0.744)\cell\row
+\ql time24_16\cell\qc -1.949***\cell\row
+\ql \cell\qc (0.719)\cell\row
+\ql time24_17\cell\qc -1.996***\cell\row
+\ql \cell\qc (0.722)\cell\row
+\ql time24_18\cell\qc -1.433*\cell\row
+\ql \cell\qc (0.739)\cell\row
+\ql time24_19\cell\qc -1.336*\cell\row
+\ql \cell\qc (0.707)\cell\row
+\ql time24_20\cell\qc -1.694**\cell\row
+\ql \cell\qc (0.692)\cell\row
+\ql time24_21\cell\qc -1.196*\cell\row
+\ql \cell\qc (0.667)\cell\row
+\ql time24_22\cell\qc -1.635**\cell\row
+\ql \cell\qc (0.649)\cell\row
+\ql time24_23\cell\qc -1.531**\cell\row
+\ql \cell\qc (0.632)\cell\row
+\ql time24_25\cell\qc -0.530\cell\row
+\ql \cell\qc (0.596)\cell\row
+\ql time24_26\cell\qc -0.444\cell\row
+\ql \cell\qc (0.615)\cell\row
+\ql time24_27\cell\qc -1.046*\cell\row
+\ql \cell\qc (0.572)\cell\row
+\ql time24_28\cell\qc -0.613\cell\row
+\ql \cell\qc (0.509)\cell\row
+\ql time24_29\cell\qc -0.388\cell\row
+\ql \cell\qc (0.488)\cell\row
+\ql time24_30\cell\qc 0.0299\cell\row
+\ql \cell\qc (0.478)\cell\row
+\ql time24_31\cell\qc -0.483\cell\row
+\ql \cell\qc (0.419)\cell\row
+\ql time24_32\cell\qc -0.0582\cell\row
+\ql \cell\qc (0.412)\cell\row
+\ql time24_33\cell\qc -0.569\cell\row
+\ql \cell\qc (0.400)\cell\row
+\ql time24_35\cell\qc -0.129\cell\row
+\ql \cell\qc (0.499)\cell\row
+\ql time24_36\cell\qc -0.317\cell\row
+\ql \cell\qc (0.568)\cell\row
+\ql time24_37\cell\qc 0.760\cell\row
+\ql \cell\qc (0.672)\cell\row
+\ql time24_38\cell\qc 0.361\cell\row
+\ql \cell\qc (0.584)\cell\row
+\ql time24_39\cell\qc 0.286\cell\row
+\ql \cell\qc (0.627)\cell\row
+\ql time24_40\cell\qc 0.313\cell\row
+\ql \cell\qc (0.607)\cell\row
+\ql time24_41\cell\qc 0.609\cell\row
+\ql \cell\qc (0.674)\cell\row
+\ql time24_42\cell\qc 0.736\cell\row
+\ql \cell\qc (0.664)\cell\row
+\ql time24_43\cell\qc 0.428\cell\row
+\ql \cell\qc (0.712)\cell\row
+\ql time24_44\cell\qc 0.367\cell\row
+\ql \cell\qc (0.715)\cell\row
+\ql time24_45\cell\qc 0.208\cell\row
+\ql \cell\qc (0.723)\cell\row
+\ql time24_46\cell\qc -0.602\cell\row
+\ql \cell\qc (0.761)\cell\row
+\ql time24_47\cell\qc -0.683\cell\row
+\ql \cell\qc (0.815)\cell\row
+\ql time24_48\cell\qc -0.265\cell\row
+\ql \cell\qc (0.800)\cell\row
+\ql Constant\cell\qc 9.833***\cell\row
+\ql \cell\qc (0.930)\cell\row
+\ql \cell\qc \cell\row
+\ql Observations\cell\qc 83,760\cell\row
+\ql Number of id_numeric\cell\qc 1,745\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx5040
+\ql R-squared\cell\qc 0.006\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

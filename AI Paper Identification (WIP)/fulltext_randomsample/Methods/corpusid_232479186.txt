@@ -1,0 +1,44 @@
+Materials and Methods
+
+2.1. Cell Culture and Treatments. Murine retinal microvascular pericytes and endotheliocytes were obtained from the American Type Culture Collection (Manassas, VA, USA). To mimic hypoxia, pericytes were cultured until reaching 80-90% confluence and then treated with 200 μM CoCl 2 (Sigma-Aldrich, St. Louis, MO, USA) for 24 h; at which time, they were designated as hypoxia pericytes. Normoxia pericytes were used as control cells. Next, the hypoxia pericytes were treated with an apoptosis inhibitor (Vad, ApexBio, Houston, TX, USA) or necrostatin-1 (Nec-1, Sigma-Aldrich) for 4 h at 37°C. Endotheliocytes were cultured in Endothelial Cell Medium (ECM, ScienCell, Carlsbad, CA, USA) supplemented with normal glucose (NG; 5.5 mmol/L) as a control or high glucose (HG; 25 mmol/L) under normoxic conditions for 72 h to mimic the early stage of DR. All animal experiments were performed according to Animal Experimental Center of Jinan University.
+
+
+Coculture Experiments.
+
+Pericytes and endotheliocytes were cocultured as previously described [28]. In brief, pericytes were seeded into the wells of a 6-well plate, while endotheliocytes were seeded onto the inner surface of polyethylene terephthalate membranes that were positioned above the pericytes within the same well, without physical cell-to-cell contact. The coculture models were classified into the following groups: (1) normoxia pericytes+endotheliocytes, (2) normoxia pericytes+HG endotheliocytes, (3) hypoxia peri-cytes+endotheliocytes, (4) hypoxia pericytes+Vad + endotheliocytes, and (5) hypoxia pericytes+Nec-1 + endotheliocytes. The culture medium in each group was replaced with fresh medium every 24 hours. The pericytes and endotheliocytes were separately harvested by trypsinization at the end of the incubation period.
+
+2.3. Cell Viability Assay. A Cell Counting Kit-8 kit (CCK-8, Dojingdo Molecular Technologies; Rockville, MD, USA) was used to analyze the viability of pericytes according to the manufacturer's instructions. Briefly, pericytes were seeded into the wells of a 96-well plate at a density of 3,000 cells per well, after 24, 48 h, and 72 h of culture, respectively, 10 μL of CCK-8 solution was added to each well, and the cells were incubated for an additional 2 h at 37°C. The absorbance of each well at 450 nm was measured to assess cell viability.
+
+
+Pericyte Exosome Isolation and Identification.
+
+When the cultured pericytes reached 70-80% confluence, the culture medium was replaced with exosome-depleted FBS, and the pericytes were cultured for another 48 h; after which, they were cultured under either normoxic or hypoxic conditions. After harvesting the culture medium, the normoxia or hypoxia exosomes were isolated using a multistep centrifugation procedure performed as previously described [29,30]. Following purification in a sterile Ultra-Clear™ tube 2 Oxidative Medicine and Cellular Longevity (Beckman Coulter, Brea, CA, USA), the fractions containing normoxia or hypoxia exosomes were recovered and centrifuged at 4,000 g for 30 min to remove small-cellular debris. The isolated exosomes were then either stored at -80°C or immediately used for subsequent experiments. For identification of exosomes, the exosome pellets were fixed with 2% paraformaldehyde-cacodylate buffer, placed on formvar-covered copper grids, and then further fixed with 1% (w/v) glutaraldehyde for 5 min. After being washed and dried, the morphology of the isolated exosomes released from pericytes was examined by transmission electron microscopy (TEM). Western blot assays were performed to analyze the expression of specific exosome markers (TSG101, CD63, and CD81). . Next, the circEhmt1 and Ehmt1 mRNA were amplified using divergent primers and convergent primers, respectively, with cDNA and gDNA serving as templates.
+
+
+Exosomal
+
+2.7. Exosome Uptake Assay. Exosomes derived from hypoxia pericytes were labeled with the membrane fluorescent red dye PKH26 (CD117, Sigma-Aldrich, USA) according to the manufacturer's protocol. In brief, purified exosomes were resuspended into 1 mL of diluent C and labeled with PKH26. Next, the labeled exosomes were added to endotheliocytes and incubated for 24 h at 37°C. Following incubation, the exosomes were sequentially fixed with 4% paraformaldehyde, rinsed with PBS, counter-stained with DAPI, and finally visualized with a laser confocal microscope (TCS SP5, Leica, Germany).
+
+
+Fluorescence
+
+In Situ Hybridization (FISH). FISH assays were performed to determine the intracellular location of circEhmt1 in pericytes. The FISH assays were performed according to instructions provided by the manufacturer of the FISH kit (RiboBio Co., Ltd., Guangzhou, China). Briefly, pericytes were fixed in 4% formaldehyde, washed with PBS, and then dehydrated through a graded series of ethanol solutions. After incubation with a hybridization buffer, the dehydrated pericytes were mixed with fluorescence-labeled probes for circEhmt1. Next, the nuclei were stained with 6-diamidino-2-phenylindole (DAPI) in the dark, and hybridization signals were visualized with a fluorescence microscope (Leica Microsystems, Germany). 2.12. Immunofluorescence. Pericytes and endotheliocytes were, respectively, seeded onto coverslips and fixed with 4% paraformaldehyde. Next, the cells were washed with PBS and permeabilized by incubation with 0.5% Triton X-100 at room temperature for 2 h. The cells were then blocked with 5% bovine serum albumin and incubated with Bax primary antibodies (Abcam, Cambridge, MA, USA) overnight at 4°C; after which, the cells were incubated with Alexa Fluorcoupled secondary antibodies for 2 h at room temperature.
+
+
+Chromatin
+
+
+Oxidative Medicine and Cellular Longevity
+
+The nuclei were stained with 4 ′ ,6-diamidino-2-phenylindole (DAPI), and images were captured with a fluorescence microscope (LSM510; Zeiss, Toronto, ON, Canada).
+
+2.13. Tube Formation Assay. Endotheliocytes were seeded into the wells a 96-well plate (5 × 10 4 cells per well) that had been precoated with Matrigel Basement Membrane Matrix (BD Biosciences, Franklin Lakes, NJ, USA) and incubated at 37°C for 6 h in normal growth medium. Next, the formation of capillary-like structures was examined and photographed under a light microscope (×200 magnification).
+
+2.14. Enzyme-Linked Immunosorbent Assay (ELISA). The release of inflammatory cytokines, including IL-1β and IL-18, into the supernatants of endotheliocytes from different groups was determined using an ELISA kit (R&D Systems, Minneapolis, MN, USA). The concentrations of IL-1β and IL-18 are expressed as pictograms per milliliter (pg/mL). All experiments were performed in triplicate.
+
+2.15. Western Blot Analysis. The total protein was extracted from whole-cell lysates of pericytes or endotheliocytes using RIPA buffer (Beyotime, Shanghai, China), and the protein concentration in each extract was determined using the BCA assay. A sample of total protein from each extract was separated according to molecular weight on SDS-PAGE gels, and the protein bands were transferred onto PVDF membranes, which were subsequently blocked for 2 h with 5% skim milk. The membranes were then incubated overnight at 4°C with primary antibodies against HIF-1α, Bax, Bcl-2, Ki67, TSG101, CD63, CD81, NLRP3, NFIA, ETS-1, and GAPDH. Following incubation, the membranes were washed 3 times with TBST and then incubated with HRP-conjugated secondary antibodies for 2 h at room temperature; after which, the immunostained proteins were detected with enhanced chemiluminescence reagents (GE Healthcare Japan, Tokyo, Japan).
+
+
+Statistical Analysis.
+
+All experiments were performed in triplicate, and results are expressed as a mean value ± standard deviation (SD). All statistical analyses were conducted using GraphPad Prism 6 software. p values were calculated using analysis of variance (ANOVA) followed by post hoc Tukey's multiple comparison tests. A p value < 0.05 was considered to be statistically significant.

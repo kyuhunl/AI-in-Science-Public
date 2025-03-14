@@ -1,0 +1,56 @@
+Material and Methods
+
+
+Cell Lines and Reagents.
+
+The esophageal squamous cell carcinoma (ESCC) cells KYSE140, KYSE520, and TE1 were obtained from the Cell Bank of the Chinese Academy of Sciences (Shanghai, China). All cells were subjected to mycoplasma examination and cytogenetically test and cultured with completed culture medium (basic medium supplemented with 10% fetal bovine serum) according to the standard protocols. The compound isoliquiritigenin was purchased from Selleck Chemicals (Houston, TX). Recombinant human EGF was product of R&D. The primary antibodies used in this study including anti-p-EGFR (Tyr1068) (#3777), anti-EGFR (#4267), anti-p-Akt (S473) (#4060), anti-Akt (#4691), anti-p-ERK1/2 (Thr202/Tyr204) (#4370), anti-ERK1/2(#4695), anti-c-Jun (#9165), anti-JunB (#3746), anti-JunD (#5000), anti-FosB(#4691), anti-c-Fos (#2251), anti-Fra1(#5281), anti-Cyclin D1(#55506), antiβ-actin (#3700), and anti-Histone H3 Ser10 (#53348) were products of Cell Signaling Technology (Danvers, MA). Lentivirus plasmids (pLKO.1-shEGFR) were purchased from Thermo Scientific (Huntsville, AL, USA).
+
+
+Cell Proliferation Assay.
+
+Briefly, 100 μl ESCC cell suspension was plated into a 96-well plate with the density of 3,000 cells/well and then incubated with indicated concentrations of ILQ (final concentration is μM, respectively). After the treatment of different times, cell viabilities were determined with the CellTiter 96 Aqueous One Solution Cell Proliferation Assay (Promega) by following the standard protocol provided by the manufacturer.
+
+
+Soft Agar
+
+Assay. The soft agar assay was performed as described previously [27]. Briefly, 3 ml basal medium Eagle's medium containing 0.6% agar, 10% FBS, and various concentrations of ILQ was loaded into a 6-well plate. After the agar was solidified, ESCC cells were digested and harvested by centrifugation, and then the cell pellets were resuspended with the culture medium containing 10% FBS and 0.3% agarose, and cell density was adjusted to 8,000 cells/ml. 1 ml cell suspension was seeded on the top of solidified agars and then treated with different concentrations of ILQ. The cells were maintained in the incubator for 2 weeks. The number of cell colonies in the agar was observed and counted using the microscope.
+
+
+Cell Cycle
+
+Analysis. KYSE140 cells were seeded into 6well plate and maintained overnight, and then cells were treated with various concentrations of ILQ for 24 h. After that, the cells were harvested and fixed with precold 70% ethanol at 4°C for at least 24 h. After washing, the cells were incubated with 50 μg/ml ribonuclease A at 37°C for 30 min and then stained with 50 μg/ml propidium iodide at room temperature for 15 min avoiding light. The cell cycle was analyzed by FACSort Flow Cytometer (BD, San Jose, CA, USA).
+
+
+AP-1 Luciferase Reporter
+
+Assay. The Dual-Luciferase reporter assay was performed as described previously [28]. Briefly, the ESCC cells were seeded in a 24-well plate and transfected with pGL3-AP-1 (#40342, Addgene) or pGL3-Basic control vector along with the renilla luciferase reporter construct pRL-SV40for 24 h. Cells were then treated with isoliquiritigenin for another 24 h and harvested for firefly luciferase and renilla luciferase activity determination using the Dual-Luciferase reporter assay system (#E1910; Promega, Madison, WI, USA). Renilla luciferase activity was used as a control for transfection efficiency.
+
+
+Western Blotting.
+
+After the treatment of ILQ, the cells were harvested and lysed with NP40 lysis buffer (50 mmol/L Tris-HCl, pH 8.0; 150 mmol/L NaCl; 0.5% NP40) supplemented with protease cocktail on ice (Roche, Germany). The proteins in cell lysates were extracted by high-speed centrifugation (12000g) at 4°C for 10 min, the supernatant was collected, and protein concentration was determined using the BCA protein assay kit (Thermo Fisher Scientific, Waltham, MA). The protein sample (20 μg/lane) was mixed with loading buffer and subjected to SDS-PAGE electrophoresis and then electrically transferred to nitrocellulose membrane. The membrane was then blocked using 5% nonfat dry milk in PBS and incubated with primary antibody overnight at cold room. After washing with PBST, the membrane was incubated with HRP-labeled second antibody. The probed proteins were visualized at the darkroom using the ECL chemiluminescence reagents (Thermo Fisher Scientific, Waltham, MA).
+
+
+Immunofluorescence
+
+Assay. KYSE-140 cells were seeded into 24-well plate preloaded with a coverslip and treated with different concentrations of ILQ for 24 h. After washing with PBS for 3 times, the cells were fixed with cooled 4% paraformaldehyde on ice for 2 h and then incubated with 0.25% Triton X-100 for 10 min on ice. After incubation with blocking solution (5% BSA in PBS solution), the coverslip was washed with PBS solution for 5 min and then incubated with primary antibody in a humid chamber at 4°C overnight. The specimen on the slides were washed with PBS and hybridized with FITC-labeled secondary antibody at room temperature for 1 h. Then the coverslip was counterstained with propidium iodide (PI), mounted, and observed with fluorescence microscope.
+
+
+Lentiviral Infection.
+
+To generate lentiviral particles, the plasmid pLKO.1-sh-EGFR, psPAX2 (#12260, Addgene), or pMD2.G (#12259, Addgene) was cotransfected into HEK-293T cells with PSPAX2 and PMD2.G. The transfected 293T cells were maintained at the incubator for 48 h, and viral supernatant fraction was collected and filtered through a 0.45 μm filter. For knockdown stable cell generation, the cells were cocultured with the viral supernatant together with 6 μg/mL polybrene overnight. Stable cells were selected by 2 μg/mL puromycin for 3 days.
+
+
+Tumor Xenograft Experiment. This study was approved by Animal Care and Use Committee of Wenzhou Medical
+
+University and all operations strictly follow the Guide for the Care and Use of Laboratory Animals. Six-eight weeks old female Balb/c athymic nude mice were used in animal studies. Briefly, KYSE140 cells were subcutaneously injected into the right flank of mice at a concentration of 2 × 10 6 cells/mice. When the tumor volume reached about 100 mm 3 , mice with appropriate tumor size were selected and randomly assigned to vehicle or treatment group. ILQ (10 mg/kg) or vehicle control was administrated every two days by intraperitoneal injection. Body weight was monitored, and tumor volume was measured twice a week with caliper and determined as (length × width 2 )/2.
+
+
+Immunohistochemical (IHC)
+
+Staining. IHC staining was performed as described previously [29]. Briefly, xenograft tumors were embedded in paraffin and then cut into tissue slide sections. The slides were deparaffinized, hydrated, and immersed into 3% H 2 O 2 for 10 min for eliminating endogenous peroxidase activity, followed by antigen retrieval using a microwave oven. Tissues were blocked with 5% goat serum at room temperature for 1 h and incubated with primary antibody at 4°C overnight. After incubation with the second antibody, the target protein was visualized with 3,3-diaminobenzidine (DAB) substrate. Hematoxylin was used for counterstaining.
+
+
+Statistical
+
+Analysis. The statistical analysis was performed using SPSS software (version 16.0). Quantitative data were expressed as mean values ± standard deviation, and the significant differences were assessed by a two-tailed Student's t-test or one-way ANOVA. p < 0.05 was considered to be statistically significant.

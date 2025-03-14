@@ -1,0 +1,15 @@
+	(1)
+VARIABLES	topic_hhi_adjusted
+	
+post	0.00189
+	(0.00123)
+1.post#c.pubs_before_treatment_demean	-0.000186***
+	(2.58e-05)
+Constant	0.0705**
+	(0.0278)
+	
+Observations	186,874
+Number of id_numeric	3,938
+R-squared	0.022
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

@@ -1,0 +1,113 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx3024\clbrdrt\brdrs\cellx4464
+\ql \cell\qc (1)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4464
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4464
+\ql VARIABLES\cell\qc count\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4464
+\ql \cell\qc \cell\row
+\ql time24_0\cell\qc -0.616***\cell\row
+\ql \cell\qc (0.0787)\cell\row
+\ql time24_1\cell\qc -0.592***\cell\row
+\ql \cell\qc (0.0806)\cell\row
+\ql time24_2\cell\qc -0.513***\cell\row
+\ql \cell\qc (0.0787)\cell\row
+\ql time24_3\cell\qc -0.474***\cell\row
+\ql \cell\qc (0.0798)\cell\row
+\ql time24_4\cell\qc -0.417***\cell\row
+\ql \cell\qc (0.0790)\cell\row
+\ql time24_5\cell\qc -0.429***\cell\row
+\ql \cell\qc (0.0787)\cell\row
+\ql time24_6\cell\qc -0.300***\cell\row
+\ql \cell\qc (0.0839)\cell\row
+\ql time24_7\cell\qc -0.332***\cell\row
+\ql \cell\qc (0.0800)\cell\row
+\ql time24_8\cell\qc -0.317***\cell\row
+\ql \cell\qc (0.0793)\cell\row
+\ql time24_9\cell\qc -0.293***\cell\row
+\ql \cell\qc (0.0770)\cell\row
+\ql time24_10\cell\qc -0.301***\cell\row
+\ql \cell\qc (0.0755)\cell\row
+\ql time24_11\cell\qc -0.242***\cell\row
+\ql \cell\qc (0.0757)\cell\row
+\ql time24_12\cell\qc -0.237***\cell\row
+\ql \cell\qc (0.0752)\cell\row
+\ql time24_13\cell\qc -0.187**\cell\row
+\ql \cell\qc (0.0751)\cell\row
+\ql time24_14\cell\qc -0.179**\cell\row
+\ql \cell\qc (0.0731)\cell\row
+\ql time24_15\cell\qc -0.180**\cell\row
+\ql \cell\qc (0.0740)\cell\row
+\ql time24_16\cell\qc -0.131*\cell\row
+\ql \cell\qc (0.0733)\cell\row
+\ql time24_17\cell\qc -0.134*\cell\row
+\ql \cell\qc (0.0726)\cell\row
+\ql time24_18\cell\qc -0.0734\cell\row
+\ql \cell\qc (0.0766)\cell\row
+\ql time24_19\cell\qc -0.0673\cell\row
+\ql \cell\qc (0.0736)\cell\row
+\ql time24_20\cell\qc -0.146**\cell\row
+\ql \cell\qc (0.0707)\cell\row
+\ql time24_21\cell\qc -0.103\cell\row
+\ql \cell\qc (0.0677)\cell\row
+\ql time24_22\cell\qc -0.133**\cell\row
+\ql \cell\qc (0.0635)\cell\row
+\ql time24_23\cell\qc -0.0847\cell\row
+\ql \cell\qc (0.0625)\cell\row
+\ql time24_25\cell\qc -0.0530\cell\row
+\ql \cell\qc (0.0586)\cell\row
+\ql time24_26\cell\qc 0.0330\cell\row
+\ql \cell\qc (0.0597)\cell\row
+\ql time24_27\cell\qc -0.00703\cell\row
+\ql \cell\qc (0.0557)\cell\row
+\ql time24_28\cell\qc 0.000593\cell\row
+\ql \cell\qc (0.0517)\cell\row
+\ql time24_29\cell\qc 0.0201\cell\row
+\ql \cell\qc (0.0492)\cell\row
+\ql time24_30\cell\qc 0.0874*\cell\row
+\ql \cell\qc (0.0502)\cell\row
+\ql time24_31\cell\qc 0.0147\cell\row
+\ql \cell\qc (0.0456)\cell\row
+\ql time24_32\cell\qc 0.00860\cell\row
+\ql \cell\qc (0.0377)\cell\row
+\ql time24_33\cell\qc -0.0113\cell\row
+\ql \cell\qc (0.0333)\cell\row
+\ql time24_35\cell\qc 0.00848\cell\row
+\ql \cell\qc (0.0347)\cell\row
+\ql time24_36\cell\qc -0.00641\cell\row
+\ql \cell\qc (0.0353)\cell\row
+\ql time24_37\cell\qc 0.0326\cell\row
+\ql \cell\qc (0.0399)\cell\row
+\ql time24_38\cell\qc 0.0441\cell\row
+\ql \cell\qc (0.0413)\cell\row
+\ql time24_39\cell\qc 0.0378\cell\row
+\ql \cell\qc (0.0455)\cell\row
+\ql time24_40\cell\qc 0.0272\cell\row
+\ql \cell\qc (0.0477)\cell\row
+\ql time24_41\cell\qc 0.0214\cell\row
+\ql \cell\qc (0.0498)\cell\row
+\ql time24_42\cell\qc 0.0812\cell\row
+\ql \cell\qc (0.0535)\cell\row
+\ql time24_43\cell\qc 0.00238\cell\row
+\ql \cell\qc (0.0574)\cell\row
+\ql time24_44\cell\qc -0.0142\cell\row
+\ql \cell\qc (0.0621)\cell\row
+\ql time24_45\cell\qc -0.0410\cell\row
+\ql \cell\qc (0.0627)\cell\row
+\ql time24_46\cell\qc -0.120*\cell\row
+\ql \cell\qc (0.0673)\cell\row
+\ql time24_47\cell\qc -0.172**\cell\row
+\ql \cell\qc (0.0696)\cell\row
+\ql time24_48\cell\qc -0.0290\cell\row
+\ql \cell\qc (0.0709)\cell\row
+\ql Constant\cell\qc 1.238***\cell\row
+\ql \cell\qc (0.0745)\cell\row
+\ql \cell\qc \cell\row
+\ql Observations\cell\qc 83,760\cell\row
+\ql Number of id_numeric\cell\qc 1,745\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4464
+\ql R-squared\cell\qc 0.029\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

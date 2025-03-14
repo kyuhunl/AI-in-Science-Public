@@ -1,0 +1,97 @@
+Our Methodology
+
+In our work, we take D s and D t as inputs to design an algorithm that can improve the extraction of relations from the target domain. First, D s and D t are fed into an embedding layer to obtain an embedding matrix, and then the graph convolutions work on the embedding matrix to align domain-specific word representations. A feature extractor takes the adjusted embedding matrix as input to obtain the shared features. To force the feature extractor to extract these shared features, a domain discriminator is added after the feature extractor. Finally, the shared features are fed into a relation classifier to perform classification.
+
+In brief, our model consists of four modules: an adaptation module, an embedding layer, a shared feature extractor and a relation classifier. The adaptation module contains a domain discriminator and a graph convolutional network (GCN) layer, which are responsible for local shared feature extraction and non-local feature alignment, respectively. Figure 2 shows the overall architecture of our model. We introduce these modules in detail below.
+
+
+Adaptation Module
+
+The adaptation module mainly contributes to extracting the shared features between domains and aligning domain-specific features. The traditional approach only adapts sequential features but ignores non-sequential or non-local features. Our adaptation module consists of two processes: local information adaptation and non-local information adaptation. Local information adaptation is applied at the sentence level; in other words, we extract the shared features of the source and target sentences. While non-local information adaptation is a word-level adaptation, it uses a GCN to align domain-specific word representations. The remainder of this section elaborately introduces the adaptation layer. (1) Local information adaptation (sentence-level).
+
+To make the shared feature extractor capture domain-invariant features, a domain discriminator is added after the shared feature extractor. It takes s s and s t as inputs, where s s and s t represent the source and target features extracted by the shared feature extractor, respectively. The domain discriminator is implemented by a simple neural network with one hidden layer and performs binary classification to predict the domain that a sample comes from. The domain discriminator loss is defined as cross entropy loss:
+L dom = − 1 N s + N t N s +N t ∑ i=1 (1 − y i )log(1 − p i ) + y i logp i(1)
+In this equation, N t denotes the total number of target domain data, p i is the probability of one sample belonging to the source domain and y i ∈ {0, 1} indicates that the sample comes from the source domain (1) or the target domain (0).
+
+To confuse the domain discriminator, a gradient reversal layer (GRL) [30] is used between the shared feature extractor and domain discriminator. Then, the forward and back propagations are formulated as follows:
+GRL(x) = x (2) d(GRL(x)) dx = −I(3)
+Through reversing the gradient before domain discriminator, the parameters of domain discriminator are optimized to reduce the domain discriminator loss L dom while the parameters of shared feature extractor will make L dom increase. The adversarial training finally converged so that the discriminator cannot distinguish which sample comes from which domain, in other words, the shared feature extractor captures some domain-invariant features.
+
+(2) Non-local information adaptation (word-level).
+
+Word-vectorized representations, such as word2vec [41] and Glove [42], have greatly improved downstream applications. However, in cross-domain relation extraction, the representations of domain-specific words differ significantly between domains, and this causes poor performance when applying a model to other domains. Most previous works only focused on aligning different domain features at the sentence level [15,16,19] while ignoring word-level alignment. Inspired by [20], rather than using feature-based methods, we use a GCN to model the word co-occurrences of different domains. Through this alignment, the word representation gap between the source domain and target domain can be reduced, thereby enabling the downstream module to extract the shared features in a fine-grained way. Figure 3 shows the architecture of the GCN layer.
+
+Word co-occurrence tripartite graph construction:
+
+The key idea of non-local information adaptation is, in the tripartite graph,if two domain-specific words have connections to more common domain-independent words in the graph, they tend to be aligned together with higher probability, i.e., have similar word representation [20]. Given the source domain sentence set D s = {S 1 , S 2 , . . . , S n } and target domain sentence set D t = {S 1 , S 2 , . . . , S n }, we construct a graph G = (V s ∪ V i ∪ V t ; E si ∪ E ti ) for any two sentence S i = {w 1 , w 2 , . . . , w n } and S j = {w 1 , w 2 , . . . , w n }. Here, V s , V i , V t denote the graph vertex that corresponds to domain-specific words in S i , domain-independent words in S i ∪ S j and domain-specific words in S j respectively, E si represents the graph edges between V s and V i , E ti represents edges between V t and V i . See Figure 3 for details.
+
+We use two types of weights for the graph edges: fixed weights and dynamic weights. First, the pointwise mutual information (PMI) of two words is used as a fixed weight. The PMI is an algorithm for calculating the correlation between two variables. Here, we use the PMI to measure the co-occurrence relationship of two words:
+A i =j = log p(w i , w j ) p(w i )p(w j ) (4) p(w i , w j ) = #win(w i , w j ) #win (5) p(w i ) = #win(w i ) #win (6)
+where #win(w i , w j ) refers to the number of sliding windows that w i and w j appeared together. #win is the total number of sliding windows. We calculate these on the whole corpus. A higher PMI value means that w i and w j appear together on the corpus more times; thus, they have a higher correlation. A small PMI value means there is little correlation between w i and w j because they seldom appear together. After we obtain the weight matrix A ∈ R m * m , (m is the length of the dictionary), the weights are normalized by:
+f i =j = A ij − a b − a (7)
+where a is the minimum element of A i =j and b is the maximum element of A i =j . Then the fixed weights are defined as:
+F ij =        f ij , i = j& f ij > α 1, i = j 0, others(8)
+The graph only keeps edges with f ij > α , where α > 0 is a hyperparameter. When α increases, there will be fewer edges in the graph. The effects of different values of α are discussed in the experiment later in this paper.  Fixed weights capture the word co-occurrence features, but they have difficulty aligning domain-specific words. There are two limitations of using fixed weights: (1) some English stop words such as "is" and "the" are often domain-independent, and they have a high probability of appearing together with domain-specific words; therefore, the fixed weight between them is large. However, these stop words have little semantic meaning and harm the word representations.
+
+(2) Some domain-specific words are rare and seldom appear together with domain-independent words, so the fixed weight is almost 0, but these words should probably also be aligned; fixed weights cannot achieve this.
+
+To compensate for the limitations of fixed weights, inspired by [39], attention mechanism-based dynamic weights are used. First, to increase the power of the feature expressions, a linear transformation is applied on every node in the graph:
+h i = w l h i + b l(9)
+where h i ∈ R n is the vector representation of node i, w l ∈ R n * n and b l ∈ R n is the parameters of linear transformation. For a node i in graph, N(i) is defined as the nodes which directly connect to the node i and ∀j ∈ N(i), f ij > β. We set β = 0.3 for balancing computational efficiency and model effectiveness.
+
+Then we calculate the attention weight on N(i) for every node i:
+e ij = LeakyReLU(h T i W att h i )(10)
+where W att ∈ R n * n is the attention parameter and j ∈ N(i), e ij is the attention weight that indicates how important the node j to node i, LeakyReLU is an activate function. The dynamic weights of node i are normalized by so f tmax function:
+D ij = exp(e ij ) ∑ j∈N(i) exp(e ij )(11)
+Dynamic weights can be adjusted during training to provide a flexible way to train the parameters of the model. In addition, each fixed weight can be seen as a global weight because it is calculated based on statistics of the whole corpus, while a dynamic weight can be seen as a local weight because it only uses two sentences per calculation. In the end, we combine the fixed weights and dynamic weights as our final graph weights:
+W ij = F ij + D ij(12)
+The process of calculating the edge weights is illustrated in Figure 4 (left).  Graph convolutions on the tripartite graph: In this section, we first introduce the graph convolution operation and edgewise gating mechanism and then elaborate on how these methods are used in our model.
+
+A GCN [43] is used to capture non-local and nonsequential information. Specifically, given a graph G = (V, E), where V is the node set and E is the edge set, the graph convolution operation is applied on every node and propagates information to other nodes along the edges. For a 1-layer GCN, the information only transfers to neighboring nodes, and the information of an n-layer GCN can transfer to further nodes as n increases. The information propagation from layer k to layer k + 1 can be formulated as:
+h (k+1) i = 1 d(i) ∑ j∈N(i) W ij (w (k) g h (k) j + b (k) g )(13)
+where d(i) = ∑ j∈N ( i) W ij is sum of all the weights between node i and its neighbors. w (k) g ∈ R m * m and b (k) g ∈ R m are layer specific parameters. h (k) j ∈ R m is vector representation of node j. Figure 4 (right) gives visual representation of the information propagation.
+
+Edge-wise gate [44] is proposed to control how much information is transferred from neighbors. The scalar gate value of each neighbor is calculated as:
+g (k) j = σ(w (k) e h (k) j + b (k) e )(14)
+Here w (k) e ∈ R m and b (k) e ∈ R are layer specific parameters, and σ is a non-linear activate function. According to [37], we integrated edge-wise gating mechanism into the graph convolution network, the final propagation function is:
+h (k+1) i = 1 d(i) ∑ j∈N(i) W ij g (k) j (w (k) g h (k) j + b (k) g )(15)when k = 0, h (0) j = v j is the input of GCN, i.e.
+, the word original representation. For a n-layer GCN, h (n) i is the word final representation after the non-local information adaptation.
+
+
+Embedding Layer
+
+External knowledge, such as entity positions and dependency trees, is important for relation extraction [45][46][47]. Furthermore, when adapting a model from a source domain to a target domain, external knowledge can be seen as general knowledge that can improve cross-domain task performance. Following previous works [15,28,33], we use the following five types of external knowledge:
+
+Real-valued word embedding vector. We obtain one word's embedding vector e i from the word embedding matrix, which is pretrained as in [41]. This process yields continuous vector representations of words by training the CBOW or skim-gram model on very large data sets, and the vectors include the words' semantic information. The words that do not exist in the word embedding matrix are randomly initialized.
+
+Words' relative distances from candidate entities. Use i and j denote the two entities' in a sentence, for each word x k with index k, its relative distances are k − i and k − j, respectively. The word's relative distances can inform the model of the entities' positions. Every word has two relative distances vectors d 1 and d 2 .
+
+Entity type. Each entity type is predefined, and every entity has an entity type to which it belongs. In the sentence "He will blow a city off the earth in a minute if he can get the hold of the means to do it", the bold words are candidate entities, and their entity types are GPE and LOC. Entity types are essential knowledge for relation extraction. In some cases, we can infer the relation of two candidate entities only by the entity types. In our setting, we only indicate that the entity types and nonentity words are randomly initialized in the same vector. Every word has two entity type vectors t 1 and t 2 because we have two candidate entities per sentence.
+
+Sematic chunks. A chunk is an indivisible fixed phrase in a sentence, and we inform the model to regard all chunks as a whole so that the semantic information of the chunks is not disrupted. We use the B-I-O format to indicate chunks, and every word obtains a chunk vector c i . Shortest dependency path between two entities. The shortest dependency path refers to the shortest path between two entities in the dependency tree. See Figure 5 for an example. In relation extraction, the information required to assert a relationship between two entities is mostly captured by the words in the shortest dependency path between the two entities [45]. Therefore, the shortest dependency path can help the model to distinguish between valuable information and noise. We use a vector d i to indicate whether a word is in the shortest dependency path between two entities. Figure 5. Dependency tree of the sentence "As we all know, Steve Jobs was the co-founder of Apple Inc. which is a great company in America". Bold words are two candidate entities, red lines indicates the shortest dependency path between the two entities.
+
+After getting all above types of embedding vectors, we transform every word into a real-valued vector v i by concatenating them: v i = [gcn(e i ); p i1 ; p i2 ; t i1 ; t i2 ; c i ; d i ]. The gcn(·) is the transformation of GCN layer described in Section 4.1, see Figure 3 for details. The whole sentence with length n can be represented as v = [v 1 , v 2 , . . . , v n ].
+
+
+Shared Feature Extractor
+
+We use a simple CNN architecture proposed by [48] as shared feature extractor. Let v i ∈ R d , and a convolution operation with a kernel w ∈ R rd is applied to v, where r is numbers of words the kernel spanned and v is the word representation matrix after GCN layer. A feature c i is generated from words v i:i+r−1 :
+c i = ReLU(wv i:i+r−1 + b)(16)
+Here, ReLU is the activation function and b ∈ R is a bias. The kernel moves one step at a time in the direction of word sequences and get n − h + 1 features totally:
+c = [c 1 , c 2 , ..., c n−r+1 ](17)
+Then we perform max-over-time pooling operation [49] on c, i.e., c = max{c}, to get the most important feature. To capture various features, we use multiple kernel size (keep d unchanged and use different r) and each kernel size has multiple feature maps. For a fixed kernel size, different feature maps will get different c i , so the feature vector c i corresponding to one kernel size i is:
+c i = [c 1 , c 2 , . . . , c m ](18)
+m is the number of feature maps. Finally, we concatenate all c i to get shared feature extractor's output s = [c 1 ; c 2 , . . . , c k ], k is the number of kernel size.
+
+
+Relation Classifier
+
+Since there only exists labels in the source domain, the relation classifier only takes the shared features s s from source domain as input to perform relation classification. The relation classifier is a 2-layer fully connected neural network h with tanh as activation function and followed by a so f tmax layer:
+p i = so f tmax(h(s s ; θ s ))(19)
+where θ s is the parameters of the hidden layer. p i ∈ R r is the relation distribution of i-th source domain data, and r is the number of relation type. The relation classify loss L rel is defined as below:
+L rel = − 1 N s N s ∑ i=1 r ∑ j=1 y ij logp ij(20)
+Here N s is the total number of source domain data, y ij ∈ [0, 1] to indicate whether the example i has relation j. p ij is obtained through so f tmax layer and indicates the probability of example i containing the relation j.
+
+During training, we combine all the losses mentioned above to get the final loss function and optimize jointly:
+L loss = L rel + γL dom(21)
+γ is a hyparameter and we set γ = 0.1 through validation dataset. In the test stage, due to lacking of source domain data, a heuristic algorithm is designed to select domain-specific words of source domain. First, for every shared word w i appearing in one target domain sentence, we find the source domain-specific word w j which have the highest PMI value with w i . All the w j consist of the top-pmi set w = {w 1 , w 2 , . . . , w n } which n is the number of shared word appeared in the target domain sentence. Then we sort the elements of w in descending order. Finally, the top m words are selected to form the source domain sentence and we set m = 10 through the performance in validation dataset.

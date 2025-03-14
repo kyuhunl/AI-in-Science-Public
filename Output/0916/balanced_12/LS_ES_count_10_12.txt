@@ -1,0 +1,57 @@
+	(1)
+VARIABLES	count
+	
+time12_0	-0.224
+	
+time12_1	-0.217
+	
+time12_2	-0.218
+	
+time12_3	-0.192
+	
+time12_4	-0.166
+	
+time12_5	-0.131
+	
+time12_6	-0.122
+	
+time12_7	-0.0999
+	
+time12_8	-0.108
+	
+time12_9	-0.0960
+	
+time12_10	-0.0571
+	
+time12_11	-0.0622
+	
+time12_13	-0.00509
+	
+time12_14	0.00170
+	
+time12_15	0.0129
+	
+time12_17	0.0570
+	
+time12_18	0.0627
+	
+time12_19	0.0927
+	
+time12_20	0.117
+	
+time12_21	0.104
+	
+time12_22	0.118
+	
+time12_23	0.132
+	
+time12_24	0.217
+	
+Constant	0.749
+	
+	
+Observations	187,368
+Number of id_numeric	7,807
+R-squared	0.030
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

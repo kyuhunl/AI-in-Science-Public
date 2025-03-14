@@ -1,0 +1,15 @@
+	(1)
+VARIABLES	count
+	
+post	0.000375
+	(0.00658)
+1.post#c.early	0.00918
+	(0.00746)
+Constant	0.300***
+	(0.0669)
+	
+Observations	386,136
+Number of id_numeric	16,089
+R-squared	0.019
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	
